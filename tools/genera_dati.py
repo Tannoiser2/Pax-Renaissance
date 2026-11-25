@@ -39,6 +39,7 @@ ABILITA = {
     'tradimento': ['TRADIMENTO PRAGMATICO'],
     'cavalieri_rodi': ['CAVALIERI DI RODI'],
     'buona_speranza': ['CAPO DI BUONA SPERANZA'],
+    'borsa_londra': ['BORSA REALE DI LONDRA'],
 }
 ROSSE = {  # testo rosso: vale per tutti i giocatori
     'globalizzazione': 'vittoria della globalizzazione costa 2 azioni',
@@ -57,6 +58,7 @@ def carte():
         assert len(p) == 12, (len(p), riga[:60])
         cid, foglio, mazzo, nen, nit, luogo, prest, ops, oneshot, agenti, abil, testo = p
         c = {'id': cid, 'img': foglio, 'mazzo': mazzo, 'nome_en': nen, 'nome': nit, 'luogo': luogo,
+             'promo': cid.endswith(('P', 'PW', 'PE')),
              'prestigio': list(prest), 'ops': [], 'sottotitoli': [], 'pretendenti': [],
              'oneshot': '', 'oneshot_arg': '', 'agenti': [], 'abilita': [], 'rosse': [],
              'testo_abilita': abil.replace('\\n', '\n').lstrip('!'), 'testo': testo.replace('\\n', '\n')}
@@ -131,7 +133,9 @@ IMPERI = [
         ('Vienna', '', True, {'M': ['R:C'], 'C': ['K:C'], 'R': ['K:R'], 'I': ['K:I']})]),
     ('Hungary', 'Ungheria', 'E', 0, 3, 'M', [
         ('Buda', '', True, {'M': ['K:C'], 'C': ['K:C'], 'R': ['R:R'], 'I': ['K:I']}),
-        ('Varna', '', False, {'M': ['K:R'], 'C': ['R:C'], 'R': ['R:R'], 'I': ['R:I']})]),
+        ('Varna', '', False, {'M': ['K:R'], 'C': ['R:C'], 'R': ['R:R'], 'I': ['R:I']}),
+        # Kiev esiste solo sulla carta mappa promo della Confederazione polacco-lituana
+        ('Kiev', '', False, {'M': ['K:C'], 'C': ['K:C'], 'R': ['K:C'], 'I': ['K:C']})]),
     ('Byzantium', 'Bisanzio', 'E', 0, 4, 'M', [
         ('Tana', 'Tana', True, {'M': ['K:I'], 'C': ['R:C'], 'R': ['R:R'], 'I': ['K:I']}),
         ('Caffa', '', False, {'M': ['K:C'], 'C': ['K:C'], 'R': ['R:R'], 'I': ['R:I']}),
@@ -223,7 +227,7 @@ BANCHE = [
 
 
 POS_CITTA = {'England': [(217, 210), (272, 455)], 'France': [(156, 183), (61, 316), (243, 408)],
-             'HRE': [(102, 136), (238, 133), (61, 323), (238, 371)], 'Hungary': [(65, 401), (201, 418)],
+             'HRE': [(102, 136), (238, 133), (61, 323), (238, 371)], 'Hungary': [(65, 401), (201, 418), (258, 140)],
              'Byzantium': [(105, 126), (44, 326), (272, 455)], 'Portugal': [(246, 178), (268, 302), (115, 465)],
              'Aragon': [(68, 153), (255, 364), (99, 408)], 'PapalStates': [(129, 75)],
              'Ottoman': [(133, 75), (80, 258), (272, 228)], 'Mamluk': [(153, 217), (129, 401), (275, 398)]}
@@ -242,6 +246,8 @@ def mappa():
                      're': QUADRATI[k][0], 'repubblica': QUADRATI[k][1]}
         for cc, pp in zip(imperi[k]['citta'], POS_CITTA[k]):
             cc['pos'] = list(pp)
+            if cc['nome'] == 'Kiev':
+                cc['solo_promo'] = True
     imperi['Ottoman']['citta'][0]['pos_multi'] = [[46, 75], [139, 75], [221, 75]]
     # adiacenza: confine o diagonale
     adiac = {k: [] for k in imperi}
@@ -263,6 +269,21 @@ def mappa():
             'imperiale': {'nome': 'Vittoria imperiale', 'sotto': 'Carlo V'},
             'globalizzazione': {'nome': 'Vittoria della globalizzazione', 'sotto': 'Colombo'},
             'rinascimento': {'nome': 'Vittoria del Rinascimento', 'sotto': 'Leonardo'},
+            'bizantina': {'nome': 'Vittoria bizantina', 'sotto': 'Filotea di Atene'},
+        },
+        # promo «Età della Riforma» (variante 1550): carte mappa di partenza alternative per Ungheria e
+        # Ottomani (le città che non esistono negli altri stati restano vuote e inattive), quadrato ottomano,
+        # banchieri, quinta carta vittoria
+        'promo': {
+            'icone_M': {'Hungary': [['K:C'], ['K:R'], ['K:C']], 'Ottoman': [['R:R', 'K:R'], ['R:R'], ['R:C']]},
+            'pos_M': {'Hungary': [[80, 386], [210, 410], [258, 140]], 'Ottoman': [[93, 98], [80, 258], [275, 232]]},
+            'quadrato_ottomano': (
+                {'nome': 'Basileus Basilio Megas Comneno', 'prestigio': [], 'ops': ['campaign'], 'sotto': ['Esercito comneno']},
+                {'nome': 'Synkletos bizantino', 'prestigio': ['L'], 'ops': [], 'sotto': []}),
+            'banche': [
+                {'chiave': 'Mendes', 'nome': 'Mendes', 'persona': 'Alvaro Mendes', 'confine': 'Hungary-Ottoman'},
+                {'chiave': 'Berenberg', 'nome': 'Berenberg', 'persona': 'Cornelius Berenberg', 'confine': 'England-France'},
+            ],
         },
         'pezzi': {'R:C': 10, 'R:I': 7, 'R:R': 7, 'K:C': 10, 'K:I': 7, 'K:R': 7,
                   'B:C': 5, 'B:I': 5, 'B:R': 5, 'S:C': 6, 'S:I': 4, 'S:R': 3},

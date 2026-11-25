@@ -32,17 +32,42 @@ func nuova(giocatori: Array, seme: int, opzioni := {}) -> void:
 		"vict": {"santa": false, "imperiale": false, "globalizzazione": false, "rinascimento": false},
 		"bish": {}, "cur": 0, "turno": 1, "fl": {}, "log": [], "over": false, "vincitore": -1, "motivo": "",
 		"ult": {}}
-	# banche: Fugger sempre per prima se in gioco
+	var solo: bool = opzioni.get("solitario", false)
+	var pr: bool = opzioni.get("promo", false)
+	PaxDB.promo_attiva = pr
+	if pr:
+		S["vict"]["bizantina"] = false
+	# banche: Fugger sempre per prima se in gioco. Con i banchieri promo (Mendes, Berenberg) le banche sono 6:
+	# un banchiere promo usa i pezzi e il colore di una delle quattro banche rimaste fuori.
 	var banche := ["Fugger", "Medici", "Coeur", "Marchionni"]
+	if pr and opzioni.get("banchieri_promo", false) and not solo:
+		banche += ["Mendes", "Berenberg"]
 	if opzioni.get("banche_casuali", true):
-		_mescola(banche, rng)
+		if solo:
+			var resto := banche.slice(1)
+			_mescola(resto, rng)
+			banche = ["Fugger"] + resto
+		else:
+			_mescola(banche, rng)
+	var scelte := []
+	for i in n:
+		scelte.append(giocatori[i].get("bank", banche[i]))
+	var colori_liberi := []
+	for b in ["Fugger", "Medici", "Coeur", "Marchionni"]:
+		if not b in scelte:
+			colori_liberi.append(b)
 	for i in n:
 		var g: Dictionary = giocatori[i]
-		var bank: String = g.get("bank", banche[i])
+		var bank: String = scelte[i]
+		var sopra := ""
+		if bank == "Mendes" or bank == "Berenberg":
+			sopra = bank
+			bank = colori_liberi.pop_front()
 		var nm: String = str(g.get("name", "")).strip_edges()
 		if nm == "":
-			nm = {"Fugger": "Jakob Fugger", "Medici": "Lorenzo de' Medici", "Coeur": "Jacques Cœur", "Marchionni": "Bartolomeo Marchionni"}[bank]
-		S["players"].append({"bank": bank, "name": nm,
+			nm = {"Fugger": "Jakob Fugger", "Medici": "Lorenzo de' Medici", "Coeur": "Jacques Cœur", "Marchionni": "Bartolomeo Marchionni",
+				"Mendes": "Alvaro Mendes", "Berenberg": "Cornelius Berenberg"}[sopra if sopra != "" else bank]
+		S["players"].append({"bank": bank, "promo_bank": sopra, "name": nm, "solo_bot": solo and i == 1,
 			"ai": g.get("ai", false), "fl": 0, "hand": [], "W": [], "E": [], "maids": [], "pawns": 10})
 	# ordine dei posti: chi ha Fugger comincia
 	var primo := 0
@@ -54,6 +79,10 @@ func nuova(giocatori: Array, seme: int, opzioni := {}) -> void:
 	S["cur"] = primo
 	for k in n:
 		S["players"][(primo + k) % n]["fl"] = 3 + k
+	if pr:
+		# variante 1550: teocrazie riformate in Inghilterra e nel Sacro Romano Impero, rotta d'Occidente dal Mar Rosso
+		S["emporio"]["W"] = "RedSea"
+		S["pm"] = {"Hungary": true, "Ottoman": true}
 	for e in PaxDB.ordine_imperi:
 		S["emp"][e] = {"own": -1, "side": "K", "rep": [], "queen": "", "suz": ""}
 		S["th"][e] = PaxDB.imp(e)["stato_iniziale"]
@@ -61,6 +90,8 @@ func nuova(giocatori: Array, seme: int, opzioni := {}) -> void:
 		for x in PaxDB.slot[e]:
 			sl.append("")
 		S["city"][e] = sl
+		if pr and (e == "England" or e == "HRE"):
+			S["th"][e] = "R"
 		# classe dominante iniziale nelle capitali
 		for j in PaxDB.slot[e].size():
 			var ci: int = PaxDB.slot[e][j][0]
@@ -71,17 +102,25 @@ func nuova(giocatori: Array, seme: int, opzioni := {}) -> void:
 		S["bord"][k] = {"p": -1, "s": ""}
 	for i in n:
 		var b: String = S["players"][i]["bank"]
+		var conf := ""
+		for bb in PaxDB.mappa["banche"] + PaxDB.mappa["promo"]["banche"]:
+			if bb["chiave"] == b or bb["chiave"] == S["players"][i]["promo_bank"]:
+				conf = bb["confine"]
+		S["bord"][conf]["p"] = i
+		S["players"][i]["pawns"] -= 1
+	if solo:
+		# solitario: l'avversario automatico ha tutte e tre le altre concessioni iniziali
 		for bb in PaxDB.mappa["banche"]:
-			if bb["chiave"] == b:
-				S["bord"][bb["confine"]]["p"] = i
-				S["players"][i]["pawns"] -= 1
+			if bb["chiave"] != "Fugger" and S["bord"][bb["confine"]]["p"] < 0:
+				S["bord"][bb["confine"]]["p"] = 1
+				S["players"][1]["pawns"] -= 1
 	# mazzi
 	for lato in ["E", "W"]:
 		var normali := []
 		var comete := []
 		for id in PaxDB.carte:
 			var c: Dictionary = PaxDB.carte[id]
-			if c["mazzo"] != lato:
+			if c["mazzo"] != lato or (c.get("promo", false) and not pr):
 				continue
 			if c.get("cometa", false):
 				comete.append(id)
@@ -90,7 +129,7 @@ func nuova(giocatori: Array, seme: int, opzioni := {}) -> void:
 		normali.sort()
 		comete.sort()
 		_mescola(normali, rng)
-		var fondo_n: int = 8 if n == 1 else 12
+		var fondo_n: int = 8 if (n == 1 or solo) else 12
 		var fondo := normali.slice(0, fondo_n) + comete
 		_mescola(fondo, rng)
 		var sopra: int = 4 * maxi(n, 2)
@@ -151,6 +190,9 @@ func card(id: String) -> Dictionary:
 func icona(e: String, j: int) -> String:
 	var ci: int = PaxDB.slot[e][j][0]
 	var sub: int = PaxDB.slot[e][j][1]
+	if mappa_promo(e):
+		var pi: Array = PaxDB.mappa["promo"]["icone_M"][e][ci]
+		return pi[mini(sub, pi.size() - 1)]
 	var ic: Array = PaxDB.imp(e)["citta"][ci]["icone"][S["th"][e]]
 	return ic[mini(sub, ic.size() - 1)]
 
@@ -170,6 +212,11 @@ func slot_attivo(e: String, j: int) -> bool:
 		return false
 	if e == "PapalStates" and PaxDB.slot[e][j][1] == 1:
 		return condottieri_attivi()
+	var ci: int = PaxDB.slot[e][j][0]
+	if PaxDB.imp(e)["citta"][ci].get("solo_promo", false):
+		return mappa_promo(e)
+	if mappa_promo(e) and PaxDB.slot[e][j][1] >= PaxDB.mappa["promo"]["icone_M"][e][ci].size():
+		return false
 	return true
 
 
@@ -421,17 +468,44 @@ func stesso_luogo(a: String, b: String) -> bool:
 func prestigio(id: String) -> Array:
 	if id.begins_with("@"):
 		var e := id.substr(1)
-		var d: Dictionary = PaxDB.imp(e)["re" if S["emp"][e]["side"] == "K" else "repubblica"]
-		return d["prestigio"]
+		return quadrato(e)["prestigio"]
 	return card(id).get("prestigio", [])
 
 
 func ops_carta(id: String) -> Array:
 	if id.begins_with("@"):
 		var e := id.substr(1)
-		var d: Dictionary = PaxDB.imp(e)["re" if S["emp"][e]["side"] == "K" else "repubblica"]
-		return d["ops"]
+		return quadrato(e)["ops"]
 	return card(id).get("ops", [])
+
+
+## Lato attuale del quadrato impero (con la promo l'impero ottomano usa il quadrato bizantino).
+func quadrato(e: String, lato := "") -> Dictionary:
+	if lato == "":
+		lato = S["emp"][e]["side"]
+	if e == "Ottoman" and promo():
+		return PaxDB.mappa["promo"]["quadrato_ottomano"][0 if lato == "K" else 1]
+	return PaxDB.imp(e)["re" if lato == "K" else "repubblica"]
+
+
+func promo() -> bool:
+	return S["opz"].get("promo", false)
+
+
+## La carta mappa promo (variante 1550) è ancora sull'impero? Lo resta finché l'impero non cambia stato.
+func mappa_promo(e: String) -> bool:
+	return S.get("pm", {}).get(e, false)
+
+
+## Cambia lo stato (medievale o teocrazia) di un impero; la carta mappa promo lascia il posto a quella normale.
+func cambia_stato(e: String, t: String) -> void:
+	S["th"][e] = t
+	if mappa_promo(e):
+		S["pm"][e] = false
+		for j in S["city"][e].size():
+			if S["city"][e][j] != "" and not slot_attivo(e, j):
+				log_("%s: la città di %s non c'è più, il pezzo torna nella riserva." % [PaxDB.nome_imp(e), nome_citta(e, j)])
+				S["city"][e][j] = ""
 
 
 func ha_vescovo(id: String) -> bool:
@@ -611,7 +685,39 @@ func condizioni_vittoria(p: int, v: String) -> bool:
 				if rep <= repubbliche(q) or leg < lq + 2:
 					return false
 			return true
+		"bizantina":
+			# più re (non repubbliche) e più prestigio nella religione con più teocrazie di ogni avversario
+			var r := religione_piu_teocrazie()
+			if r == "":
+				return false
+			var re_m := re_count(p)
+			var pm := conta_prestigio(p, r)
+			if re_m == 0 or pm == 0:
+				return false
+			for q in n:
+				if q != p and (re_m <= re_count(q) or pm <= conta_prestigio(q, r)):
+					return false
+			return true
 	return false
+
+
+## La religione con più teocrazie ("" se nessuna o in caso di parità).
+func religione_piu_teocrazie() -> String:
+	var cnt := {"C": 0, "I": 0, "R": 0}
+	for e in S["th"]:
+		if cnt.has(S["th"][e]):
+			cnt[S["th"][e]] += 1
+	var best := ""
+	var bv := 0
+	var pari := false
+	for r in RELS:
+		if cnt[r] > bv:
+			bv = cnt[r]
+			best = r
+			pari = false
+		elif cnt[r] == bv and bv > 0:
+			pari = true
+	return "" if pari else best
 
 
 func costo_vittoria(v: String) -> int:
@@ -664,6 +770,10 @@ func turno() -> void:
 	_reset_turno()
 	log_("— Turno %d: %s —" % [S["turno"], pname(p)])
 	cambiato.emit()
+	if bot_solitario(p):
+		vittoria_bot(p)
+		if S["over"]:
+			return
 	while not S["over"]:
 		var az := azioni_legali(p)
 		if az.is_empty():
@@ -684,8 +794,89 @@ func turno() -> void:
 	S["turno"] += 1
 
 
+func solitario() -> bool:
+	return S["opz"].get("solitario", false)
+
+
+## Il giocatore p è l'avversario automatico del solitario ufficiale?
+func bot_solitario(p: int) -> bool:
+	return S["players"][p].get("solo_bot", false)
+
+
+## Solitario (O6b): all'inizio del suo turno l'avversario vince se può dichiarare una vittoria attiva, oppure
+## comprare una cometa e dichiarare una vittoria (attiva o inattiva) di cui soddisfa le condizioni.
+func vittoria_bot(p: int) -> void:
+	for v in S["vict"]:
+		if S["vict"][v] and condizioni_vittoria(p, v) and costo_vittoria(v) <= 2:
+			_vince(p, PaxDB.mappa["vittorie"][v]["nome"])
+			return
+	for lato in ["W", "E"]:
+		for i in range(1, 6):
+			var c: String = S["mk"][lato][i]["c"]
+			if c == "" or not card(c).get("cometa", false) or i > P(p)["fl"]:
+				continue
+			for v in S["vict"]:
+				if condizioni_vittoria(p, v):
+					log_("%s compra la cometa «%s» e attiva la %s." % [pname(p), PaxDB.nome_carta(c), PaxDB.mappa["vittorie"][v]["nome"].to_lower()])
+					_vince(p, PaxDB.mappa["vittorie"][v]["nome"])
+					return
+
+
+func _vince(p: int, motivo: String) -> void:
+	S["over"] = true
+	S["vincitore"] = p
+	S["motivo"] = motivo
+	log_("%s dichiara la %s e vince la partita!" % [pname(p), motivo.to_lower()])
+
+
+## Il bot del solitario non mette fiorini su una carta scoperta che ne ha già (O4a).
+func bot_puo_comprare(lato: String, i: int) -> bool:
+	for j in range(0, i):
+		var sl: Dictionary = S["mk"][lato][j]
+		if sl["c"] != "" and sl["f"] > 0:
+			return false
+	return true
+
+
 ## Elenco delle azioni possibili, già espanse nelle varianti (es. «gioca X con complotto in Y»).
 func azioni_legali(p: int) -> Array:
+	if bot_solitario(p):
+		return _azioni_bot(p)
+	return _azioni_legali(p)
+
+
+## Azioni del bot del solitario: compra solo con 2 azioni e gioca subito la carta (non tiene mai una mano),
+## non compra comete, non dichiara vittorie con un'azione (lo fa all'inizio del turno).
+func _azioni_bot(p: int) -> Array:
+	var tutte := _azioni_legali(p)
+	var out := []
+	var mano: Array = P(p)["hand"]
+	for a in tutte:
+		match a["tipo"]:
+			"buy":
+				if S["fl"]["azioni"] == 0 and not card(a["c"]).get("cometa", false) and bot_puo_comprare(a["lato"], a["i"]) and mano.is_empty():
+					out.append(a)
+			"play":
+				if a["c"] in mano:
+					out.append(a)
+			"vict", "bathory", "oratory":
+				pass
+			"fine":
+				if mano.is_empty():
+					out.append(a)
+			_:
+				if mano.is_empty():
+					out.append(a)
+	if out.is_empty() and not mano.is_empty():
+		# carta comprata che non si può più giocare: la scarta
+		for c in mano.duplicate():
+			mano.erase(c)
+			log_("%s scarta %s." % [pname(p), PaxDB.nome_carta(c)])
+		return _azioni_bot(p)
+	return out
+
+
+func _azioni_legali(p: int) -> Array:
 	var out := []
 	var fl: Dictionary = S["fl"]
 	var usate: int = fl["azioni"]
@@ -976,6 +1167,15 @@ func rifornisci_mercato() -> void:
 
 
 func fine_mecenati() -> void:
+	if solitario():
+		# solitario: se il mercato non si può rifornire vince l'avversario automatico (O6b3)
+		for q in S["np"]:
+			if bot_solitario(q):
+				S["over"] = true
+				S["vincitore"] = q
+				S["motivo"] = "Fine dei mazzi"
+				log_("I mazzi sono finiti: vince l'avversario automatico.")
+				return
 	var best := -1
 	var bv := -1
 	for p in S["np"]:
@@ -1192,7 +1392,7 @@ func piazza_agente(p: int, c: String, ag: String, obbligo: bool, luogo_fisso := 
 				S["city"][o["e"]][o["j"]] = ""
 			if prendi_pezzo(ag):
 				S["city"][o["e"]][o["j"]] = ag
-				log_("%s piazza un %s a %s." % [pname(p), PaxDB.nome_pezzo(ag), nome_citta(o["e"], o["j"])])
+				log_("%s piazza %s a %s." % [pname(p), PaxDB.un_pezzo(ag), nome_citta(o["e"], o["j"])])
 		"S":
 			metti_pirata(col, o["b"])
 		"P":
@@ -1388,7 +1588,7 @@ func guerra_religione(p: int, c: String, os: String, e: String) -> void:
 	var dif := difensori_religione(e, r)
 	var vinto : bool = await battaglia(p, e, att, dif)
 	if vinto:
-		S["th"][e] = r
+		cambia_stato(e, r)
 		log_("%s diventa una teocrazia %s." % [PaxDB.nome_imp(e), PaxDB.NOMI_REL[r]])
 		controlla_venezia()
 		await cambio_regime(p, e, "relig", {})
@@ -1608,7 +1808,7 @@ func cambio_regime(p: int, e: String, how: String, extra: Dictionary) -> void:
 	await emancipa(p, e)
 	if how == "vote" and S["th"][e] != "M":
 		if await si_no(p, "Libertà dorata: rendere %s uno stato medievale (non teocratico)?" % PaxDB.nome_imp(e), "liberta"):
-			S["th"][e] = "M"
+			cambia_stato(e, "M")
 			log_("Libertà dorata: %s non è più una teocrazia." % PaxDB.nome_imp(e))
 			controlla_venezia()
 
@@ -1740,8 +1940,9 @@ func fiera(p: int, lato: String) -> void:
 		"Oriente" if lato == "E" else "Occidente", PaxDB.nome_carta(c), prof, PaxDB.NOMI_EMPORI[em]])
 	if prof <= 0:
 		return
-	prof -= 1
-	P(p)["fl"] += 1
+	var sussidio := mini(prof, 2 if ha_abilita(p, "borsa_londra") else 1)
+	prof -= sussidio
+	P(p)["fl"] += sussidio
 	if prof <= 0:
 		return
 	var levate := [rotta[0]]
@@ -1783,7 +1984,7 @@ func fiera(p: int, lato: String) -> void:
 		var t2 := icona(e, j2)
 		if prendi_pezzo(t2):
 			S["city"][e][j2] = t2
-			log_("Leva in %s: un %s a %s." % [PaxDB.nome_imp(e), PaxDB.nome_pezzo(t2), nome_citta(e, j2)])
+			log_("Leva in %s: %s a %s." % [PaxDB.nome_imp(e), PaxDB.un_pezzo(t2), nome_citta(e, j2)])
 
 # ======================================================================= operazioni
 
@@ -2082,13 +2283,13 @@ func esegui_op(p: int, id: String, op: String, b: Dictionary) -> void:
 				var tt := icona(e, j)
 				if prendi_pezzo(tt):
 					S["city"][e][j] = tt
-					log_("Leva in %s: un %s a %s." % [PaxDB.nome_imp(e), PaxDB.nome_pezzo(tt), nome_citta(e, j)])
+					log_("Leva in %s: %s a %s." % [PaxDB.nome_imp(e), PaxDB.un_pezzo(tt), nome_citta(e, j)])
 		"repress":
 			if b.has("j"):
 				var t: String = S["city"][b["e"]][b["j"]]
 				S["city"][b["e"]][b["j"]] = ""
 				S["emp"][b["e"]]["rep"].append(t)
-				log_("%s reprime un %s a %s (+1 ƒ)." % [pname(p), PaxDB.nome_pezzo(t), nome_citta(b["e"], b["j"])])
+				log_("%s reprime %s a %s (+1 ƒ)." % [pname(p), PaxDB.un_pezzo(t), nome_citta(b["e"], b["j"])])
 			else:
 				var q: int = S["bord"][b["b"]]["p"]
 				S["bord"][b["b"]]["p"] = -1
@@ -2115,7 +2316,7 @@ func esegui_op(p: int, id: String, op: String, b: Dictionary) -> void:
 				log_("Un pirata %s si sposta su %s." % [_agg(arg), _nome_confine(b["a"])])
 		"siege":
 			if b.has("j"):
-				log_("%s assedia %s: muore un %s." % [pname(p), nome_citta(b["e"], b["j"]), PaxDB.nome_pezzo(S["city"][b["e"]][b["j"]])])
+				log_("%s assedia %s: muore %s." % [pname(p), nome_citta(b["e"], b["j"]), PaxDB.un_pezzo(S["city"][b["e"]][b["j"]])])
 				S["city"][b["e"]][b["j"]] = ""
 			else:
 				log_("%s affonda un pirata su %s." % [pname(p), _nome_confine(b["b"])])

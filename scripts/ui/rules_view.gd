@@ -49,6 +49,12 @@ Incoronazione, voto, guerre civili e di religione vittoriose: prendi il quadrato
 • [b]Santa[/b] (Torquemada): una religione è suprema se ha più vescovi in gioco delle altre due insieme e più pezzi del suo colore nelle sue teocrazie delle altre due insieme (i pirati contano per le teocrazie che toccano). Vince chi ha più prestigio di quella religione di ogni avversario.
 • Se i mazzi finiscono vince chi ha più prestigio di [b]mecenate[/b] (a parità, più fiorini).
 
+[b]Solitario ufficiale[/b] (Libro II, parte O)
+Tu sei Fugger con 3 ƒ; l'avversario automatico parte con 4 ƒ e tutte e tre le altre concessioni iniziali. Le comete sono mescolate fra le ultime 8 carte di ogni mazzo. Vinci con una vittoria delle comete, non con quella dei mecenati. L'avversario segue la tabella O8: sceglie una linea d'azione (per sostituzione cometaria o per innesco) e ne persegue l'obiettivo principale, poi il secondario e quello di prestigio; compra solo con due azioni e gioca subito la carta, non mette fiorini su carte che ne hanno già. Vince se all'inizio del suo turno può dichiarare una vittoria (anche comprando una cometa) o se il mercato non si può più rifornire.
+
+[b]Promo «Età della Riforma»[/b] (variante 1550)
+Inghilterra e Sacro Romano Impero partono come teocrazie riformate; la rotta d'Occidente parte dal Mar Rosso (Trebisonda è chiusa). Ungheria e Ottomani partono con le carte mappa della Confederazione polacco-lituana (con Kiev) e della Rumelia: restano finché l'impero non cambia stato. L'impero ottomano usa il quadrato bizantino (Basilio Megas Comneno / Synkletos). Si aggiungono 8 carte di mercato e la quinta vittoria, la [b]vittoria bizantina[/b] (Filotea di Atene): più re (non repubbliche) di ogni avversario e più prestigio nella religione con più teocrazie. Le comete possono attivare anche questa. Con i banchieri promo, Alvaro Mendes parte con la concessione Ungheria–Ottomani e Cornelius Berenberg con Inghilterra–Francia, usando il colore di una banca rimasta libera.
+
 [b]In questa versione digitale[/b]
 Tocca le carte e la mappa evidenziate per scegliere, oppure usa i pulsanti a destra. Tasto destro o tocco lungo su una carta per ingrandirla con il testo completo. Rotella, pizzico a due dita o trascinamento per muovere la mappa.
 """

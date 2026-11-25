@@ -6,6 +6,7 @@
   "nome_en": "The Grim",
   "nome": "Il Terribile",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -37,6 +38,7 @@
   "nome_en": "Safavids",
   "nome": "Safavidi",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -66,6 +68,7 @@
   "nome_en": "Dervishes",
   "nome": "Dervisci",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -95,6 +98,7 @@
   "nome_en": "Qizilbash",
   "nome": "Qizilbash",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -126,6 +130,7 @@
   "nome_en": "Barbarossa Brothers",
   "nome": "Fratelli Barbarossa",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -153,6 +158,7 @@
   "nome_en": "Ottoman Navy",
   "nome": "Marina ottomana",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -180,6 +186,7 @@
   "nome_en": "Jewish Pirates",
   "nome": "Pirati ebrei",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -207,6 +214,7 @@
   "nome_en": "Mamluk Slave Soldiers",
   "nome": "Soldati schiavi mamelucchi",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -234,6 +242,7 @@
   "nome_en": "Black Army",
   "nome": "Esercito Nero",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -264,6 +273,7 @@
   "nome_en": "Janissaries",
   "nome": "Giannizzeri",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -294,6 +304,7 @@
   "nome_en": "Black Sheep Tribe",
   "nome": "Tribù della Pecora Nera",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -321,6 +332,7 @@
   "nome_en": "Bashi-bazouk",
   "nome": "Bashi-bazouk",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax"
@@ -346,6 +358,7 @@
   "nome_en": "Zupy Krakowskie Company",
   "nome": "Compagnia delle Saline di Cracovia",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -375,6 +388,7 @@
   "nome_en": "The Handsome",
   "nome": "Il Bello",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -405,6 +419,7 @@
   "nome_en": "Bosnian & Serbian Silver",
   "nome": "Argento bosniaco e serbo",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -432,6 +447,7 @@
   "nome_en": "The Crim Horde",
   "nome": "L'Orda di Crimea",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -459,6 +475,7 @@
   "nome_en": "The Kremlin",
   "nome": "Il Cremlino",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:E"
@@ -486,6 +503,7 @@
   "nome_en": "Elzbieta of Bohemia",
   "nome": "Elisabetta di Boemia",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -510,6 +528,7 @@
   "nome_en": "Sophia Palaiologina",
   "nome": "Sofia Paleologa",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -542,6 +561,7 @@
   "nome_en": "Hürrem Sultan Roxelana",
   "nome": "Hürrem Sultan (Rossellana)",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -572,6 +592,7 @@
   "nome_en": "Sitt-î Hatun of Dulkadir",
   "nome": "Sitt-î Hatun di Dulkadir",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -598,6 +619,7 @@
   "nome_en": "Carlotta Lusignan of Cyprus",
   "nome": "Carlotta di Lusignano, regina di Cipro",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege",
@@ -628,6 +650,7 @@
   "nome_en": "Greek Klephts",
   "nome": "Clefti greci",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -655,6 +678,7 @@
   "nome_en": "Crimean Goths",
   "nome": "Goti di Crimea",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -684,6 +708,7 @@
   "nome_en": "Transylvanian Plot",
   "nome": "Complotto transilvano",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege",
@@ -714,6 +739,7 @@
   "nome_en": "Glinski's Rebellion",
   "nome": "Ribellione di Glinski",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -745,6 +771,7 @@
   "nome_en": "Phocoean Alum",
   "nome": "Allume di Focea",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:PR",
@@ -773,6 +800,7 @@
   "nome_en": "Dalmatian Merchant Marine",
   "nome": "Marina mercantile dalmata",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:E"
@@ -800,6 +828,7 @@
   "nome_en": "Counts of Celji",
   "nome": "Conti di Celje",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:PK"
@@ -825,6 +854,7 @@
   "nome_en": "Şahkulu Shi'ite Revolt",
   "nome": "Rivolta sciita di Şahkulu",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -854,6 +884,7 @@
   "nome_en": "Çelebi Tax Revolts",
   "nome": "Rivolte fiscali di Çelebi",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -883,6 +914,7 @@
   "nome_en": "Despina Khatun",
   "nome": "Despina Khatun",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -915,6 +947,7 @@
   "nome_en": "Grand Mufti",
   "nome": "Gran Muftì",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -944,6 +977,7 @@
   "nome_en": "Grand Hetman",
   "nome": "Grande Etmano",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -975,6 +1009,7 @@
   "nome_en": "Agents of Dukagjini",
   "nome": "Agenti dei Dukagjini",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -1007,6 +1042,7 @@
   "nome_en": "Nomads of Tlemcen",
   "nome": "Nomadi di Tlemcen",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:E"
@@ -1032,6 +1068,7 @@
   "nome_en": "The Last Sigh",
   "nome": "L'ultimo sospiro del Moro",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -1061,6 +1098,7 @@
   "nome_en": "Nothing New",
   "nome": "Nihil Novi",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -1092,6 +1130,7 @@
   "nome_en": "The Last Byzantine",
   "nome": "L'ultimo bizantino",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1123,6 +1162,7 @@
   "nome_en": "Beylerbey of Egypt",
   "nome": "Beylerbey d'Egitto",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -1153,6 +1193,7 @@
   "nome_en": "Lizard Union",
   "nome": "Unione della Lucertola",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -1185,6 +1226,7 @@
   "nome_en": "Red Sea Fleet",
   "nome": "Flotta del Mar Rosso",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:R",
@@ -1216,6 +1258,7 @@
   "nome_en": "Jizya Tax Revolt",
   "nome": "Rivolta contro la jizya",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -1241,6 +1284,7 @@
   "nome_en": "Circassian Mamluks",
   "nome": "Mamelucchi circassi",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax"
@@ -1269,6 +1313,7 @@
   "nome_en": "Transylvanian Saxons",
   "nome": "Sassoni di Transilvania",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "vote:E",
@@ -1296,6 +1341,7 @@
   "nome_en": "Bank of St. George",
   "nome": "Banco di San Giorgio",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -1323,6 +1369,7 @@
   "nome_en": "Twelver ghulat",
   "nome": "Ghulat duodecimani",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [
    "I"
   ],
@@ -1350,6 +1397,7 @@
   "nome_en": "Zionist State",
   "nome": "Stato sionista",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1381,6 +1429,7 @@
   "nome_en": "Damascus Coffee",
   "nome": "Caffè di Damasco",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege",
@@ -1408,6 +1457,7 @@
   "nome_en": "Pospolite Ruszenie",
   "nome": "Pospolite ruszenie",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -1437,6 +1487,7 @@
   "nome_en": "The Timar System",
   "nome": "Il sistema del timar",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -1466,6 +1517,7 @@
   "nome_en": "Vlad the Impaler",
   "nome": "Vlad l'Impalatore",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "behead",
@@ -1496,6 +1548,7 @@
   "nome_en": "Saint Stefan cel Mare",
   "nome": "Santo Stefano il Grande",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1526,6 +1579,7 @@
   "nome_en": "Soninke Wangara",
   "nome": "Wangara soninke",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:E"
@@ -1551,6 +1605,7 @@
   "nome_en": "Cem Anti-Hostage",
   "nome": "Cem, l'ostaggio",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "behead",
@@ -1581,6 +1636,7 @@
   "nome_en": "Grande of Spain",
   "nome": "Grande di Spagna",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -1608,6 +1664,7 @@
   "nome_en": "Duke of Athens",
   "nome": "Duca di Atene",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -1633,6 +1690,7 @@
   "nome_en": "Funj Nomads",
   "nome": "Nomadi funj",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -1662,6 +1720,7 @@
   "nome_en": "Zaporozhian Host",
   "nome": "Armata zaporoga",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1691,6 +1750,7 @@
   "nome_en": "Elizabeth Báthory",
   "nome": "Elisabetta Báthory",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P"
@@ -1721,6 +1781,7 @@
   "nome_en": "Unity of the Brethren",
   "nome": "Unità dei Fratelli",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1750,6 +1811,7 @@
   "nome_en": "Papal Legate to Persia",
   "nome": "Legato pontificio in Persia",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -1779,6 +1841,7 @@
   "nome_en": "Unified Christendom",
   "nome": "Cristianità unita",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -1808,6 +1871,7 @@
   "nome_en": "Civil Engineer",
   "nome": "Ingegnere civile",
   "luogo": "TheEast",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -1831,6 +1895,7 @@
   "nome_en": "Sahn-ı Seman Medrese",
   "nome": "Medrese Sahn-ı Seman",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -1854,6 +1919,7 @@
   "nome_en": "Academia",
   "nome": "Accademia",
   "luogo": "Hungary",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -1881,6 +1947,7 @@
   "nome_en": "Theft of the Holy Crown",
   "nome": "Il furto della Sacra Corona",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -1907,6 +1974,7 @@
   "nome_en": "Franco-Ottoman Navy",
   "nome": "Flotta franco-ottomana",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -1938,6 +2006,7 @@
   "nome_en": "Prussian League Navy",
   "nome": "Flotta della Lega prussiana",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -1967,6 +2036,7 @@
   "nome_en": "Tersâne-i Âmire",
   "nome": "Tersâne-i Âmire",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -1996,6 +2066,7 @@
   "nome_en": "Isfendiyarid dynasty",
   "nome": "Dinastia isfendiyaride",
   "luogo": "Byzantium",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -2023,6 +2094,7 @@
   "nome_en": "Brotherhood of St. Mark",
   "nome": "Confraternita di San Marco",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "behead"
@@ -2048,6 +2120,7 @@
   "nome_en": "Wolf of Rimini",
   "nome": "Il Lupo di Rimini",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege",
@@ -2078,6 +2151,7 @@
   "nome_en": "Mons Meg",
   "nome": "Mons Meg",
   "luogo": "England",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -2103,6 +2177,7 @@
   "nome_en": "Kappeler Milchsuppe",
   "nome": "La zuppa di latte di Kappel",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "vote:W"
@@ -2130,6 +2205,7 @@
   "nome_en": "Bank of Strozzi",
   "nome": "Banco Strozzi",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "vote:W",
@@ -2159,6 +2235,7 @@
   "nome_en": "William Caxton",
   "nome": "William Caxton",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2188,6 +2265,7 @@
   "nome_en": "Tolfa Alum",
   "nome": "Allume della Tolfa",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "vote:W",
@@ -2216,6 +2294,7 @@
   "nome_en": "Cornish Tin",
   "nome": "Stagno della Cornovaglia",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2245,6 +2324,7 @@
   "nome_en": "Catalan Pactists",
   "nome": "Pattisti catalani",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2272,6 +2352,7 @@
   "nome_en": "Catherine of Navarre",
   "nome": "Caterina di Navarra",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -2302,6 +2383,7 @@
   "nome_en": "Margaret of Austria",
   "nome": "Margherita d'Austria",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "vote:W"
@@ -2331,6 +2413,7 @@
   "nome_en": "The Mary Rose",
   "nome": "La Mary Rose",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -2362,6 +2445,7 @@
   "nome_en": "European Union",
   "nome": "Unione europea",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:R"
@@ -2389,6 +2473,7 @@
   "nome_en": "Epicurean Swerve",
   "nome": "La deviazione epicurea",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -2415,6 +2500,7 @@
   "nome_en": "Humanism",
   "nome": "Umanesimo",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -2442,6 +2528,7 @@
   "nome_en": "Council of Trent",
   "nome": "Concilio di Trento",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -2469,6 +2556,7 @@
   "nome_en": "Order of Preachers",
   "nome": "Ordine dei Predicatori",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -2496,6 +2584,7 @@
   "nome_en": "Consent of the Governed",
   "nome": "Il consenso dei governati",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2519,6 +2608,7 @@
   "nome_en": "Jacques Lefèvre d'Étaples",
   "nome": "Jacques Lefèvre d'Étaples",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -2546,6 +2636,7 @@
   "nome_en": "Enclosure",
   "nome": "Le recinzioni",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2575,6 +2666,7 @@
   "nome_en": "Catherine de' Medici",
   "nome": "Caterina de' Medici",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:R"
@@ -2603,6 +2695,7 @@
   "nome_en": "Teutonic Knights",
   "nome": "Cavalieri teutonici",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:PR",
@@ -2631,6 +2724,7 @@
   "nome_en": "Cromwell",
   "nome": "Cromwell",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -2661,6 +2755,7 @@
   "nome_en": "Swabian League",
   "nome": "Lega sveva",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:PR",
@@ -2689,6 +2784,7 @@
   "nome_en": "The Bold",
   "nome": "Il Temerario",
   "luogo": "France",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -2719,6 +2815,7 @@
   "nome_en": "Holy Land Crusade",
   "nome": "Crociata in Terrasanta",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -2749,6 +2846,7 @@
   "nome_en": "Santa Hermandad",
   "nome": "Santa Hermandad",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -2776,6 +2874,7 @@
   "nome_en": "Swiss Risläufer",
   "nome": "Reisläufer svizzeri",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -2801,6 +2900,7 @@
   "nome_en": "Duke of Milan",
   "nome": "Duca di Milano",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -2831,6 +2931,7 @@
   "nome_en": "Schwarzer Haufen",
   "nome": "Schwarzer Haufen",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -2858,6 +2959,7 @@
   "nome_en": "Merchants of the Staple",
   "nome": "Mercanti dello Staple",
   "luogo": "England",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -2883,6 +2985,7 @@
   "nome_en": "Communeros Guilds",
   "nome": "Gilde dei comuneros",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -2908,6 +3011,7 @@
   "nome_en": "Flanders Guild",
   "nome": "Gilda delle Fiandre",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2939,6 +3043,7 @@
   "nome_en": "The Hidden",
   "nome": "L'Incappucciato",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -2970,6 +3075,7 @@
   "nome_en": "Bundschuh Revolt",
   "nome": "Rivolta del Bundschuh",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -2995,6 +3101,7 @@
   "nome_en": "Florentine Wool",
   "nome": "Lana fiorentina",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -3020,6 +3127,7 @@
   "nome_en": "Sindicat Remença",
   "nome": "Sindicat Remença",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3049,6 +3157,7 @@
   "nome_en": "Peasant Republic of Dithmarschen",
   "nome": "Repubblica contadina del Dithmarschen",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3078,6 +3187,7 @@
   "nome_en": "Höchstetter Bank",
   "nome": "Banca Höchstetter",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "commerce:W"
@@ -3105,6 +3215,7 @@
   "nome_en": "Gutenberg",
   "nome": "Gutenberg",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3134,6 +3245,7 @@
   "nome_en": "Isabella of Castille",
   "nome": "Isabella di Castiglia",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3167,6 +3279,7 @@
   "nome_en": "Anne of Brittany",
   "nome": "Anna di Bretagna",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -3196,6 +3309,7 @@
   "nome_en": "Joanna the Mad",
   "nome": "Giovanna la Pazza",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3226,6 +3340,7 @@
   "nome_en": "Margaret of Anjou",
   "nome": "Margherita d'Angiò",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:R",
@@ -3256,6 +3371,7 @@
   "nome_en": "Mary the Rich",
   "nome": "Maria la Ricca",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3283,6 +3399,7 @@
   "nome_en": "Order of Santiago",
   "nome": "Ordine di Santiago",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3313,6 +3430,7 @@
   "nome_en": "La Serenissima",
   "nome": "La Serenissima",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3344,6 +3462,7 @@
   "nome_en": "Kingmaker",
   "nome": "Il Creatore di re",
   "luogo": "England",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:R",
@@ -3372,6 +3491,7 @@
   "nome_en": "Luther",
   "nome": "Lutero",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -3402,6 +3522,7 @@
   "nome_en": "Friese Freedom",
   "nome": "Libertà frisone",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -3431,6 +3552,7 @@
   "nome_en": "Maréchaussée",
   "nome": "Maréchaussée",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax"
@@ -3456,6 +3578,7 @@
   "nome_en": "Duchy of Ferrara",
   "nome": "Ducato di Ferrara",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -3487,6 +3610,7 @@
   "nome_en": "Amerigo Vespucci",
   "nome": "Amerigo Vespucci",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -3516,6 +3640,7 @@
   "nome_en": "Podestà of Venice",
   "nome": "Podestà di Venezia",
   "luogo": "Mamluk",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -3539,6 +3664,7 @@
   "nome_en": "Man for all Seasons",
   "nome": "Un uomo per tutte le stagioni",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3568,6 +3694,7 @@
   "nome_en": "Oratory of Divine Love",
   "nome": "Oratorio del Divino Amore",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3598,6 +3725,7 @@
   "nome_en": "Cryptography",
   "nome": "Crittografia",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -3621,6 +3749,7 @@
   "nome_en": "Michelangelo",
   "nome": "Michelangelo",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -3644,6 +3773,7 @@
   "nome_en": "Artistic Geometry",
   "nome": "Geometria artistica",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -3667,6 +3797,7 @@
   "nome_en": "Romantic Realism",
   "nome": "Realismo romantico",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -3688,6 +3819,7 @@
   "nome_en": "Mining Engineer",
   "nome": "Ingegnere minerario",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3711,6 +3843,7 @@
   "nome_en": "Machiavellianism",
   "nome": "Machiavellismo",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -3732,6 +3865,7 @@
   "nome_en": "Hermeticism",
   "nome": "Ermetismo",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -3755,6 +3889,7 @@
   "nome_en": "Faith vs. Reason",
   "nome": "Fede contro ragione",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [],
   "sottotitoli": [],
@@ -3778,6 +3913,7 @@
   "nome_en": "Reichskrone",
   "nome": "La corona imperiale",
   "luogo": "Queen",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3808,6 +3944,7 @@
   "nome_en": "French Pirates",
   "nome": "Pirati francesi",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -3837,6 +3974,7 @@
   "nome_en": "Venetian Navy",
   "nome": "Marina veneziana",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "corsair:C",
@@ -3864,6 +4002,7 @@
   "nome_en": "Welser Klein-Venedig",
   "nome": "Klein-Venedig dei Welser",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -3891,6 +4030,7 @@
   "nome_en": "Kalmar Union",
   "nome": "Unione di Kalmar",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -3920,6 +4060,7 @@
   "nome_en": "Inquisition Pope",
   "nome": "Il papa dell'Inquisizione",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -3951,6 +4092,7 @@
   "nome_en": "Papal Elephant",
   "nome": "L'elefante del papa",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -3976,6 +4118,7 @@
   "nome_en": "Grand Inquisitor",
   "nome": "Il grande inquisitore",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -4007,6 +4150,7 @@
   "nome_en": "Antipope",
   "nome": "L'antipapa",
   "luogo": "France",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -4034,6 +4178,7 @@
   "nome_en": "Reformed Theology",
   "nome": "La teologia riformata",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -4061,6 +4206,7 @@
   "nome_en": "Star Chamber",
   "nome": "La Camera stellata",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -4092,6 +4238,7 @@
   "nome_en": "Peter's Pence",
   "nome": "L'obolo di San Pietro",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -4121,6 +4268,7 @@
   "nome_en": "Jesuits",
   "nome": "Gesuiti",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -4148,6 +4296,7 @@
   "nome_en": "House of Borgia",
   "nome": "Casa Borgia",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "P"
   ],
@@ -4177,6 +4326,7 @@
   "nome_en": "Bonfire of the Vanities",
   "nome": "Il falò delle vanità",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "L"
   ],
@@ -4208,6 +4358,7 @@
   "nome_en": "Anabaptist Reformation",
   "nome": "La Riforma anabattista",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [
    "R"
   ],
@@ -4235,6 +4386,7 @@
   "nome_en": "Knights Hospitaller",
   "nome": "Cavalieri ospitalieri",
   "luogo": "Ottoman",
+  "promo": false,
   "prestigio": [
    "C"
   ],
@@ -4266,6 +4418,7 @@
   "nome_en": "Genoese Fleet",
   "nome": "Flotta genovese",
   "luogo": "Aragon",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -4293,6 +4446,7 @@
   "nome_en": "India Armada",
   "nome": "L'armata delle Indie",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -4318,6 +4472,7 @@
   "nome_en": "Hanseatic League",
   "nome": "Lega anseatica",
   "luogo": "France",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -4347,6 +4502,7 @@
   "nome_en": "The Company of Merchant Adventurers",
   "nome": "La Compagnia dei Mercanti Avventurieri",
   "luogo": "England",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -4370,6 +4526,7 @@
   "nome_en": "Scottish Privateers",
   "nome": "Corsari scozzesi",
   "luogo": "England",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:P",
@@ -4397,6 +4554,7 @@
   "nome_en": "Almeida Armada",
   "nome": "L'armata di Almeida",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -4428,6 +4586,7 @@
   "nome_en": "Gold Coast Monopoly",
   "nome": "Il monopolio della Costa d'Oro",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "corsair:C",
@@ -4455,6 +4614,7 @@
   "nome_en": "Arumer Zwarte Hoop",
   "nome": "L'Arumer Zwarte Hoop",
   "luogo": "France",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "repress:PRK",
@@ -4482,6 +4642,7 @@
   "nome_en": "Conquistadors",
   "nome": "I conquistadores",
   "luogo": "Portugal",
+  "promo": false,
   "prestigio": [
    "D"
   ],
@@ -4514,6 +4675,7 @@
   "nome_en": "The Last Knight",
   "nome": "L'ultimo cavaliere",
   "luogo": "HRE",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "tax",
@@ -4541,6 +4703,7 @@
   "nome_en": "Spanish Tercio",
   "nome": "Il tercio spagnolo",
   "luogo": "TheWest",
+  "promo": false,
   "prestigio": [],
   "ops": [
    "siege"
@@ -4566,6 +4729,7 @@
   "nome_en": "Gonfalonier",
   "nome": "Il gonfaloniere",
   "luogo": "PapalStates",
+  "promo": false,
   "prestigio": [
    "P",
    "L"
@@ -4593,6 +4757,249 @@
   "rosse": [],
   "testo_abilita": "CONDOTTIERO: Venezia può ospitare 2 cavalieri d'oro invece di 1.",
   "testo": "Federico da Montefeltro, conte di Urbino. Come gonfaloniere (carica istituita dai guelfi per tenere a freno i nobili) combatté per il papa, Firenze, Milano e Napoli senza mai perdere una guerra.\nCon i profitti da mercenario fece costruire una grande biblioteca a Urbino e protesse il giovane Raffaello."
+ },
+ {
+  "id": "PREN211P",
+  "img": "54600",
+  "mazzo": "W",
+  "nome_en": "Reformation Parliament",
+  "nome": "Parlamento della Riforma",
+  "luogo": "England",
+  "promo": true,
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "tax",
+   "behead"
+  ],
+  "sottotitoli": [
+   "Annate della Corona",
+   "Supremazia regia"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [
+   "borsa_londra"
+  ],
+  "rosse": [],
+  "testo_abilita": "BORSA REALE DI LONDRA: quando convochi una fiera commerciale, il sussidio dell'emporio è di 2 fiorini invece di 1.",
+  "testo": "Il Parlamento della Riforma inglese, riunito dal 1529 al 1536, approvò le leggi fondamentali che portarono alla rottura con Roma e alla nascita della Chiesa d'Inghilterra."
+ },
+ {
+  "id": "PREN212P",
+  "img": "54601",
+  "mazzo": "W",
+  "nome_en": "Margaret of Parma",
+  "nome": "Margherita di Parma",
+  "luogo": "Queen",
+  "promo": true,
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Rivolta olandese",
+   "Furia iconoclasta"
+  ],
+  "pretendenti": [
+   "Portugal",
+   "Aragon",
+   "France",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Governatrice dei Paesi Bassi, Margherita dovette affrontare la rivolta olandese contro l'Inquisizione e il dispotismo spagnolo.\nPromettendo di regnare con la persecuzione religiosa, soffocò i tumulti iconoclasti anticattolici.",
+  "regina": true
+ },
+ {
+  "id": "PREN210P",
+  "img": "54602",
+  "mazzo": "W",
+  "nome_en": "Huguenots",
+  "nome": "Ugonotti",
+  "luogo": "France",
+  "promo": true,
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Capitale umano"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I protestanti francesi, detti ugonotti, erano artigiani e imprenditori operosi, soprattutto nella banca, nel tessile, nella tessitura, nell'orologeria e nell'ottica.\nL'invidia per la loro ricchezza e il loro ruolo di intermediari fu forse all'origine delle persecuzioni diffuse."
+ },
+ {
+  "id": "PREN209P",
+  "img": "54603",
+  "mazzo": "W",
+  "nome_en": "Netherlands Inquisition",
+  "nome": "Inquisizione dei Paesi Bassi",
+  "luogo": "France",
+  "promo": true,
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "behead"
+  ],
+  "sottotitoli": [
+   "Editto del 1521"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il più famigerato inquisitore dei Paesi Bassi asburgici fu Pieter Titelmans. Per estirpare le idee calviniste e anabattiste si servì di delatori, tortura e roghi.\nFu una delle cause della rivolta olandese contro gli Asburgo."
+ },
+ {
+  "id": "PREN208PW",
+  "img": "54604",
+  "mazzo": "W",
+  "nome_en": "Szápolya family",
+  "nome": "Famiglia Szapolyai",
+  "luogo": "HRE",
+  "promo": true,
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "tax"
+  ],
+  "sottotitoli": [
+   "Assedio di Vienna (1529)",
+   "Tributo ottomano"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I",
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1526 il re d'Ungheria morì combattendo i turchi e l'arciduca Ferdinando d'Austria, fratello di Carlo V e cognato del re defunto, ne reclamò la corona.\nL'altro pretendente era Giovanni Zápolya, voivoda di Transilvania, che si accordò con il sultano Solimano per averne l'appoggio. Solimano assediò Vienna senza riuscire a prenderla."
+ },
+ {
+  "id": "PREN208PE",
+  "img": "54700",
+  "mazzo": "E",
+  "nome_en": "Bureau of Barbarians",
+  "nome": "Ufficio dei Barbari",
+  "luogo": "TheEast",
+  "promo": true,
+  "prestigio": [],
+  "ops": [
+   "behead",
+   "inq:R",
+   "repress:R"
+  ],
+  "sottotitoli": [
+   "Disinformazione",
+   "Rete di spie postali",
+   "Epurazione di Andronico"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [
+   "genocidio"
+  ],
+  "rosse": [],
+  "testo_abilita": "GENOCIDIO: l'operazione di questa carta si può usare solo su una carta d'Oriente con un vescovo verde o rosso.",
+  "testo": "Parte ufficiale del servizio postale imperiale bizantino, l'Ufficio dei Barbari teneva i rapporti con i vari popoli «barbari»: spionaggio, traduzioni, comunicazioni e corrispondenza."
+ },
+ {
+  "id": "PREN207P",
+  "img": "54701",
+  "mazzo": "E",
+  "nome_en": "Sarmatism",
+  "nome": "Sarmatismo",
+  "luogo": "Hungary",
+  "promo": true,
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:E",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Sejmik e liberum veto",
+   "Articoli enriciani"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il sarmatismo fu l'ideologia culturale barocca dominante della nobiltà (szlachta) della Confederazione polacco-lituana.\nSosteneva che i polacchi discendessero dai sarmati, un popolo iranico, ed esaltava la «libertà dorata» dei nobili e il cattolicesimo, che li distinguevano dai vicini turchi e tatari."
+ },
+ {
+  "id": "PREN217P",
+  "img": "54702",
+  "mazzo": "E",
+  "nome_en": "Kaysar-i Rûm",
+  "nome": "Kaysar-i Rûm",
+  "luogo": "PapalStates",
+  "promo": true,
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "siege",
+   "inq:I",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Assedio di Otranto",
+   "Martiri di Otranto",
+   "Ammiraglio Gedik Ahmed Pascià"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Dopo la presa di Costantinopoli i sultani ottomani si proclamarono legittimi imperatori romani, eredi dei basilei bizantini: i «Cesari di Roma» rivendicavano per diritto il dominio del mondo.\nPer dare forza a questa pretesa, Maometto II invase e saccheggiò Otranto, nel cuore dell'antica Roma, nel 1480. I cristiani ripresero la città l'anno seguente."
  },
  {
   "id": "COMET1",

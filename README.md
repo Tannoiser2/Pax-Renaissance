@@ -19,7 +19,12 @@ jihad e inquisizioni. Si gioca su https://tannoiser2.github.io/Pax-Renaissance/
   luoghi, eventi, pretendenti, abilità (`tools/localizza_carte.py`). Anche il tabellone e le 40 carte mappa
   hanno i nomi in italiano (`tools/localizza_mappa.py`).
 - **IA** a tre livelli: per ogni azione prova le alternative su una copia della partita e valuta la posizione
-  (vittorie attive, imperi, concessioni, prestigio, fiorini, carte).
+  (vittorie attive, imperi, concessioni, prestigio, fiorini, carte). L'IA forte guarda anche la seconda azione
+  del turno; i fiorini accumulati valgono sempre meno, così l'IA spende e punta alle vittorie.
+- **Solitario ufficiale** (Libro II, parte O): avversario automatico che segue la tabella O8 (linee d'azione,
+  sostituzione cometaria, obiettivi principale/secondario/di prestigio) e le regole O5 (`scripts/core/solo_bot.gd`).
+- **Promo «Età della Riforma»** (variante 1550): 8 carte di mercato tradotte, carte mappa della Confederazione
+  polacco-lituana e della Rumelia, quadrato bizantino, banchieri Alvaro Mendes e Cornelius Berenberg, vittoria bizantina.
 - **Più persone sullo stesso dispositivo** (con il passaggio di mano), **online** con gli amici e **salvataggi**.
 - Mappa con zoom e spostamento: rotella e trascinamento col mouse, un dito per spostare e due dita per lo zoom su iPad.
 
@@ -49,8 +54,10 @@ tests/                             prove automatiche
 
 ```
 godot --headless --path . -s tests/sim.gd -- 10 4 2        # 10 partite fra IA, 4 giocatori, livello forte
+godot --headless --path . -s tests/sim.gd -- 8 2 1 promo+solo   # solitario con la promo (anche: promo, solo)
 godot --headless --path . -s tests/save_load.gd            # il salvataggio ricostruisce la stessa partita
-python3 tests/firebase_mock.py 8765 & ...                  # due istanze online sul finto Firebase (tests/online_play.gd)
+python3 tests/firebase_mock.py 8765 & ...                  # due istanze online sul finto Firebase (tests/online_play.gd,
+                                                           # RT_DB_URL=…/db RT_AUTH_URL=…/signup e RT_SESSION diversi)
 xvfb-run godot --path . -s tests/shot.gd -- /tmp/foto 3 1920 1080 10   # fotografie dell'interfaccia
 python3 tools/controlla_glifi.py                           # nessun carattere mancante nei font
 ```

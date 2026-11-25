@@ -12,6 +12,8 @@ var on_name: LineEdit
 var on_code: LineEdit
 var on_lbl: Label
 var on_start: Button
+var promo := false
+var banchieri_promo := true
 
 const TIPI := ["Persona", "IA facile", "IA media", "IA forte"]
 
@@ -22,6 +24,8 @@ func _ready() -> void:
 		tipi = main.menu_state["tipi"]
 		n_gioc = main.menu_state["n"]
 		nomi = main.menu_state["nomi"]
+		promo = main.menu_state.get("promo", false)
+		banchieri_promo = main.menu_state.get("banchieri_promo", true)
 	var sf := TextureRect.new()
 	sf.texture = load("res://assets/ui/sfondo.webp")
 	sf.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -97,12 +101,12 @@ func _testo(t: String, w: float, dim := 21) -> Label:
 func _pannello_nuova() -> void:
 	var vb := _overlay(760)
 	vb.add_child(Stile.etichetta("Nuova partita", 48, "titolo", Stile.ORO_CHIARO))
-	vb.add_child(_testo("Da 2 a 4 banchieri. Ogni posto può essere una persona (sullo stesso dispositivo, con il passaggio di mano) o il computer. Le banche (Fugger, Medici, Cœur, Marchionni) si assegnano a caso; comincia chi ha i Fugger.", 740))
+	vb.add_child(_testo("Da 1 a 4 banchieri. Ogni posto può essere una persona (sullo stesso dispositivo, con il passaggio di mano) o il computer. Le banche (Fugger, Medici, Cœur, Marchionni) si assegnano a caso; comincia chi ha i Fugger. Con 1 giocatore si gioca il solitario ufficiale contro l'avversario automatico del Libro II.", 740))
 	var hn := HBoxContainer.new()
 	hn.add_theme_constant_override("separation", 10)
 	hn.add_child(Stile.etichetta("Giocatori:", 24, "titolo", Stile.PERGAMENA))
 	bottoni_n = []
-	for k in [2, 3, 4]:
+	for k in [1, 2, 3, 4]:
 		var b := Button.new()
 		b.text = str(k)
 		b.toggle_mode = true
@@ -117,6 +121,7 @@ func _pannello_nuova() -> void:
 	righe_box.add_theme_constant_override("separation", 8)
 	vb.add_child(righe_box)
 	_righe()
+	_opzioni_promo(vb, 740)
 	var hb := HBoxContainer.new()
 	hb.add_theme_constant_override("separation", 12)
 	var go := Button.new()
@@ -133,11 +138,46 @@ func _pannello_nuova() -> void:
 	vb.add_child(hb)
 
 
+## Casella della promo «Età della Riforma» (variante 1550) e dei suoi due banchieri.
+func _opzioni_promo(vb: VBoxContainer, w: float) -> void:
+	var cb := CheckBox.new()
+	cb.text = "Promo «Età della Riforma» (variante 1550)"
+	cb.button_pressed = promo
+	cb.add_theme_font_size_override("font_size", 22)
+	cb.custom_minimum_size = Vector2(w, 44)
+	vb.add_child(cb)
+	var spieg := _testo("Inghilterra e Sacro Romano Impero partono come teocrazie riformate, la rotta d'Occidente parte dal Mar Rosso (Trebisonda chiusa), Ungheria e Ottomani usano le nuove carte mappa (Confederazione polacco-lituana e Rumelia), 8 nuove carte di mercato, il quadrato bizantino al posto di quello ottomano e la quinta vittoria: la vittoria bizantina.", w, 18)
+	vb.add_child(spieg)
+	var cb2 := CheckBox.new()
+	cb2.text = "Anche i banchieri promo Alvaro Mendes e Cornelius Berenberg"
+	cb2.button_pressed = banchieri_promo
+	cb2.add_theme_font_size_override("font_size", 20)
+	cb2.custom_minimum_size = Vector2(w, 40)
+	cb2.disabled = not promo
+	vb.add_child(cb2)
+	cb.toggled.connect(func(x):
+		promo = x
+		cb2.disabled = not x)
+	cb2.toggled.connect(func(x): banchieri_promo = x)
+
+
 func _righe() -> void:
 	for i in bottoni_n.size():
-		bottoni_n[i].button_pressed = (i + 2) == n_gioc
+		bottoni_n[i].button_pressed = int(bottoni_n[i].text) == n_gioc
 	for c in righe_box.get_children():
 		c.queue_free()
+	if n_gioc == 1:
+		var h1 := HBoxContainer.new()
+		var le1 := LineEdit.new()
+		le1.placeholder_text = "Il tuo nome (giochi con i Fugger)"
+		le1.text = nomi[0]
+		le1.max_length = 22
+		le1.custom_minimum_size = Vector2(400, 52)
+		le1.text_changed.connect(func(t): nomi[0] = t)
+		h1.add_child(le1)
+		righe_box.add_child(h1)
+		righe_box.add_child(_testo("Solitario ufficiale: tu sei Fugger (3 ƒ), l'avversario automatico ha le altre tre concessioni iniziali e 4 ƒ. Le comete sono fra le ultime 8 carte di ogni mazzo. Vinci con una delle vittorie delle comete (non con quella dei mecenati); l'avversario vince se all'inizio del suo turno può dichiarare una vittoria, anche comprando una cometa, o se il mercato non si può più rifornire.", 740, 18))
+		return
 	for i in n_gioc:
 		var h := HBoxContainer.new()
 		h.add_theme_constant_override("separation", 10)
@@ -159,17 +199,23 @@ func _righe() -> void:
 
 
 func _salva_stato() -> void:
-	main.menu_state = {"tipi": tipi, "n": n_gioc, "nomi": nomi}
+	main.menu_state = {"tipi": tipi, "n": n_gioc, "nomi": nomi, "promo": promo, "banchieri_promo": banchieri_promo}
 
 
 func _config() -> Dictionary:
+	if n_gioc == 1:
+		var nm1: String = nomi[0].strip_edges()
+		return {"giocatori": [{"name": nm1 if nm1 != "" else "Tu", "ai": false, "bank": "Fugger"},
+			{"name": "", "ai": true, "livello": 2}], "seme": 1 + randi() % 2000000000,
+			"opzioni": {"banche_casuali": true, "solitario": true, "promo": promo}}
 	var gg := []
 	for i in n_gioc:
 		var nm: String = nomi[i].strip_edges()
 		if nm == "" and tipi[i] == 0:
 			nm = "Tu" if i == 0 else "Giocatore %d" % (i + 1)
 		gg.append({"name": nm, "ai": tipi[i] != 0, "livello": maxi(0, tipi[i] - 1)})
-	return {"giocatori": gg, "seme": 1 + randi() % 2000000000, "opzioni": {"banche_casuali": true}}
+	return {"giocatori": gg, "seme": 1 + randi() % 2000000000, "opzioni": {"banche_casuali": true, "promo": promo,
+		"banchieri_promo": promo and banchieri_promo}}
 
 
 func _inizia() -> void:
@@ -188,6 +234,8 @@ func _inizia() -> void:
 func _pannello_online() -> void:
 	var vb := _overlay(820)
 	vb.add_child(Stile.etichetta("Gioca online", 48, "titolo", Stile.ORO_CHIARO))
+	if n_gioc < 2:
+		n_gioc = 2
 	vb.add_child(_testo("Chi crea la stanza sceglie qui sotto quanti giocatori e quali posti sono persone: i posti «Persona» restano liberi per gli amici, che entrano con il codice di 4 lettere; i posti dell'IA (e quelli rimasti liberi alla partenza) li gioca il computer di chi ha creato la stanza. Si può rientrare nella partita con lo stesso codice.", 800))
 	righe_box = VBoxContainer.new()
 	var hn := HBoxContainer.new()
@@ -207,6 +255,7 @@ func _pannello_online() -> void:
 	vb.add_child(hn)
 	vb.add_child(righe_box)
 	_righe()
+	_opzioni_promo(vb, 800)
 	var ses: Dictionary = main.get_net().load_session()
 	on_name = LineEdit.new()
 	on_name.placeholder_text = "Il tuo nome"

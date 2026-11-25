@@ -9,6 +9,7 @@ static var confini := {}        # chiave -> confine
 static var confini_di := {}     # impero -> [chiavi dei confini]
 static var slot := {}           # impero -> [[indice città, sotto-posto]]
 static var caricato := false
+static var promo_attiva := false   # partita in corso con la promo «Età della Riforma» (immagini)
 
 const EST := ["Hungary", "Byzantium", "Ottoman", "Mamluk"]
 const OVEST := ["England", "France", "HRE", "Portugal", "Aragon", "PapalStates"]
@@ -91,5 +92,11 @@ static func nome_pezzo(t: String) -> String:
 	var p := t.split(":")
 	var n: String = NOMI_PEZZO.get(p[0], p[0])
 	if p.size() > 1 and NOMI_REL.has(p[1]):
-		return "%s %s" % [n, {"C": "d'oro", "I": "verde", "R": "rosso"}[p[1]]]
+		var rosso := "rossa" if p[0] == "R" else "rosso"
+		return "%s %s" % [n, {"C": "d'oro", "I": "verde", "R": rosso}[p[1]]]
 	return n
+
+
+## «un cavaliere rosso», «una torre d'oro».
+static func un_pezzo(t: String) -> String:
+	return ("una " if t.begins_with("R:") else "un ") + nome_pezzo(t)

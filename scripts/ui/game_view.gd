@@ -240,7 +240,9 @@ func _avvia() -> void:
 	eng = PaxEngine.new()
 	eng.nuova(gg, int(config.get("seme", 1)), config.get("opzioni", {}))
 	for i in gg.size():
-		if gg[i].get("ai", false):
+		if eng.bot_solitario(i):
+			eng.ais[i] = PaxSoloBot.new(2)
+		elif gg[i].get("ai", false):
 			eng.ais[i] = PaxAI.new(int(gg[i].get("livello", 2)))
 		else:
 			eng.ais[i] = PaxAI.new(2)
@@ -611,7 +613,7 @@ func _aggiorna_vittorie() -> void:
 	var g: GridContainer = troni_box.get_parent().get_parent().get_child(1).get_meta("griglia")
 	for c in g.get_children():
 		c.queue_free()
-	for v in ["santa", "imperiale", "globalizzazione", "rinascimento"]:
+	for v in eng.S["vict"]:
 		var tr := TextureRect.new()
 		var att: bool = eng.S["vict"][v]
 		tr.texture = load("res://assets/ui/vitt_%s_%s.webp" % [v, "B" if att else "A"])
@@ -654,7 +656,10 @@ func _aggiorna_giocatori() -> void:
 		sw.color = col
 		sw.custom_minimum_size = Vector2(18, 26)
 		testa.add_child(sw)
-		var nome := Stile.etichetta("%s (%s)%s" % [pl["name"], pl["bank"].replace("Coeur", "Cœur"), "  (di turno)" if p == S["cur"] else ""], 20, "titolo", Stile.ORO_CHIARO)
+		var banca: String = pl["bank"] if pl.get("promo_bank", "") == "" else pl["promo_bank"]
+		if pl.get("solo_bot", false):
+			banca += ", automa"
+		var nome := Stile.etichetta("%s (%s)%s" % [pl["name"], banca.replace("Coeur", "Cœur"), "  (di turno)" if p == S["cur"] else ""], 20, "titolo", Stile.ORO_CHIARO)
 		nome.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		nome.clip_text = true
 		testa.add_child(nome)
@@ -677,11 +682,11 @@ func _aggiorna_giocatori() -> void:
 		for id in west:
 			_aggiungi_tableau(flow, p, id)
 		var plac := TextureRect.new()
-		plac.texture = load("res://assets/ui/banca_%s.webp" % pl["bank"])
+		plac.texture = load("res://assets/ui/banca_%s.webp" % (pl["bank"] if pl.get("promo_bank", "") == "" else pl["promo_bank"]))
 		plac.custom_minimum_size = Vector2(58, 82)
 		plac.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		plac.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT
-		plac.tooltip_text = "Plancia della banca %s: a sinistra l'Occidente, a destra l'Oriente." % pl["bank"]
+		plac.tooltip_text = "Plancia della banca %s: a sinistra l'Occidente, a destra l'Oriente." % banca
 		flow.add_child(plac)
 		for id in pl["E"]:
 			_aggiungi_tableau(flow, p, id)

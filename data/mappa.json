@@ -354,6 +354,30 @@
       201,
       418
      ]
+    },
+    {
+     "nome": "Kiev",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:C"
+      ],
+      "I": [
+       "K:C"
+      ]
+     },
+     "pos": [
+      258,
+      140
+     ],
+     "solo_promo": true
     }
    ],
    "re": {
@@ -1373,7 +1397,102 @@
   "rinascimento": {
    "nome": "Vittoria del Rinascimento",
    "sotto": "Leonardo"
+  },
+  "bizantina": {
+   "nome": "Vittoria bizantina",
+   "sotto": "Filotea di Atene"
   }
+ },
+ "promo": {
+  "icone_M": {
+   "Hungary": [
+    [
+     "K:C"
+    ],
+    [
+     "K:R"
+    ],
+    [
+     "K:C"
+    ]
+   ],
+   "Ottoman": [
+    [
+     "R:R",
+     "K:R"
+    ],
+    [
+     "R:R"
+    ],
+    [
+     "R:C"
+    ]
+   ]
+  },
+  "pos_M": {
+   "Hungary": [
+    [
+     80,
+     386
+    ],
+    [
+     210,
+     410
+    ],
+    [
+     258,
+     140
+    ]
+   ],
+   "Ottoman": [
+    [
+     93,
+     98
+    ],
+    [
+     80,
+     258
+    ],
+    [
+     275,
+     232
+    ]
+   ]
+  },
+  "quadrato_ottomano": [
+   {
+    "nome": "Basileus Basilio Megas Comneno",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Esercito comneno"
+    ]
+   },
+   {
+    "nome": "Synkletos bizantino",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [],
+    "sotto": []
+   }
+  ],
+  "banche": [
+   {
+    "chiave": "Mendes",
+    "nome": "Mendes",
+    "persona": "Alvaro Mendes",
+    "confine": "Hungary-Ottoman"
+   },
+   {
+    "chiave": "Berenberg",
+    "nome": "Berenberg",
+    "persona": "Cornelius Berenberg",
+    "confine": "England-France"
+   }
+  ]
  },
  "pezzi": {
   "R:C": 10,

@@ -47,17 +47,18 @@ func decide(eng: PaxEngine, p: int, req: Dictionary) -> int:
 
 func _scegli_azione(eng: PaxEngine, p: int, opts: Array) -> int:
 	var base := valuta(eng, p)
-	var best := -1
-	var bv := -1e18
 	var rng := RandomNumberGenerator.new()
 	rng.seed = hash(str(eng.S["turno"]) + str(p) + str(eng.passi))
+	var valori := []
+	var stati := []
 	for i in opts.size():
 		var o: Dictionary = opts[i]
 		var v: float
+		var e2: PaxEngine = null
 		if o["k"] == "fine":
 			v = base - 0.3
 		else:
-			var e2 := eng.clona()
+			e2 = eng.clona()
 			var sub := PaxAI.new(livello)
 			sub.profondita = 0
 			e2.controller = sub
@@ -66,6 +67,34 @@ func _scegli_azione(eng: PaxEngine, p: int, opts: Array) -> int:
 			# una seconda azione ancora disponibile vale qualcosa
 			if o.get("gratis", false):
 				v += 0.2
+		valori.append(v)
+		stati.append(e2)
+	# IA forte: per le azioni più promettenti guarda anche la seconda azione del turno (combinazioni come
+	# comprare una cometa e dichiarare la vittoria, comprare e giocare subito una carta con evento)
+	if livello >= 2 and eng.S["fl"]["azioni"] == 0:
+		var ordine := range(opts.size())
+		ordine.sort_custom(func(a, b): return valori[a] > valori[b])
+		for n in mini(6, ordine.size()):
+			var i: int = ordine[n]
+			var e2: PaxEngine = stati[i]
+			if e2 == null or e2.S["over"] or e2.S["cur"] != p:
+				continue
+			var meglio: float = valori[i]
+			for o2 in e2.azioni_legali(p):
+				if o2["k"] == "fine":
+					continue
+				var e3 := e2.clona()
+				var sub3 := PaxAI.new(livello)
+				sub3.profondita = 0
+				e3.controller = sub3
+				await e3.esegui_azione(p, o2)
+				meglio = maxf(meglio, valuta(e3, p))
+			# metà del guadagno della seconda azione: gli avversari possono ancora reagire
+			valori[i] = valori[i] * 0.5 + meglio * 0.5
+	var best := -1
+	var bv := -1e18
+	for i in opts.size():
+		var v: float = valori[i]
 		if livello == 0:
 			v += rng.randf_range(-3.0, 3.0)
 		elif livello == 1:
@@ -90,7 +119,7 @@ func _scegli_op(eng: PaxEngine, p: int, opts: Array) -> int:
 	for i in opts.size():
 		var o: Dictionary = opts[i]
 		var v: float
-		if o["k"] == "fine":
+		if o["k"] == "fine" or not o.has("op"):
 			v = base - 0.05
 		else:
 			var e2 := eng.clona()
@@ -111,7 +140,7 @@ func _euristica_op(eng: PaxEngine, p: int, opts: Array) -> int:
 	for i in opts.size():
 		var o: Dictionary = opts[i]
 		var v := 0.0
-		if o["k"] == "fine":
+		if o["k"] == "fine" or not o.has("op"):
 			v = 0.1
 		else:
 			var nome: String = o["op"].split(":")[0]
@@ -292,7 +321,9 @@ func valuta(eng: PaxEngine, p: int) -> float:
 func _punteggio(eng: PaxEngine, p: int) -> float:
 	var S := eng.S
 	var pl: Dictionary = S["players"][p]
-	var v := float(pl["fl"]) * 1.0
+	# i fiorini valgono sempre meno quando si accumulano: l'IA li spende invece di tesaurizzarli
+	var fl: float = pl["fl"]
+	var v := fl if fl <= 8.0 else 8.0 + (fl - 8.0) * 0.35
 	for k in S["bord"]:
 		if S["bord"][k]["p"] == p:
 			v += 2.0 + _valore_confine(eng, k) * 0.6
@@ -315,10 +346,10 @@ func _punteggio(eng: PaxEngine, p: int) -> float:
 	for x in ["C", "I", "R", "L", "D", "P"]:
 		v += eng.conta_prestigio(p, x) * 0.5
 	for vt in S["vict"]:
-		var peso := 1.0 if S["vict"][vt] else 0.3
+		var peso := 2.2 if S["vict"][vt] else 0.5
 		v += _progresso(eng, p, vt) * peso
-		if S["vict"][vt] and eng.condizioni_vittoria(p, vt):
-			v += 60.0
+		if eng.condizioni_vittoria(p, vt):
+			v += 60.0 if S["vict"][vt] else 12.0
 	return v
 
 
@@ -343,6 +374,12 @@ func _progresso(eng: PaxEngine, p: int, vt: String) -> float:
 			for q in S["np"]:
 				if q != p:
 					best_o = maxf(best_o, eng.repubbliche(q) * 3.5 + eng.conta_prestigio(q, "L") * 2.0)
+		"bizantina":
+			var r0 := eng.religione_piu_teocrazie()
+			mio = eng.re_count(p) * 3.0 + (eng.conta_prestigio(p, r0) * 2.0 if r0 != "" else 0.0)
+			for q in S["np"]:
+				if q != p:
+					best_o = maxf(best_o, eng.re_count(q) * 3.0 + (eng.conta_prestigio(q, r0) * 2.0 if r0 != "" else 0.0))
 		"santa":
 			var r := eng.supremazia(p)
 			if r == "":

@@ -100,7 +100,7 @@ def main():
     tab.save(os.path.join(M, 'tabellone.webp'), quality=88)
     for f in glob.glob(os.path.join(R, 'tools', 'mappa_orig', '*_orig.webp')):
         b = os.path.basename(f)
-        if b.startswith('tabellone'):
+        if b.startswith(("tabellone", "promo_")):
             continue
         e = b.split('_')[0]
         im = traduci(Image.open(f), SOST[e])

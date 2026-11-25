@@ -47,7 +47,10 @@ func _process(delta: float) -> void:
 
 func percorso() -> String:
 	if id.begins_with("@"):
-		return "res://assets/imperi/%s_%s.webp" % [id.substr(1), lato_imp]
+		var e := id.substr(1)
+		if e == "Ottoman" and PaxDB.promo_attiva:
+			e = "OttomanP"
+		return "res://assets/imperi/%s_%s.webp" % [e, lato_imp]
 	if id.begins_with("retro"):
 		return "res://assets/carte/%s.webp" % id
 	var c: Dictionary = PaxDB.carte.get(id, {})

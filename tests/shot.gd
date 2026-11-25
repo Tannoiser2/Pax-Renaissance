@@ -36,13 +36,27 @@ func _run(np: int, w: int, h: int, turni: int) -> void:
 	await _snap("menu")
 	main.current._pannello_nuova()
 	await _snap("nuova")
+	main.current.n_gioc = 1
+	main.current._righe()
+	await _snap("nuova_solitario")
+	main.current.n_gioc = 3
+	main.current._pannello_online()
+	await _snap("online")
 	main.current._regole()
 	await _snap("regole")
 	var gg := [{"name": "Stefano", "ai": false}]
 	var nomi := ["Lorenzo", "Jakob", "Jacques"]
 	for i in range(1, np):
 		gg.append({"name": nomi[i - 1], "ai": true, "livello": 2})
-	main.start_game({"giocatori": gg, "seme": 11})
+	var modo := OS.get_environment("PAX_OPZ")
+	var opz := {"banche_casuali": true}
+	if modo.contains("promo"):
+		opz["promo"] = true
+		opz["banchieri_promo"] = true
+	if modo.contains("solo"):
+		opz["solitario"] = true
+		gg = [{"name": "Stefano", "ai": false, "bank": "Fugger"}, {"name": "", "ai": true}]
+	main.start_game({"giocatori": gg, "seme": 11, "opzioni": opz})
 	var g = main.current
 	await process_frame
 	g.eng.ai_delay = 0.0

@@ -101,6 +101,10 @@ func pos_citta(e: String, j: int) -> Vector2:
 	var p: Array = c["pos"]
 	if c.has("pos_multi"):
 		p = c["pos_multi"][sub]
+	if eng != null and eng.mappa_promo(e):
+		p = PaxDB.mappa["promo"]["pos_M"][e][ci]
+		if e == "Ottoman" and ci == 0:
+			p = [93 + 95 * sub, 98]
 	var v := Vector2(p[0], p[1])
 	if e == "PapalStates" and sub == 1:
 		v += Vector2(58, 10)
@@ -118,7 +122,8 @@ func bersaglio(m: Vector2) -> String:
 	var bd := 34.0
 	for e in PaxDB.ordine_imperi:
 		for j in PaxDB.slot[e].size():
-			if e == "PapalStates" and j == 1 and eng != null and not eng.condottieri_attivi():
+			# posti che non esistono ora (secondo posto di Venezia, città della carta mappa promo)
+			if eng != null and not eng.slot_attivo(e, j) and eng.emporio_citta(e, j) == "":
 				continue
 			var d := m.distance_to(pos_citta(e, j))
 			if d < bd:
@@ -149,8 +154,8 @@ func _draw() -> void:
 	# carte mappa delle teocrazie cambiate
 	for e in PaxDB.ordine_imperi:
 		var th: String = S["th"][e]
-		if th != PaxDB.imp(e)["stato_iniziale"]:
-			var t := tex("res://assets/mappa/%s_%s.webp" % [e, th])
+		if th != PaxDB.imp(e)["stato_iniziale"] or eng.mappa_promo(e):
+			var t := tex("res://assets/mappa/%s_%s.webp" % [e, "P" if eng.mappa_promo(e) else th])
 			if t:
 				var r := slot_rect(e)
 				draw_texture_rect(t, Rect2(a_schermo(r.position), r.size * zoom), false)
