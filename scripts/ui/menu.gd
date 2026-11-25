@@ -220,12 +220,7 @@ func _config() -> Dictionary:
 
 func _inizia() -> void:
 	var cfg := _config()
-	var umani := 0
-	for g in cfg["giocatori"]:
-		if not g["ai"]:
-			umani += 1
-	if umani == 0:
-		cfg["giocatori"][0]["ai"] = false
+	# tutti i posti all'IA: si guarda la partita (modalità spettatore)
 	_salva_stato()
 	main.start_game(cfg)
 

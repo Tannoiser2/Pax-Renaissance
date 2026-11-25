@@ -275,6 +275,9 @@ func decide(e: PaxEngine, p: int, req: Dictionary) -> int:
 		return await online.decide(e, p, req)
 	if p in umani:
 		return await chiedi(p, req)
+	if umani.is_empty() and online == null and vista != p:
+		# spettatore: si segue il giocatore di turno
+		vista = p
 	_aggiorna()
 	_mostra_attesa(p, req)
 	if eng.ai_delay > 0 and is_inside_tree():
@@ -744,7 +747,7 @@ func _aggiorna_mano() -> void:
 		c.queue_free()
 	var pl: Dictionary = eng.P(vista)
 	mano_lbl.text = "Mano di\n%s\n%d ƒ" % [pl["name"], pl["fl"]]
-	if online == null and not (vista in umani):
+	if online == null and not (vista in umani) and not umani.is_empty():
 		mano_lbl.text = "Mano di\n%s" % pl["name"]
 	for id in pl["hand"]:
 		var cv := CartaView.new()
@@ -753,7 +756,7 @@ func _aggiorna_mano() -> void:
 		cv.custom_minimum_size = Vector2(hh * 0.653, hh)
 		cv.premuto.connect(_clic_carta.bind("mano"))
 		cv.ingrandisci.connect(_zoom_carta)
-		if not (vista in umani) and online == null:
+		if not (vista in umani) and online == null and not umani.is_empty():
 			cv.id = "retro_" + PaxDB.carte[id]["mazzo"]
 		mano_box.add_child(cv)
 	if pl["hand"].is_empty():
