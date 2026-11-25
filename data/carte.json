@@ -1,0 +1,4677 @@
+[
+ {
+  "id": "PREN058",
+  "img": "52700",
+  "mazzo": "E",
+  "nome_en": "The Grim",
+  "nome": "Il Terribile",
+  "luogo": "Ottoman",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "behead",
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Visir di Selim",
+   "Giannizzeri",
+   "Olocausto degli aleviti sciiti"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Selim I «il Terribile», il cui regno da sultano triplicò l'impero ottomano. La conquista del sultanato mamelucco gli valse il titolo di califfo dell'Islam, successore religioso del profeta Maometto.\nSelim fece giustiziare così tanti visir che «Che tu possa essere visir di Selim» è ancora una maledizione ottomana."
+ },
+ {
+  "id": "PREN059",
+  "img": "52701",
+  "mazzo": "E",
+  "nome_en": "Safavids",
+  "nome": "Safavidi",
+  "luogo": "Byzantium",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "behead",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Olocausto degli aleviti sciiti",
+   "Conversioni forzate allo sciismo duodecimano"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Lo scià Ismail I fondò la dinastia safavide nel 1501. Unificò l'Iran, prima sunnita, sotto la scuola sciita duodecimana, dando inizio alla storia della Persia moderna.\nNel 1511 rivolte filosciite scoppiarono nel vicino impero ottomano, dinastia sunnita, e il sultano turco rispose conquistando l'Iran safavide."
+ },
+ {
+  "id": "PREN060",
+  "img": "52702",
+  "mazzo": "E",
+  "nome_en": "Dervishes",
+  "nome": "Dervisci",
+  "luogo": "TheEast",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "tax",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Sufi bektashi",
+   "Pellegrinaggio sufi, epurazione dei baba"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I bektashi seguivano Haji Bektash Veli, un derviscio che trovò rifugio in Anatolia nel XIII secolo. Da qui il bektashismo si diffuse nei Balcani, dove i suoi capi (dede o baba) contribuirono a convertire molti all'Islam.\nL'ordine sufi bektashi divenne l'ordine ufficiale dei giannizzeri d'élite."
+ },
+ {
+  "id": "PREN061",
+  "img": "52703",
+  "mazzo": "E",
+  "nome_en": "Qizilbash",
+  "nome": "Qizilbash",
+  "luogo": "TheEast",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "tax",
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Khurramiti",
+   "Milizia sciita",
+   "Olocausto degli aleviti sciiti"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il signore della guerra Ismail I conquistò la Persia nel 1501 proclamandosi scià di Azerbaigian e Iran. I suoi seguaci qizilbash lo dichiararono di nascita sciita divina, e i vari ordini sufi li seguirono.\nL'istituzione della religione di stato sciita in Persia, opposta all'Islam sunnita degli ottomani, segnò l'inizio della storia persiana moderna."
+ },
+ {
+  "id": "PREN062",
+  "img": "52704",
+  "mazzo": "E",
+  "nome_en": "Barbarossa Brothers",
+  "nome": "Fratelli Barbarossa",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Galeotte barbaresche"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "«Braccio d'argento» Aruj, detto Barbarossa, era uno di quattro fratelli marinai. Partendo da Smirne, Alessandria e Djerba, con patenti del sultano ottomano e dei mamelucchi, razziò navi e porti in tutto il Mediterraneo. Nel 1516 divenne sultano di Algeri liberandola dalla Spagna.\nAlla sua morte il fratello Hizir Reis ne prese il posto (e il soprannome)."
+ },
+ {
+  "id": "PREN063",
+  "img": "52705",
+  "mazzo": "E",
+  "nome_en": "Ottoman Navy",
+  "nome": "Marina ottomana",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Ammiraglia Göke"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I corsari ottomani Kurtoglu Muslihiddin Reis, Kemal Reis, Piri Reis e i Barbarossa cooperarono spesso nel Mediterraneo, usando sia le navi del sultanato sia le proprie flotte private. Nel 1522 Hayreddin mandò la sua flotta ad aiutare Kurtoglu nell'assedio dei Cavalieri di Rodi.\nL'ammiraglia di Kemal Reis era la nave da guerra Göke (nella figura), che portava 700 soldati e i cannoni più potenti del tempo."
+ },
+ {
+  "id": "PREN064",
+  "img": "52706",
+  "mazzo": "E",
+  "nome_en": "Jewish Pirates",
+  "nome": "Pirati ebrei",
+  "luogo": "Aragon",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Vendetta antiiberica"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nato da una famiglia ebrea sefardita fuggita dall'Inquisizione spagnola, Sinan Reis navigò come corsaro barbaresco per Hayreddin Barbarossa. Usava galeotte, navi veloci a vela e a remi.\nQuando il figlio di Sinan fu catturato per riscatto dalle forze imperiali nel 1540, Barbarossa guidò una missione di salvataggio riuscita."
+ },
+ {
+  "id": "PREN065",
+  "img": "52707",
+  "mazzo": "E",
+  "nome_en": "Mamluk Slave Soldiers",
+  "nome": "Soldati schiavi mamelucchi",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Califfi abbasidi",
+   "Assedio di Famagosta"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I mamelucchi, soldati-schiavi d'Egitto, erano soprattutto prigionieri circassi e georgiani. Non avendo legami con il potere locale, erano più fedeli dei capi tribali.\nSe un comandante di famiglia nobile si ribellava, non poteva essere punito senza disordini: per questo i comandanti mamelucchi senza casta erano una risorsa."
+ },
+ {
+  "id": "PREN066",
+  "img": "52708",
+  "mazzo": "E",
+  "nome_en": "Black Army",
+  "nome": "Esercito Nero",
+  "luogo": "Hungary",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Monastero di Grgeteg",
+   "Mercenari archibugieri",
+   "Drago di Fuoco"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R",
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Vuk Grgurević Branković fu despota titolare di Serbia durante l'occupazione ottomana. Governò gran parte dell'odierna Voivodina sotto la sovranità del re Mattia Corvino d'Ungheria.\nL'epica serba lo chiama Vuk il Drago di Fuoco per il valore con cui guidò l'«Esercito Nero» ungherese contro gli ottomani."
+ },
+ {
+  "id": "PREN067",
+  "img": "52709",
+  "mazzo": "E",
+  "nome_en": "Janissaries",
+  "nome": "Giannizzeri",
+  "luogo": "TheEast",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Kanun e raya",
+   "Guardia scelta del sultano",
+   "Gran visir"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I",
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I giannizzeri erano le truppe d'élite e le guardie del corpo del sultano ottomano. Fanteria disciplinata e moderna, furono tra i primi a usare moschetti e cannoni.\nLe reclute venivano scelte fra i figli più forti dei sudditi cristiani del sultano. La loro forza diede loro un potere politico sempre maggiore."
+ },
+ {
+  "id": "PREN068",
+  "img": "52710",
+  "mazzo": "E",
+  "nome_en": "Black Sheep Tribe",
+  "nome": "Tribù della Pecora Nera",
+  "luogo": "Byzantium",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Annessione di Diyarbakir",
+   "Turcomanni Kara Koyunlu"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Muzaffar al-Din Jahan Shah ibn Yusuf, capo dei turcomanni Kara Koyunlu (tribù della Pecora Nera) in Azerbaigian, Anatolia e Arran, nel 1447 annesse parte della penisola arabica, dell'Iraq e dell'Iran.\nFu però ucciso nel 1466 mentre tentava di strappare Diyarbakir alla Pecora Bianca, e i turcomanni della Pecora Nera crollarono del tutto."
+ },
+ {
+  "id": "PREN069",
+  "img": "52711",
+  "mazzo": "E",
+  "nome_en": "Bashi-bazouk",
+  "nome": "Bashi-bazouk",
+  "luogo": "TheEast",
+  "prestigio": [],
+  "ops": [
+   "tax"
+  ],
+  "sottotitoli": [
+   "Irregolari ottomani"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I bashi-bazouk, fanti irregolari e indisciplinati dell'esercito ottomano, non ricevevano paga regolare e vivevano di bottino. Erano poco più che banditi legalizzati."
+ },
+ {
+  "id": "PREN070",
+  "img": "52712",
+  "mazzo": "E",
+  "nome_en": "Zupy Krakowskie Company",
+  "nome": "Compagnia delle Saline di Cracovia",
+  "luogo": "Hungary",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "repress:R",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Confische székely",
+   "Libertà vigilata degli hajdú",
+   "Compagnia del sale"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Durante il regno di re Ladislao II i nobili proprietari terrieri accrebbero il loro potere e oppressero i servi della gleba.\nUn esercito contadino radunato per una crociata contro i turchi si ribellò quando la crociata fu sospesa nel 1514. Guidati da György Dózsa, i contadini in rivolta bruciarono manieri e uccisero i loro signori."
+ },
+ {
+  "id": "PREN071",
+  "img": "52713",
+  "mazzo": "E",
+  "nome_en": "The Handsome",
+  "nome": "Il Bello",
+  "luogo": "Hungary",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Giannizzeri",
+   "Pascià"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I",
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il giovane Radu, figlio di Dracul, divenne amico intimo del figlio del sultano, Maometto II (il Conquistatore), dopo che lui e il fratello Vlad furono presi in ostaggio. Quando Radu si convertì all'Islam, i due fratelli divennero nemici mortali.\nVlad prese il comando degli eserciti di Valacchia e Transilvania, contro Radu alla testa dei giannizzeri invasori. Radu vinse e divenne pascià di Valacchia."
+ },
+ {
+  "id": "PREN072",
+  "img": "52714",
+  "mazzo": "E",
+  "nome_en": "Bosnian & Serbian Silver",
+  "nome": "Argento bosniaco e serbo",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Elezioni contro i despoti",
+   "Miniere d'argento di Srebrenica e Novo Brdo"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Quando cadde Costantinopoli, i despoti bizantini di Morea fuggirono e la popolazione spaventata elesse arconti locali: gli albanesi sotto Petro Bua (nella figura), i greci sotto Manuele Cantacuzeno e gli achei sotto Giovanni Asen Zaccaria.\nI despoti tornarono, pagarono un pesante tributo agli ottomani e chiesero loro di intervenire per sedare la «rivolta»."
+ },
+ {
+  "id": "PREN073",
+  "img": "52715",
+  "mazzo": "E",
+  "nome_en": "The Crim Horde",
+  "nome": "L'Orda di Crimea",
+  "luogo": "Byzantium",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Razzie di schiavi del khan Abdan nella Gotia",
+   "Grano zichiano"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "In accordo con i banchieri genovesi di Caffa, il khan Haci I Giray dell'Orda di Crimea riceveva una percentuale dei profitti della tratta degli schiavi. Oberto Squarciafico, tesoriere di Genova a Caffa, invitò gli ottomani a intervenire in una faida dinastica fra i figli del khan nel 1475, sperando di diventare il nuovo console del Mar Nero.\nIl sultano invece lo giustiziò, deportò tutti gli italiani e fece del khanato un vassallo ottomano."
+ },
+ {
+  "id": "PREN074",
+  "img": "52716",
+  "mazzo": "E",
+  "nome_en": "The Kremlin",
+  "nome": "Il Cremlino",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Centuria di Ivan"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Novgorod",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "sincretismo"
+  ],
+  "rosse": [],
+  "testo_abilita": "SINCRETISMO: le tue carte sono immuni al silenziamento dei vescovi.",
+  "testo": "Ivan III il Grande di Mosca invase la Repubblica di Novgorod nel 1470, dichiarando apostasia dall'ortodossia la sua recente alleanza con il re di Polonia-Lituania.\nL'arcivescovo di Novgorod si arrese e le famiglie di boiari più ricche di Novgorod furono deportate a Mosca."
+ },
+ {
+  "id": "PREN075",
+  "img": "52717",
+  "mazzo": "E",
+  "nome_en": "Elzbieta of Bohemia",
+  "nome": "Elisabetta di Boemia",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [
+   "Hungary",
+   "Portugal",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Elisabetta d'Asburgo, erede dei regni d'Ungheria e di Boemia. Il matrimonio del 1453 con il re polacco Casimiro IV Jagellone li alleò ai re di Ungheria e Boemia, ma li mise in contrasto con l'imperatore.\nLa sua dote di 100.000 monete d'oro non fu mai pagata subito, e ciò le diede il pretesto per rivendicare le corone d'Ungheria e di Boemia.",
+  "regina": true
+ },
+ {
+  "id": "PREN076",
+  "img": "52718",
+  "mazzo": "E",
+  "nome_en": "Sophia Palaiologina",
+  "nome": "Sofia Paleologa",
+  "luogo": "Queen",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "repress:P",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Sudebnik di Ivan",
+   "Unificazione latino-greca"
+  ],
+  "pretendenti": [
+   "Hungary",
+   "Byzantium",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa principessa bizantina sposò Ivan III il Grande di Russia e fu nonna di Ivan il Terribile, primo zar di tutte le Russie.\nSofia sostenne l'idea di Mosca come «terza Roma», legittima erede di Costantinopoli e dei suoi imperatori, con il primate di Mosca a capo della religione ortodossa.",
+  "regina": true
+ },
+ {
+  "id": "PREN077",
+  "img": "52719",
+  "mazzo": "E",
+  "nome_en": "Hürrem Sultan Roxelana",
+  "nome": "Hürrem Sultan (Rossellana)",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "behead"
+  ],
+  "sottotitoli": [
+   "Sultanato delle donne",
+   "Rivalità fra principi"
+  ],
+  "pretendenti": [
+   "Byzantium",
+   "Ottoman",
+   "Mamluk"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Hürrem Sultan, detta Rossellana, fu catturata come schiava in Ucraina e comprata da Solimano il Magnifico a Caffa. Divenne la sua consorte preferita e poi sua moglie. Cristiana tollerata, incarnò il sistema ottomano dei millet, tolleranza legale delle altre fedi che anticipava il pluralismo religioso moderno.\nPer favorire il proprio figlio come futuro sultano, fece strangolare il figlio del sultano, Şehzade Mustafa.",
+  "regina": true
+ },
+ {
+  "id": "PREN078",
+  "img": "52720",
+  "mazzo": "E",
+  "nome_en": "Sitt-î Hatun of Dulkadir",
+  "nome": "Sitt-î Hatun di Dulkadir",
+  "luogo": "Queen",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [
+   "Mamluk",
+   "Ottoman",
+   "Hungary"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Sitt-î Mükrime Hatun era una delle figlie di Süleyman Bey, sesto sovrano dello stato di Dulkadir.\nIl suo matrimonio con Maometto II servì da alleanza fra gli ottomani e questo importante stato cuscinetto.",
+  "regina": true
+ },
+ {
+  "id": "PREN079",
+  "img": "52721",
+  "mazzo": "E",
+  "nome_en": "Carlotta Lusignan of Cyprus",
+  "nome": "Carlotta di Lusignano, regina di Cipro",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Guerra civile dei Lusignano",
+   "Piantagione di zucchero di Episkopi"
+  ],
+  "pretendenti": [
+   "Byzantium",
+   "Ottoman",
+   "Mamluk"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Carlotta fu incoronata regina dello stato crociato di Cipro a 14 anni. Il fratellastro illegittimo Zacco usò una forza di mamelucchi fornita dal gran dawadar per prendere il trono nel 1460.\nNonostante l'aiuto militare di Rodi, di papa Pio II e dei Savoia, non riuscì a riconquistare il regno.",
+  "regina": true
+ },
+ {
+  "id": "PREN080",
+  "img": "52722",
+  "mazzo": "E",
+  "nome_en": "Greek Klephts",
+  "nome": "Clefti greci",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Brigantaggio",
+   "Milizia degli armatoli"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Briganti dell'impero ottomano, i clefti erano uomini in fuga da tasse, debiti o rappresaglie dei funzionari ottomani.\nVivendo fra le aspre montagne di Grecia e Cipro, depredavano i viaggiatori e assaltavano le carovane ottomane. Alcuni divennero armatoli (milizia), altri continuarono la lotta fino alla guerra d'indipendenza greca (1821)."
+ },
+ {
+  "id": "PREN081",
+  "img": "52723",
+  "mazzo": "E",
+  "nome_en": "Crimean Goths",
+  "nome": "Goti di Crimea",
+  "luogo": "Byzantium",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:E",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Legge Jarlig dell'Orda d'Oro",
+   "Goti tatari"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Diverse tribù gotiche si stabilirono sugli aspri altopiani della Crimea, dando vita alla cultura gotica più longeva. Diedero rifugio ai profughi della brutale presa ottomana di Caffa nel 1475.\nPer giustificare le sue ambizioni razziste sulla Crimea, Adolf Hitler sostenne che la regione era ancora abitata da goti di lingua tedesca, dunque popolazione «ariana» autoctona."
+ },
+ {
+  "id": "PREN110X",
+  "img": "52800",
+  "mazzo": "E",
+  "nome_en": "Transylvanian Plot",
+  "nome": "Complotto transilvano",
+  "luogo": "Hungary",
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Assedio di Medgyes",
+   "Spie veneziane"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I",
+   "K:R"
+  ],
+  "abilita": [
+   "est_ovest"
+  ],
+  "rosse": [],
+  "testo_abilita": "SPIE DI GRITTI: puoi eseguire le operazioni d'Oriente e d'Occidente con una sola azione.",
+  "testo": "Alvise Gritti, figlio del doge di Venezia, fu al tempo stesso reggente d'Ungheria, ministro del sultano, socio d'affari del gran visir e spia veneziana.\nNel 1533 fu tradito a Carlo V come doppiogiochista che tramava contro l'imperatore con il sultano, la Francia, l'Inghilterra e la Baviera. Nel 1534 le truppe imperiali uccisero Gritti nel suo tentativo di conquistare la Transilvania."
+ },
+ {
+  "id": "PREN111X",
+  "img": "52801",
+  "mazzo": "E",
+  "nome_en": "Glinski's Rebellion",
+  "nome": "Ribellione di Glinski",
+  "luogo": "Hungary",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "repress:RK",
+   "siege",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Consiglio dei signori",
+   "Battaglia di Kleck",
+   "Cerai lituani"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Discendente della nobiltà ortodossa ungherese, Michele Glinski si arricchì nel lucroso commercio della cera, suscitando le ire della szlachta (i nobili). Dopo aver sconfitto il khanato di Crimea nel 1506, fu accusato di cospirazione e perse le sue ricchezze.\nProclamandosi difensore dei fedeli ortodossi discriminati, Glinski guidò una ribellione contro la corona lituana."
+ },
+ {
+  "id": "PREN112X",
+  "img": "52802",
+  "mazzo": "E",
+  "nome_en": "Phocoean Alum",
+  "nome": "Allume di Focea",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "repress:PR",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Mercato degli schiavi di Chio",
+   "Bartolomeo Zorzi, appaltatore dell'allume"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P",
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "L'allume, mordente necessario a fissare i colori sui tessuti, era una delle sostanze più preziose del Rinascimento. L'unica fonte europea era a Focea, perciò Genova e Venezia si fecero guerra per dominare questa concessione.\nDopo la guerra lampo ottomana, i veneziani riscattarono Bartolomeo Zorzi, un tintore di Costantinopoli, e ottennero così il controllo di questa concessione ottomana."
+ },
+ {
+  "id": "PREN113X",
+  "img": "52803",
+  "mazzo": "E",
+  "nome_en": "Dalmatian Merchant Marine",
+  "nome": "Marina mercantile dalmata",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Commercio sul Mar Nero"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "immuni_pirati"
+  ],
+  "rosse": [],
+  "testo_abilita": "IMMUNITÀ MARITTIMA RAGUSEA: le tue Concessioni non possono essere uccise dai pirati.",
+  "testo": "La Repubblica di Ragusa era una repubblica marinara con centro nella città di Dubrovnik.\nNel 1458 divenne vassalla degli ottomani, con un tributo annuo di 12.500 ducati al sultano. In cambio le navi ragusee ebbero accesso al Mar Nero, negato agli altri mercanti stranieri, e speciali esenzioni fiscali e vantaggi commerciali dalla Sublime Porta."
+ },
+ {
+  "id": "PREN114X",
+  "img": "52804",
+  "mazzo": "E",
+  "nome_en": "Counts of Celji",
+  "nome": "Conti di Celje",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "repress:PK"
+  ],
+  "sottotitoli": [
+   "Stara pravda"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I Celje erano la più importante famiglia nobile della Slovenia (fra Austria e Croazia). Furono annientati in una faida con il rivale clan degli Hunyadi per il ruolo di capitano generale d'Ungheria.\nNel 1515 una rivolta contadina (la Windischer Bauernbund) travolse la Slovenia. Gli 80.000 ribelli chiedevano rappresentanti per le tasse e il ritorno della «stara pravda» (gli antichi obblighi feudali e diritti commerciali). La ribellione fu soffocata dai mercenari imperiali."
+ },
+ {
+  "id": "PREN115X",
+  "img": "52805",
+  "mazzo": "E",
+  "nome_en": "Şahkulu Shi'ite Revolt",
+  "nome": "Rivolta sciita di Şahkulu",
+  "luogo": "Ottoman",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "behead",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Mullah sciiti",
+   "Şahkulu il Messia"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Consolidata la Persia sotto la dinastia safavide nel 1509, questa inviò agenti provocatori nel vicino impero ottomano, fomentando disordini fra i turcomanni simpatizzanti. Ne nacque una vasta insurrezione filosciita in Anatolia, guidata da un capo religioso sciita di nome Şahkulu.\nI ribelli uccisero i governatori sunniti locali e sconfissero all'inizio i giannizzeri mandati a fermarli."
+ },
+ {
+  "id": "PREN116X",
+  "img": "52806",
+  "mazzo": "E",
+  "nome_en": "Çelebi Tax Revolts",
+  "nome": "Rivolte fiscali di Çelebi",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Feudalesimo dei sipahi",
+   "Şahkulu, Nur Ali Halife, Baba Zünnun",
+   "Il mistico ribelle Çelebi"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Le rivolte di Kalender Çelebi furono una serie di insurrezioni contro gli ottomani, che prendono il nome dai seguaci del mistico ribelle Çelebi, anche se le rivolte successive ebbero altri capi.\nLe ribellioni, condotte da truppe sekban o sipahi nel 1527, non miravano a rovesciare il governo ma a protestare contro l'ammissione di non musulmani nell'esercito e contro il dominio dei giannizzeri sulle entrate fiscali."
+ },
+ {
+  "id": "PREN117X",
+  "img": "52807",
+  "mazzo": "E",
+  "nome_en": "Despina Khatun",
+  "nome": "Despina Khatun",
+  "luogo": "Queen",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "siege",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Tribù della Pecora Bianca",
+   "Leggenda della damigella in pericolo"
+  ],
+  "pretendenti": [
+   "Byzantium",
+   "Ottoman",
+   "Mamluk"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Famosa per la sua bellezza, la principessa bizantina Teodora Megale Comnena sposò il sovrano Aq Qoyunlu Uzun Hasan nel 1458, a condizione di conservare la sua religione cristiana ortodossa.\nCome regina della tribù della Pecora Bianca, avviò contatti diplomatici con Venezia nel 1465-1466 e con Stefano III di Moldavia nel 1474.",
+  "regina": true
+ },
+ {
+  "id": "PREN118X",
+  "img": "52808",
+  "mazzo": "E",
+  "nome_en": "Grand Mufti",
+  "nome": "Gran Muftì",
+  "luogo": "TheEast",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "behead"
+  ],
+  "sottotitoli": [
+   "Fatwa"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [
+   "genocidio"
+  ],
+  "rosse": [],
+  "testo_abilita": "GENOCIDIO: l'operazione di questa carta si può usare solo su una carta d'Oriente con un vescovo verde o rosso.",
+  "testo": "Benché il sultano Solimano sia onorato come il Legislatore, fu l'opposto. Per ordine del gran muftì Ebussuud, giudice supremo e massimo funzionario, la sharia cessò di essere una legge religiosa valida per tutti, sultano compreso. Divenne invece kanun, decreti emanati dal sultano, e i giudici divennero suoi funzionari.\nCiò diede a Solimano la libertà di sterminare gli yazidi."
+ },
+ {
+  "id": "PREN119X",
+  "img": "52809",
+  "mazzo": "E",
+  "nome_en": "Grand Hetman",
+  "nome": "Grande Etmano",
+  "luogo": "Hungary",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "tax",
+   "repress:PR",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Tassa militare",
+   "Statuto di Łaski",
+   "Confederazione polacco-lituana"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il grande etmano era il comandante militare dell'unione dinastica fra Polonia e Lituania.\nIl primo fu Kostantin Ostrogski, devoto ortodosso che guidò molte campagne contro la Moscovia dal 1497 al 1517.\nÈ uno dei tanti personaggi raffigurati nel dipinto di Matejko sull'Omaggio prussiano del 1525 (in alto)."
+ },
+ {
+  "id": "PREN120X",
+  "img": "52810",
+  "mazzo": "E",
+  "nome_en": "Agents of Dukagjini",
+  "nome": "Agenti dei Dukagjini",
+  "luogo": "Ottoman",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "repress:PR",
+   "siege",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Pronoia",
+   "Lega di Alessio",
+   "Faida degli Zaharia"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R",
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Lekë Dukagjini, membro violento della famiglia Dukagjini, è ricordato come il principe angelo, in contrasto con il principe drago Scanderbeg.\nDukagjini scrisse le leggi albanesi note come Kanun di Lekë Dukagjini, alcuni aspetti delle quali (le faide di sangue) sono riemersi nell'Albania degli anni Novanta."
+ },
+ {
+  "id": "PREN121X",
+  "img": "52811",
+  "mazzo": "E",
+  "nome_en": "Nomads of Tlemcen",
+  "nome": "Nomadi di Tlemcen",
+  "luogo": "Aragon",
+  "prestigio": [],
+  "ops": [
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Mercanti d'oro"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Timbuktu",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il regno di Tlemcen (1236-1554), governato in modo blando dai sultani zayyanidi, ospitava empori commerciali europei (funduq) attraverso cui l'oro transahariano entrava in Europa.\nVi circolavano lettere di cambio genovesi."
+ },
+ {
+  "id": "PREN122X",
+  "img": "52812",
+  "mazzo": "E",
+  "nome_en": "The Last Sigh",
+  "nome": "L'ultimo sospiro del Moro",
+  "luogo": "Portugal",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Tributo castigliano",
+   "Guerra civile di Maometto XII"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Timbuktu",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [
+   "est_ovest"
+  ],
+  "rosse": [],
+  "testo_abilita": "LEONE L'AFRICANO: puoi eseguire le operazioni d'Oriente e d'Occidente con una sola azione.",
+  "testo": "Il confine fra la Granada islamica e l'Andalusia cristiana era in perenne anarchia per le razzie, perché entrambi i regni erano travolti da guerre di successione.\nQuando Ferdinando e Isabella presero il controllo della Spagna, invasero e annessero Granada, ancora dilaniata dalla lotta fra l'emiro nasride e suo figlio Boabdil. Il luogo da cui Boabdil vide per l'ultima volta il suo emirato si chiama «l'ultimo sospiro del Moro»."
+ },
+ {
+  "id": "PREN123X",
+  "img": "52813",
+  "mazzo": "E",
+  "nome_en": "Nothing New",
+  "nome": "Nihil Novi",
+  "luogo": "Hungary",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "repress:PK",
+   "vote:E",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Seconda servitù della gleba",
+   "Szlachta",
+   "Confederazione polacco-lituana"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1505 fu approvata la «Nihil Novi» (in latino «niente di nuovo»): il re di Polonia non poteva emanare nuove leggi senza il permesso del Sejm, rappresentato dalla nobiltà alta e bassa.\nLa «Nihil Novi» della szlachta fondò una Confederazione con la Libertà dorata (per i nobili) e la seconda servitù della gleba (la ricaduta dei servi in schiavitù)."
+ },
+ {
+  "id": "PREN124X",
+  "img": "52814",
+  "mazzo": "E",
+  "nome_en": "The Last Byzantine",
+  "nome": "L'ultimo bizantino",
+  "luogo": "Byzantium",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "behead",
+   "repress:PR",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Tradimento di Amirutze",
+   "Riduzione in schiavitù",
+   "Corruzione al Concilio di Firenze"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Giorgio Amirutze, protovestiario e tesoriere di Trebisonda, negoziò in segreto la resa al cugino Mahmud Pascià, gran visir di Maometto II.\nCosì nel 1461 finì l'ultimo impero bizantino, con la riduzione in schiavitù dei cittadini e l'esecuzione del sovrano, mentre Amirutze ottenne un buon posto presso gli ottomani."
+ },
+ {
+  "id": "PREN125X",
+  "img": "52815",
+  "mazzo": "E",
+  "nome_en": "Beylerbey of Egypt",
+  "nome": "Beylerbey d'Egitto",
+  "luogo": "Mamluk",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "behead",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Solimano il Magnifico",
+   "Cittadella del Cairo"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:I",
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il governatore ottomano Hain Ahmed Pascià fu decapitato nel 1524 per essersi proclamato sultano di un Egitto indipendente. Il suo successore, Pargalı İbrahim Pascià, era un genio poliglotta passato da schiavo a gran visir.\nPer la sua riforma dei codici militari e civili, il Kanunname, e per i successi diplomatici in Occidente, Solimano fece decapitare anche lui."
+ },
+ {
+  "id": "PREN126X",
+  "img": "52816",
+  "mazzo": "E",
+  "nome_en": "Lizard Union",
+  "nome": "Unione della Lucertola",
+  "luogo": "HRE",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "repress:K",
+   "siege",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Statuti di Nieszawa",
+   "Guerra dei tredici anni",
+   "Confederazione prussiana"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R",
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I Cavalieri teutonici, che governavano la Prussia, imponevano alle città pesanti tasse senza rappresentanza.\nLa resistenza prussiana segreta, detta Unione della Lucertola, chiese al re Casimiro IV di incorporare le città prussiane nel regno polacco, dove la piccola nobiltà (szlachta) e le città avevano rappresentanza fiscale grazie agli Statuti di Nieszawa. Ne nacque la guerra dei tredici anni."
+ },
+ {
+  "id": "PREN127X",
+  "img": "52817",
+  "mazzo": "E",
+  "nome_en": "Red Sea Fleet",
+  "nome": "Flotta del Mar Rosso",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [
+   "repress:R",
+   "tax",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Rappresaglie di al-Ghuri",
+   "Rivolte fiscali di al-Ghuri",
+   "Commercio del Mar Rosso"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "RedSea",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [
+   "globalizzazione"
+  ],
+  "testo_abilita": "Dichiarare la vittoria della globalizzazione costa 2 azioni (tutti i giocatori).",
+  "testo": "Nel 1504 i veneziani mandarono al Cairo Francesco Teldi, travestito da gioielliere. Concluse un'alleanza fra Venezia e i mamelucchi contro i portoghesi, che bloccavano la rotta commerciale del Mar Rosso.\nNel 1514 anche l'ammiraglio ottomano Selman Reis si unì ai mamelucchi per rompere il blocco, e nel 1525 ci riuscì annettendo lo Yemen e creandovi una base navale."
+ },
+ {
+  "id": "PREN163X",
+  "img": "52818",
+  "mazzo": "E",
+  "nome_en": "Jizya Tax Revolt",
+  "nome": "Rivolta contro la jizya",
+  "luogo": "TheEast",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Foresta dei morti"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Vlad Țepeș l'Impalatore si rifiutò di pagare la jizya (la tassa sui non musulmani) di 10.000 ducati al sultano Maometto II e impalò oltre 23.000 turchi e bulgari per farsi capire.\nL'illustrazione mostra Vlad in un'incursione notturna a sorpresa nel campo turco, nel vano tentativo di uccidere il sultano."
+ },
+ {
+  "id": "PREN164X",
+  "img": "52819",
+  "mazzo": "E",
+  "nome_en": "Circassian Mamluks",
+  "nome": "Mamelucchi circassi",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [
+   "tax"
+  ],
+  "sottotitoli": [
+   "Famiglia burji"
+  ],
+  "pretendenti": [],
+  "oneshot": "jihad",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [
+   "eta_oro_mamelucca",
+   "soldati_schiavi"
+  ],
+  "rosse": [],
+  "testo_abilita": "ETÀ DELL'ORO MAMELUCCA: ogni tuo prestigio di mecenate conta come un vescovo verde per la tua vittoria santa.\nSOLDATI SCHIAVI: ogni pedina repressa sui Mamelucchi conta come un cavaliere nella tua campagna d'Oriente.",
+  "testo": "Sotto il turbolento sistema mamelucco (casta guerriera), l'esercito deteneva il potere politico ed economico, e una nuova aristocrazia circassa si formò con il diversificarsi del reclutamento."
+ },
+ {
+  "id": "PREN165X",
+  "img": "52820",
+  "mazzo": "E",
+  "nome_en": "Transylvanian Saxons",
+  "nome": "Sassoni di Transilvania",
+  "luogo": "Hungary",
+  "prestigio": [],
+  "ops": [
+   "vote:E",
+   "tax"
+  ],
+  "sottotitoli": [
+   "Unio Trium Nationum",
+   "Voivoda di Transilvania"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Tedeschi della classe patrizia si erano stabiliti in Transilvania a ondate dal XII secolo. Dopo la rivolta contadina del 1437 formarono un'unione difensiva con la nobiltà ungherese e i liberi siculi armati.\nAderivano all'ortodossia orientale in un'Ungheria in prevalenza cattolica."
+ },
+ {
+  "id": "PREN166X",
+  "img": "52821",
+  "mazzo": "E",
+  "nome_en": "Bank of St. George",
+  "nome": "Banco di San Giorgio",
+  "luogo": "Byzantium",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Console del mare Jacques Doria"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "banchieri_ebrei"
+  ],
+  "rosse": [],
+  "testo_abilita": "BANCHIERI EBREI: ogni tuo prestigio di mecenate riduce di 1 il costo delle operazioni di voto.",
+  "testo": "Nel 1453 la Repubblica di Genova vendette i suoi possedimenti in Crimea al banco privato di San Giorgio. La famiglia ebrea Ghisolfi continuò a gestire Matrega per conto del banco.\nTramite intermediari come Khozi Kokos mantennero relazioni con i sovrani di Moscovia e degli altri principati russi."
+ },
+ {
+  "id": "PREN167X",
+  "img": "52822",
+  "mazzo": "E",
+  "nome_en": "Twelver ghulat",
+  "nome": "Ghulat duodecimani",
+  "luogo": "Mamluk",
+  "prestigio": [
+   "I"
+  ],
+  "ops": [
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Sceicco Junayd"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "B:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Lo sceicco Junayd fu il primo capo spirituale safavide ad abbracciare esplicitamente gli insegnamenti dell'Islam sciita, in particolare quelli dei ghulat duodecimani, la setta prevalente dell'Islam sciita imamita.\nJunayd era venerato dai seguaci come incarnazione divina."
+ },
+ {
+  "id": "PREN168X",
+  "img": "52823",
+  "mazzo": "E",
+  "nome_en": "Zionist State",
+  "nome": "Stato sionista",
+  "luogo": "Mamluk",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:R",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Embargo antipapale",
+   "Commercio del pepe nero"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "protezione_solimano"
+  ],
+  "rosse": [],
+  "testo_abilita": "PROTEZIONE DI SOLIMANO: i pirati verdi contano sia come vescovi rossi sia come unità rosse nel calcolo della supremazia religiosa.",
+  "testo": "Gracia Mendes Nasi ereditò la banca Mendes e ne usò le ricchezze e le reti commerciali per fondare uno stato sionista in Galilea.\nConversos e altri profughi della diaspora ebraica accorsero in questo rifugio, nonostante gli intrighi della Controriforma."
+ },
+ {
+  "id": "PREN082",
+  "img": "52900",
+  "mazzo": "E",
+  "nome_en": "Damascus Coffee",
+  "nome": "Caffè di Damasco",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Rivolta mamelucca di al-Ghazali",
+   "Caffè Shams, il primo al mondo"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Janbirdi al-Ghazali, viceré nel sultanato mamelucco, passò agli ottomani invasori e fu ricompensato da Selim con il governatorato di Damasco.\nSottomise i nomadi turcomanni locali e riscosse pedaggi dai pellegrini. Tentando di restaurare il dominio mamelucco, si proclamò sovrano indipendente di Damasco, ma fu decapitato dagli eserciti di Solimano nel 1521."
+ },
+ {
+  "id": "PREN083",
+  "img": "52901",
+  "mazzo": "E",
+  "nome_en": "Pospolite Ruszenie",
+  "nome": "Pospolite ruszenie",
+  "luogo": "Hungary",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:E",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Libertà dorata",
+   "Leva della szlachta"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Le pospolite ruszenie erano milizie formate dalla szlachta (la nobiltà polacca). Attive durante la «Libertà dorata», periodo in cui il potere regio era tenuto a freno dal Sejm (il parlamento), furono infine superate dalle truppe professionali."
+ },
+ {
+  "id": "PREN084",
+  "img": "52902",
+  "mazzo": "E",
+  "nome_en": "The Timar System",
+  "nome": "Il sistema del timar",
+  "luogo": "TheEast",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege",
+   "inq:I"
+  ],
+  "sottotitoli": [
+   "Sipahi kapıkulu",
+   "Sipahi timarlı",
+   "Keetuda"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questo sistema feudale assegnava ai sipahi (la cavalleria ottomana) il controllo di terre coltivabili in una tenuta detta timar. La proprietà restava però allo stato ottomano.\nI sipahi rispondevano dei contadini della tenuta e impiegavano agenti (keetuda) per riscuotere le rendite e punire i malfattori mentre erano in campagna."
+ },
+ {
+  "id": "PREN085",
+  "img": "52903",
+  "mazzo": "E",
+  "nome_en": "Vlad the Impaler",
+  "nome": "Vlad l'Impalatore",
+  "luogo": "Hungary",
+  "prestigio": [],
+  "ops": [
+   "behead",
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Impalamento",
+   "Attacco notturno",
+   "Ordine del Drago"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C",
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Vlad III della casa di Drăculești, principe di Valacchia, era membro dell'Ordine del Drago.\nDracula guidò i romeni alle prime vittorie contro le incursioni ottomane, impalando le vittime in una foresta di pali. Molti boiari (nobili) inorriditi passarono dalla parte ottomana, guidati dall'odiato fratello di Vlad, Radu.\nVlad fu tradito e imprigionato nel 1462."
+ },
+ {
+  "id": "PREN086",
+  "img": "52904",
+  "mazzo": "E",
+  "nome_en": "Saint Stefan cel Mare",
+  "nome": "Santo Stefano il Grande",
+  "luogo": "Hungary",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "siege",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Christianae fidei athleta",
+   "Monastero ortodosso di Putna"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R",
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Stefano il Grande, re di Moldavia, è un santo della Chiesa ortodossa.\nDurante un matrimonio sopravvisse a un attentato del cognato, che uccise suo padre, il re. Da re fermò Maometto il Conquistatore a Vaslui impedendogli di invadere l'Ucraina, e difese abilmente la Moldavia da Polonia e Ungheria.\nNel 1503 divenne vassallo ottomano."
+ },
+ {
+  "id": "PREN087",
+  "img": "52905",
+  "mazzo": "E",
+  "nome_en": "Soninke Wangara",
+  "nome": "Wangara soninke",
+  "luogo": "Aragon",
+  "prestigio": [],
+  "ops": [
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Mercanti d'oro"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Timbuktu",
+  "agenti": [
+   "R:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questo regno algerino era governato in modo blando da Abu Abdallah IV della dinastia zayyanide, una dinastia berbera zenata di arabi nomadi. La loro ricchezza si basava sulle carovane d'oro transahariane da Taghaza e Timbuctù. Le fonti dell'oro e i centri di scambio erano un segreto gelosamente custodito.\nGli zayyanidi furono vassalli degli hafsidi, dei marinidi, dell'Aragona e degli ottomani."
+ },
+ {
+  "id": "PREN088",
+  "img": "52906",
+  "mazzo": "E",
+  "nome_en": "Cem Anti-Hostage",
+  "nome": "Cem, l'ostaggio",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "behead",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Fratricidio legale",
+   "Rivolta dei giannizzeri"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:I",
+   "R:I"
+  ],
+  "abilita": [
+   "riscatto"
+  ],
+  "rosse": [],
+  "testo_abilita": "RISCATTO: vendi questa carta per 4 fiorini invece di 2.",
+  "testo": "Alla morte del sultano Maometto II, i figli Bayezid e Cem si contesero il trono. Cem perse e cercò di fuggire in Egitto. Sbarcò invece a Rodi e chiese protezione ai Cavalieri.\nIl denaro passò di mano, ma non per liberare l'ostaggio. Cem conservava il favore popolare per il sultanato ed era una seria minaccia per il sultano Bayezid, che pagò ai Cavalieri un'enorme somma annua per tenere prigioniero il fratello."
+ },
+ {
+  "id": "PREN089",
+  "img": "52907",
+  "mazzo": "E",
+  "nome_en": "Grande of Spain",
+  "nome": "Grande di Spagna",
+  "luogo": "Byzantium",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "repress:K"
+  ],
+  "sottotitoli": [
+   "Partito ebolista",
+   "Principe di Eboli"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Rui Gomes da Silva, primo principe di Eboli, nobile portoghese e consigliere del re di Spagna, era noto fra gli ambasciatori stranieri come «Rey Gomes» (re Gomes).\nDifese un governo spagnolo federale e di compromesso anziché una monarchia accentrata. Fu nominato ambasciatore portoghese in Persia sotto Albuquerque il Grande."
+ },
+ {
+  "id": "PREN090",
+  "img": "52908",
+  "mazzo": "E",
+  "nome_en": "Duke of Athens",
+  "nome": "Duca di Atene",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Fortificazione dell'Acropoli"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La dinastia fiorentina degli Acciaiuoli controllava lo stato crociato di Atene e aiutò i Medici contro la fazione rivale degli Albizzi. Quando gli ottomani di Maometto II invasero, l'ultimo duca di Atene, Francesco II Acciaiuoli, resistette sull'Acropoli e poi divenne vassallo (e amante) di Maometto.\nNel 1460 il duca fu giustiziato «umanamente» per un presunto complotto per restaurarlo."
+ },
+ {
+  "id": "PREN093X",
+  "img": "52909",
+  "mazzo": "E",
+  "nome_en": "Funj Nomads",
+  "nome": "Nomadi funj",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "siege",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Monopolio regio",
+   "Amara Dunqas",
+   "Commercio del Mar Rosso"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1504 i popoli funj migrarono in Nubia e fondarono il sultanato di Sennar. Sostenuto da una cavalleria pesante, il sultano controllava le carovane dell'oro e il lucroso commercio del Mar Rosso.\nIl suo monopolio e le sue pretese di divinità furono erosi da una ricca classe di mercanti islamici colti, che combattevano la scarsa ortodossia del regno."
+ },
+ {
+  "id": "PREN094X",
+  "img": "52910",
+  "mazzo": "E",
+  "nome_en": "Zaporozhian Host",
+  "nome": "Armata zaporoga",
+  "luogo": "Byzantium",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Codice cosacco",
+   "Rivolte dei cosacchi registrati"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La Sič zaporoga era una comunità cosacca semiautonoma in Ucraina. Crebbe rapidamente nel 1471 con i servi in fuga dalla servitù della Confederazione polacco-lituana.\nI cosacchi zaporoghi, votati al cristianesimo ortodosso, sfidarono l'autorità della Confederazione polacco-lituana, dello zarato di Russia e del khanato di Crimea."
+ },
+ {
+  "id": "PREN095X",
+  "img": "52911",
+  "mazzo": "E",
+  "nome_en": "Elizabeth Báthory",
+  "nome": "Elisabetta Báthory",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "repress:P"
+  ],
+  "sottotitoli": [
+   "Coscrizione per la Lunga Guerra"
+  ],
+  "pretendenti": [
+   "Byzantium",
+   "Hungary",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "rappresaglie"
+  ],
+  "rosse": [],
+  "testo_abilita": "RAPPRESAGLIE POPOLARI: come azione, scarta questa carta per scatenare una rivolta contadina nel suo impero.",
+  "testo": "Questa famigerata contessa ungherese della nobile famiglia Báthory è nel Guinness dei primati come l'assassina con più vittime della storia. Le testimonianze di oltre 300 persone confermarono centinaia di giovani vittime, alcune trovate torturate e orribilmente mutilate nel castello di Csejte.\nLa famiglia, che governava la Transilvania, ottenne per lei gli arresti domiciliari invece di un processo scandaloso.",
+  "regina": true
+ },
+ {
+  "id": "PREN098X",
+  "img": "52912",
+  "mazzo": "E",
+  "nome_en": "Unity of the Brethren",
+  "nome": "Unità dei Fratelli",
+  "luogo": "HRE",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "repress:K",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Pacifismo",
+   "Riforma boema"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1457 i discepoli di Jan Hus chiamati «Unitas Fratrum» si separarono dalla Chiesa di Roma, che giudicavano irrimediabilmente corrotta. Più tardi si separarono anche dagli utraquisti e da Lutero, divenendo l'odierna Chiesa morava.\nAi fedeli si chiedevano regole severissime di morale e modestia. Lussi, giuramenti e servizio militare erano proibiti. I peccati venivano confessati e puniti in pubblico."
+ },
+ {
+  "id": "PREN099X",
+  "img": "52913",
+  "mazzo": "E",
+  "nome_en": "Papal Legate to Persia",
+  "nome": "Legato pontificio in Persia",
+  "luogo": "TheEast",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:C",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Inviato imperiale e papale",
+   "Concilio di Firenze"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "IC",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Con la mediazione dell'instancabile francescano fra' Bologna, il papato e la Repubblica di Venezia strinsero un'alleanza militare con Uzun Hasan, capo del vasto impero persiano. La grande offensiva di Hasan contro gli ottomani all'inizio riuscì, ma si arenò quando l'aiuto occidentale non arrivò come previsto.\nUzun morì nel 1478, costringendo Venezia a firmare un costoso trattato di pace con gli ottomani."
+ },
+ {
+  "id": "PREN100X",
+  "img": "52914",
+  "mazzo": "E",
+  "nome_en": "Unified Christendom",
+  "nome": "Cristianità unita",
+  "luogo": "TheEast",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [
+   "inq:C",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Legato pontificio",
+   "Partito antiscismatico"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RI",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Al Concilio di Firenze del 1439 i vescovi d'Oriente e d'Occidente firmarono un compromesso per riunificare le fedi cattolica e ortodossa. Al ritorno, i vescovi orientali guidati dall'unionista Bessarione videro l'accordo largamente respinto finché gli ottomani non furono quasi alle porte.\nL'Unione fra Oriente e Occidente fu proclamata nel 1452, ma troppo tardi: Costantinopoli cadde l'anno dopo. Bessarione divenne cardinale, studioso umanista e legato pontificio."
+ },
+ {
+  "id": "PREN101X",
+  "img": "52915",
+  "mazzo": "E",
+  "nome_en": "Civil Engineer",
+  "nome": "Ingegnere civile",
+  "luogo": "TheEast",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "fortificazioni"
+  ],
+  "rosse": [],
+  "testo_abilita": "FORTIFICAZIONI: puoi «attivare le operazioni d'Oriente» senza spendere un'azione.",
+  "testo": "Mimar Sinan, capo architetto e ingegnere civile dei sultani Solimano il Magnifico, Selim II e Murad III. La formazione da ingegnere militare lo portò a un approccio empirico, non teorico, all'architettura.\nFino alla morte, a 100 anni, costruì oltre 300 grandi ponti, acquedotti e moschee. I suoi allievi progettarono la moschea del sultano Ahmed a Istanbul, lo Stari Most di Mostar e il Taj Mahal nell'impero moghul."
+ },
+ {
+  "id": "PREN102X",
+  "img": "52916",
+  "mazzo": "E",
+  "nome_en": "Sahn-ı Seman Medrese",
+  "nome": "Medrese Sahn-ı Seman",
+  "luogo": "Ottoman",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "navigazione"
+  ],
+  "rosse": [],
+  "testo_abilita": "NAVIGAZIONE ASTRONOMICA: i tuoi prestigi di mecenate contano come Concessioni per la vittoria della globalizzazione.",
+  "testo": "Il complesso della medrese (università islamica) ottomana a Costantinopoli divenne il più grande centro di studi dell'Islam: teologia, diritto, medicina, astronomia, fisica e matematica.\nFu fondato nel 1470 dall'astronomo turco Ali Kuşçu, i cui studi sulla forma e le dimensioni della Terra, sulla longitudine e la latitudine e sui moti delle stelle furono un vantaggio per la navigazione."
+ },
+ {
+  "id": "PREN103X",
+  "img": "52917",
+  "mazzo": "E",
+  "nome_en": "Academia",
+  "nome": "Accademia",
+  "luogo": "Hungary",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "vote:E"
+  ],
+  "sottotitoli": [
+   "Società accademica"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "conta_repubblica"
+  ],
+  "rosse": [],
+  "testo_abilita": "UNIVERSITÀ LAICA: questa carta conta come una Repubblica per la vittoria del Rinascimento.",
+  "testo": "La Sodalitas Litterarum Vistulana del 1488 era una società accademica internazionale fondata a Cracovia da Conrad Celtes. Era attiva in matematica, astronomia e scienze naturali. Fra i membri illustri: Albert Brudzewski, Filippo Callimaco e Laurentius Corvinus.\nEra modellata sull'Accademia romana, i cui membri furono imprigionati dall'antiumanista papa Paolo II."
+ },
+ {
+  "id": "PREN104X",
+  "img": "52918",
+  "mazzo": "E",
+  "nome_en": "Theft of the Holy Crown",
+  "nome": "Il furto della Sacra Corona",
+  "luogo": "Queen",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [
+   "Hungary"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "riscatto"
+  ],
+  "rosse": [],
+  "testo_abilita": "RISCATTO: vendi questa carta per 4 fiorini invece di 2.",
+  "testo": "Nessun re d'Ungheria era considerato legittimo senza un'incoronazione con la Sacra Corona di Santo Stefano.\nNel 1440 la regina Elisabetta, incinta e nascosta nel castello di Komárno, ordinò alla sua governante Helene Kottanner di rubare la corona ai rivali nella fortezza di Visegrád. Helene attraversò di soppiatto il Danubio ghiacciato e si intrufolò nel forte. Nel furto piegò la croce della corona (in alto).",
+  "regina": true
+ },
+ {
+  "id": "PREN105X",
+  "img": "52919",
+  "mazzo": "E",
+  "nome_en": "Franco-Ottoman Navy",
+  "nome": "Flotta franco-ottomana",
+  "luogo": "Aragon",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "siege",
+   "corsair:I",
+   "corsair:C"
+  ],
+  "sottotitoli": [
+   "Assedio di Corfù (1537)",
+   "Barbarossa",
+   "Guerra franco-asburgica (1521-29)"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Novgorod",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Quando Francesco I si trovò circondato dai domini asburgici di Carlo V, si alleò con gli ottomani e condusse operazioni congiunte con Hayreddin Barbarossa negli assedi di Corfù (1537) e di Nizza (1548).\nIl mondo cristiano ne fu scandalizzato."
+ },
+ {
+  "id": "PREN106X",
+  "img": "52920",
+  "mazzo": "E",
+  "nome_en": "Prussian League Navy",
+  "nome": "Flotta della Lega prussiana",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:C",
+   "commerce:E"
+  ],
+  "sottotitoli": [
+   "Incursioni contro l'Hansa",
+   "Battaglia della laguna della Vistola",
+   "Grano di Danzica"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La città di Danzica, memore del massacro teutonico e oppressa dalle tasse, assoldò corsari polacchi nel 1461. Vincent Stolle, Johann Kolmener e Jacob Vochs usavano snikken (navi mercantili leggere con 50 archibugieri e balestrieri) con grande successo nella guerra dei tredici anni.\nPredavano non solo le galee teutoniche, ma anche le navi anseatiche di Lubecca, comprate con vantaggiosi diritti commerciali teutonici."
+ },
+ {
+  "id": "PREN107X",
+  "img": "52921",
+  "mazzo": "E",
+  "nome_en": "Tersâne-i Âmire",
+  "nome": "Tersâne-i Âmire",
+  "luogo": "Ottoman",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Corsari"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "RedSea",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [
+   "immuni_pirati"
+  ],
+  "rosse": [],
+  "testo_abilita": "ARSENALE IMPERIALE: le tue Concessioni non possono essere uccise dai pirati.",
+  "testo": "Dopo la caduta di Costantinopoli, Maometto II fondò un nuovo cantiere navale, il Tersâne-i Âmire (Arsenale imperiale), sul Corno d'Oro.\nDa qui l'ammiraglio ottomano Kemal Reis diresse di persona la riparazione e la trasformazione delle sue galee. Guidò la flotta a evacuare Granada (1487), a schiacciare la marina veneziana (1499, primo uso dei cannoni sulle navi) e nell'Atlantico fino alle Canarie (1501)."
+ },
+ {
+  "id": "PREN108X",
+  "img": "52922",
+  "mazzo": "E",
+  "nome_en": "Isfendiyarid dynasty",
+  "nome": "Dinastia isfendiyaride",
+  "luogo": "Byzantium",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Pirati del Mar Nero"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa dinastia turcomanna governò per oltre un secolo il beylik di Sinope, sulla costa meridionale del Mar Nero.\nQuando nel 1461 arrivò la flotta di Maometto il Conquistatore, la città era fortificata con 400 cannoni serviti da 2.000 artiglieri. Ciononostante il bey isfendiyaride Kemâleddin İsmâil si arrese in cambio di una provincia in Tracia."
+ },
+ {
+  "id": "PREN109X",
+  "img": "52923",
+  "mazzo": "E",
+  "nome_en": "Brotherhood of St. Mark",
+  "nome": "Confraternita di San Marco",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "behead"
+  ],
+  "sottotitoli": [
+   "Duello giudiziario"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il gran maestro Hans Talhoffer della corporazione schermistica dei Marxbrüder ottenne il monopolio imperiale del titolo di «maestro di spada lunga» nel 1487. Un lanzichenecco armato di spadone con questo brevetto aveva diritto a doppia paga (Doppelsöldner).\nTalhoffer era il massimo giudice di duelli nei processi per combattimento previsti dal diritto germanico."
+ },
+ {
+  "id": "PREN143X",
+  "img": "53100",
+  "mazzo": "W",
+  "nome_en": "Wolf of Rimini",
+  "nome": "Il Lupo di Rimini",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "siege",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Rivolta dei baroni napoletani",
+   "Vetrai di Murano"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [
+   "condottiero"
+  ],
+  "rosse": [],
+  "testo_abilita": "CONDOTTIERO: Venezia può ospitare 2 cavalieri d'oro invece di 1.",
+  "testo": "Sigismondo Pandolfo Malatesta, signore di Rimini, Fano e Cesena dal 1432. Brillante condottiero, servì il papato, Firenze, Siena, Napoli e gli Sforza di Milano.\nFu scomunicato da Pio II, che bandì una crociata contro di lui. Trovò rifugio a Venezia e guidò le forze veneziane nella campagna del 1465 contro l'impero ottomano."
+ },
+ {
+  "id": "PREN144X",
+  "img": "53101",
+  "mazzo": "W",
+  "nome_en": "Mons Meg",
+  "nome": "Mons Meg",
+  "luogo": "England",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Il Douglas Nero"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Mons Meg era la più grande bombarda fuori dall'impero ottomano. Nel 1453 il duca di Borgogna la donò al nipote Giacomo II, re di Scozia, convinto che un intervento scozzese nella guerra delle Due Rose avrebbe aiutato la Borgogna.\nGiacomo usò il cannone da 510 mm per assediare le città scozzesi ancora occupate dagli inglesi. Morì durante un assedio, quando un suo cannone esplose."
+ },
+ {
+  "id": "PREN145X",
+  "img": "53102",
+  "mazzo": "W",
+  "nome_en": "Kappeler Milchsuppe",
+  "nome": "La zuppa di latte di Kappel",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "vote:W"
+  ],
+  "sottotitoli": [
+   "Dieta federale svizzera"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [
+   "imperiale"
+  ],
+  "testo_abilita": "Dichiarare la vittoria imperiale costa 2 azioni (tutti i giocatori).",
+  "testo": "Nel 1529 i cantoni protestanti della Svizzera marciarono contro i cantoni cattolici. Una mediazione dell'ultimo minuto della Tagsatzung svizzera evitò lo scontro.\nGli eserciti condivisero invece pacificamente una Milchsuppe (zuppa di latte), cotta in una pentola posta proprio sul confine fra i cantoni."
+ },
+ {
+  "id": "PREN146X",
+  "img": "53103",
+  "mazzo": "W",
+  "nome_en": "Bank of Strozzi",
+  "nome": "Banco Strozzi",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "vote:W",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Corruzione della Signoria",
+   "Fra' Luca Pacioli"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "mano_illimitata"
+  ],
+  "rosse": [],
+  "testo_abilita": "PARTITA DOPPIA: il limite di carte in mano è illimitato.",
+  "testo": "La dinastia di banchieri Strozzi corruppe la Signoria fiorentina per esiliare il loro più grande rivale, Cosimo de' Medici. La mossa si ritorse contro di loro e gli Strozzi furono esiliati nel 1434.\nFilippo Strozzi si riconciliò con Cosimo e tornò a Firenze nel 1462, ma suo figlio Filippo II (in alto) finanziò l'assassinio di un duca Medici e una fallita rivolta antimedicea nel 1537."
+ },
+ {
+  "id": "PREN147X",
+  "img": "53104",
+  "mazzo": "W",
+  "nome_en": "William Caxton",
+  "nome": "William Caxton",
+  "luogo": "England",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Venerabile Compagnia dei Merciai"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "mano_illimitata"
+  ],
+  "rosse": [],
+  "testo_abilita": "STAMPA: il limite di carte in mano è illimitato.",
+  "testo": "Il mercante William Caxton introdusse la stampa in Inghilterra (Westminster, 1476). Il primo libro stampato e venduto fu un'edizione dei Racconti di Canterbury di Chaucer.\nA Caxton si attribuisce l'uniformazione dei dialetti regionali inglesi grazie alla stampa."
+ },
+ {
+  "id": "PREN148X",
+  "img": "53105",
+  "mazzo": "W",
+  "nome_en": "Tolfa Alum",
+  "nome": "Allume della Tolfa",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "vote:W",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Camera apostolica",
+   "Industria tintoria pontificia"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P",
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La Tolfa acquistò d'improvviso importanza quando il figlioccio del papa vi scoprì giacimenti di allume nel 1461. Questa sostanza, essenziale per la tintura, prima si poteva avere solo da una concessione veneziana pesantemente tassata nell'impero ottomano.\nIl banchiere Agostino Chigi, finanziatore di papa Giulio II, ottenne questa concessione nel 1501 e divenne l'uomo più ricco di Roma."
+ },
+ {
+  "id": "PREN149X",
+  "img": "53106",
+  "mazzo": "W",
+  "nome_en": "Cornish Tin",
+  "nome": "Stagno della Cornovaglia",
+  "luogo": "England",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Parlamento delle Stannarie",
+   "Gilda dello stagno della Cornovaglia"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "L'imposta del 1497 cancellò i diritti concessi in passato al Parlamento delle Stannarie della Cornovaglia. I minatori dello stagno si ribellarono, forti di una tradizione arturiana di resistenza al dominio normanno. Guidati da un fabbro, i dimostranti marciarono pacificamente verso Londra, ma furono schiacciati brutalmente dalle truppe del re richiamate dalla Scozia.\nTuttavia nel 1508 il re concesse alle Stannarie il diritto di veto in Parlamento."
+ },
+ {
+  "id": "PREN150X",
+  "img": "53107",
+  "mazzo": "W",
+  "nome_en": "Catalan Pactists",
+  "nome": "Pattisti catalani",
+  "luogo": "Aragon",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W"
+  ],
+  "sottotitoli": [
+   "Fazione della Busca"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il pattismo sosteneva un «patto e convenzione fra Sua Maestà e la Provincia». Nella «guerra contro Giovanni II» i pattisti catalani di Joan Dusai vinsero la prima scaramuccia e poterono scegliere se diventare una repubblica indipendente come Venezia o cercare un accordo con il re.\nDopo un decennio di guerra (1462-1472) la roccaforte costituzionalista di Barcellona si arrese."
+ },
+ {
+  "id": "PREN151X",
+  "img": "53108",
+  "mazzo": "W",
+  "nome_en": "Catherine of Navarre",
+  "nome": "Caterina di Navarra",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Guerra delle bande basche"
+  ],
+  "pretendenti": [
+   "Portugal",
+   "France",
+   "Aragon"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "stato_cuscinetto"
+  ],
+  "rosse": [],
+  "testo_abilita": "STATO CUSCINETTO: Portogallo e Francia non sono adiacenti (per tutti i giocatori).",
+  "testo": "Alla morte del fratello, il re, Caterina divenne regina di Navarra, piccolo regno basco sui Pirenei. Anche suo zio rivendicò il trono in una guerra civile (1483-1492) che riaccese le antiche faide fra Beaumont e Agramont.\nI Beaumont volevano che Caterina (15 anni) sposasse il figlio di Isabella e Ferdinando. Quando sposò invece un signore francese, Ferdinando, sottomessa Granada, invase e annesse la Navarra nel 1512.",
+  "regina": true
+ },
+ {
+  "id": "PREN152X",
+  "img": "53109",
+  "mazzo": "W",
+  "nome_en": "Margaret of Austria",
+  "nome": "Margherita d'Austria",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "vote:W"
+  ],
+  "sottotitoli": [
+   "Elezione nella Franca Contea"
+  ],
+  "pretendenti": [
+   "England",
+   "Portugal",
+   "Aragon",
+   "France"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa principessa asburgica, promessa via via ai principi di Francia, Spagna e Savoia, governò i Paesi Bassi per 24 anni come una delle più forti guide d'Europa.\nMediatrice fra il padre Massimiliano e i suoi sudditi, negoziò accordi commerciali favorevoli agli interessi tessili fiamminghi e la «Pace delle Dame» di Cambrai.",
+  "regina": true
+ },
+ {
+  "id": "PREN153X",
+  "img": "53110",
+  "mazzo": "W",
+  "nome_en": "The Mary Rose",
+  "nome": "La Mary Rose",
+  "luogo": "England",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "repress:RK",
+   "tax",
+   "corsair:R"
+  ],
+  "sottotitoli": [
+   "Obbligazioni e garanzie di Enrico VII",
+   "Benevolenze",
+   "Guerre anglo-anseatiche"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Enrico VIII ereditò cinque navi da guerra reali dal programma navale del padre Enrico VII. Le portò a 40, fra cui la sua preferita, la Mary Rose, una grande caracca varata nel 1511. Fu la prima ad avere i portelli per i cannoni, che le permettevano di sparare bordate.\nAffondò improvvisamente durante una battaglia contro una grande invasione francese nel 1545."
+ },
+ {
+  "id": "PREN154X",
+  "img": "53111",
+  "mazzo": "W",
+  "nome_en": "European Union",
+  "nome": "Unione europea",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "repress:R"
+  ],
+  "sottotitoli": [
+   "Zdeněk Lev, supremo burgravio di Praga"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Novgorod",
+  "agenti": [
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [
+   "imperiale"
+  ],
+  "testo_abilita": "Dichiarare la vittoria imperiale costa 2 azioni (tutti i giocatori).",
+  "testo": "Il concetto medievale di un impero universale guidato dall'imperatore e dal papa fu sostituito da un nuovo paradigma proposto nel 1462 da Giorgio di Poděbrady, re di Boemia: un accordo multilaterale fra stati cristiani uguali, come un'Unione europea ante litteram.\nIl papa rispose scomunicando Giorgio e bandendo una crociata contro i suoi cristiani hussiti."
+ },
+ {
+  "id": "PREN155X",
+  "img": "53112",
+  "mazzo": "W",
+  "nome_en": "Epicurean Swerve",
+  "nome": "La deviazione epicurea",
+  "luogo": "TheWest",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "conta_repubblica",
+   "immune_apostasia"
+  ],
+  "rosse": [
+   "santa"
+  ],
+  "testo_abilita": "Dichiarare la vittoria santa costa 2 azioni (tutti i giocatori).\nDE RERUM NATURA: questa carta conta come una Repubblica per la tua vittoria del Rinascimento.\nLA RELIGIONE COME ILLUSIONE: sei immune all'apostasia.",
+  "testo": "La riscoperta di un libro sul filosofo greco Epicuro rese popolare l'idea che tutto sia una «deviazione» di forze fra atomi eterni. Da qui nascono la terra, la vita e il libero arbitrio. Non siamo speciali, l'universo non è stato creato per noi, e moralmente dovremmo cercare il piacere e non il dolore.\nIl papa bruciò tutto ciò che poté, ma era troppo tardi: l'Italia aveva iniziato la sua deviazione verso la modernità."
+ },
+ {
+  "id": "PREN156X",
+  "img": "53113",
+  "mazzo": "W",
+  "nome_en": "Humanism",
+  "nome": "Umanesimo",
+  "luogo": "France",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [
+   "sincretismo"
+  ],
+  "rosse": [
+   "santa"
+  ],
+  "testo_abilita": "Dichiarare la vittoria santa costa 2 azioni (tutti i giocatori).\nCOLLEGIUM TRILINGUE: le tue carte sono immuni al silenziamento dei vescovi.",
+  "testo": "Incarnazione della filosofia umanista fu Erasmo da Rotterdam, umanista, sacerdote cattolico, insegnante e teologo del Rinascimento olandese. Pur criticando gli abusi della Chiesa cattolica, continuò a riconoscere l'autorità del papa.\nLa sua via di mezzo sosteneva fede tradizionale, pietà e grazia, respingendo l'enfasi di Lutero sulla sola fede. Sostenne anche la dottrina cattolica del libero arbitrio, rifiutando la predestinazione."
+ },
+ {
+  "id": "PREN157X",
+  "img": "53114",
+  "mazzo": "W",
+  "nome_en": "Council of Trent",
+  "nome": "Concilio di Trento",
+  "luogo": "TheWest",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Decreti e canoni"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il XIX concilio ecumenico della Chiesa cattolica, tenuto fra il 1545 e il 1563, fu l'incarnazione della Controriforma."
+ },
+ {
+  "id": "PREN158X",
+  "img": "53115",
+  "mazzo": "W",
+  "nome_en": "Order of Preachers",
+  "nome": "Ordine dei Predicatori",
+  "luogo": "TheWest",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Tommaso de Vio, il Gaetano"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Come maestro dell'Ordine dei Predicatori (domenicani), Tommaso de Vio, detto il Gaetano, scrisse diverse opere contro Martin Lutero e plasmò così la politica dei delegati pontifici in Germania."
+ },
+ {
+  "id": "PREN159X",
+  "img": "53116",
+  "mazzo": "W",
+  "nome_en": "Consent of the Governed",
+  "nome": "Il consenso dei governati",
+  "luogo": "TheWest",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "mecenati_legge"
+  ],
+  "rosse": [],
+  "testo_abilita": "UMANESIMO TEDESCO: ogni tuo prestigio di mecenate conta come prestigio di legge per la vittoria del Rinascimento.",
+  "testo": "La legittimità e il diritto morale di un governo a usare il potere dello stato sono giustificati solo dal consenso del popolo su cui quel potere si esercita.\nQuesto principio illuminista contraddiceva il diritto divino dei re e fu proposto per primo da Nicola Cusano, umanista tedesco."
+ },
+ {
+  "id": "PREN160X",
+  "img": "53117",
+  "mazzo": "W",
+  "nome_en": "Jacques Lefèvre d'Étaples",
+  "nome": "Jacques Lefèvre d'Étaples",
+  "luogo": "France",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Chiesa riformata"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Benché questo teologo umanista e studioso aristotelico rimanesse cattolico romano, i suoi tentativi di riforma anticiparono il movimento protestante.\nI suoi sforzi furono bollati come eresia, e solo la protezione del re di Francia lo salvò dal rogo."
+ },
+ {
+  "id": "PREN161X",
+  "img": "53118",
+  "mazzo": "W",
+  "nome_en": "Enclosure",
+  "nome": "Le recinzioni",
+  "luogo": "England",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Rivoluzione agricola inglese"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "recinzioni"
+  ],
+  "rosse": [],
+  "testo_abilita": "FINE DELL'AGRICOLTURA DI SUSSISTENZA: se vendi questa carta, puoi emancipare alcune o tutte le pedine represse in Occidente.",
+  "testo": "Comprando i diritti sui terreni comuni per ottenerne l'uso esclusivo, un agricoltore era libero di adottare pratiche migliori e di ampliare le occasioni di profitto.\nL'aumento dei raccolti e della produttività del lavoro nelle terre private recintate creò un'eccedenza di manodopera."
+ },
+ {
+  "id": "PREN162X",
+  "img": "53119",
+  "mazzo": "W",
+  "nome_en": "Catherine de' Medici",
+  "nome": "Caterina de' Medici",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "repress:R"
+  ],
+  "sottotitoli": [
+   "Notte di San Bartolomeo"
+  ],
+  "pretendenti": [
+   "France",
+   "Aragon",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa discendente della celebre famiglia di banchieri divenne regina consorte di Francia e la donna più potente dell'Europa del Cinquecento.\nIl suo regno vide guerre religiose e civili quasi continue in Francia.",
+  "regina": true
+ },
+ {
+  "id": "PREN025",
+  "img": "53200",
+  "mazzo": "W",
+  "nome_en": "Teutonic Knights",
+  "nome": "Cavalieri teutonici",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "repress:PR",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Großschäffer",
+   "Guerra dei tredici anni"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La Confederazione prussiana, coalizione di città prussiane e nobiltà locale, cercava l'indipendenza dagli oppressivi Cavalieri teutonici.\nChiesero al re Jagellone di Polonia di annettere la Prussia, per condividere i privilegi della libertà dorata polacca. Alla fine prevalsero sui cavalieri e sulle truppe imperiali del gran maestro Ludwig von Erlichshausen."
+ },
+ {
+  "id": "PREN026",
+  "img": "53201",
+  "mazzo": "W",
+  "nome_en": "Cromwell",
+  "nome": "Cromwell",
+  "luogo": "England",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "tax",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Pellegrinaggio di Grazia",
+   "Soppressione dei monasteri"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R",
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Thomas Cromwell, capo della Riforma e forse il più grande statista inglese.\nA differenza del suo mentore, il cardinale Wolsey, Cromwell non era un prete ma un abile giurista. I cattolici anticromwelliani organizzarono il Pellegrinaggio di Grazia per protestare contro la sua politica. Pochi mesi dopo averlo fatto decapitare, Enrico VIII ne rimpiangeva la perdita."
+ },
+ {
+  "id": "PREN027",
+  "img": "53202",
+  "mazzo": "W",
+  "nome_en": "Swabian League",
+  "nome": "Lega sveva",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "repress:PR",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Bauernjörg, flagello dei contadini",
+   "Bando imperiale"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Lo Schwäbischer Bund era un'alleanza di stati imperiali: città libere, prelati, principati e cavalieri. Era finanziata dall'arcivescovo di Magonza, le cui idee conciliariste sul Reich lo misero spesso contro l'imperatore.\nI lanzichenecchi della Lega combatterono i duchi bavaresi espansionisti, i contadini di Kempten e svizzeri ribelli ai tributi feudali (1491, 1499) e la rivolta del Bundschuh del 1524-1525. La Lega fu sciolta dalla Riforma."
+ },
+ {
+  "id": "PREN028",
+  "img": "53203",
+  "mazzo": "W",
+  "nome_en": "The Bold",
+  "nome": "Il Temerario",
+  "luogo": "France",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Rivolta di Liegi",
+   "Lega del Bene pubblico",
+   "Toson d'oro"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Carlo il Temerario, l'ambizioso duca di Borgogna. Per allearsi con l'Inghilterra contro il nemico giurato Luigi XI sposò Margherita di York. Guidò le forze borgognone contro le città ribelli delle Fiandre, la Francia, gli svizzeri e l'Impero.\nLa sua morte prematura in battaglia disgregò il ducato di Borgogna, scatenando 200 anni di guerre europee per le sue terre."
+ },
+ {
+  "id": "PREN029",
+  "img": "53204",
+  "mazzo": "W",
+  "nome_en": "Holy Land Crusade",
+  "nome": "Crociata in Terrasanta",
+  "luogo": "Mamluk",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Stato crociato",
+   "Concilio di Mantova"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Sei anni dopo la caduta di Costantinopoli, papa Pio II lanciò un accorato appello a tutta la cristianità perché si unisse in un'ultima crociata per riprendere la Terrasanta.\nSolo Vlad l'Impalatore rispose favorevolmente, e i crociati si dispersero quando i Medici ritirarono la promessa di fornire il trasporto."
+ },
+ {
+  "id": "PREN030",
+  "img": "53205",
+  "mazzo": "W",
+  "nome_en": "Santa Hermandad",
+  "nome": "Santa Hermandad",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Polizia delle «maniche verdi»",
+   "Decreto dell'Alhambra"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Per mantenere la pace, Ferdinando e Isabella trasformarono l'hermandad esistente in una forza di polizia, la Santa Hermandad (Santa Fratellanza), con a capo loro stessi. Aveva ampi poteri di giurisdizione sommaria, anche nei casi capitali.\nLa giustizia sbrigativa delle Santas Hermandades divenne famigerata per la sua brutalità."
+ },
+ {
+  "id": "PREN031",
+  "img": "53206",
+  "mazzo": "W",
+  "nome_en": "Swiss Risläufer",
+  "nome": "Reisläufer svizzeri",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Guardia svizzera"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Poiché i comandanti cercavano sempre più professionisti a lungo termine invece delle leve feudali temporanee, spesso stipulavano contratti con i cantoni svizzeri. Il sistema delle milizie cantonali forniva reggimenti ben addestrati, temprati dalla difesa contro gli Asburgo.\nGli svizzeri avevano un quasi monopolio del servizio mercenario con picche e alabarde."
+ },
+ {
+  "id": "PREN032",
+  "img": "53207",
+  "mazzo": "W",
+  "nome_en": "Duke of Milan",
+  "nome": "Duca di Milano",
+  "luogo": "Aragon",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Rivolte fiscali",
+   "Condottiero"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Quando il condottiero italiano Francesco Sforza tradì l'Aurea Repubblica Ambrosiana, fondò la dinastia degli Sforza a Milano.\nLa sua amicizia con Cosimo de' Medici portò alla pace di Lodi e alla Lega italica, fondate sull'equilibrio dei poteri in Italia."
+ },
+ {
+  "id": "PREN033",
+  "img": "53208",
+  "mazzo": "W",
+  "nome_en": "Schwarzer Haufen",
+  "nome": "Schwarzer Haufen",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Reformatio Sigismundi",
+   "Nulla crux, nulla corona"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La «Schiera nera» francone di Florian Geyer, nella Lega sveva, fu l'unica cavalleria pesante della storia europea a combattere per una rivoluzione contadina.\nCombattendo sia i cavalieri protestanti sia quelli imperiali al motto «Nulla crux, nulla corona» (né croce né corona), Geyer chiedeva l'abolizione di ogni carica politica tranne l'imperatore."
+ },
+ {
+  "id": "PREN034",
+  "img": "53209",
+  "mazzo": "W",
+  "nome_en": "Merchants of the Staple",
+  "nome": "Mercanti dello Staple",
+  "luogo": "England",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Gilda della lana del leone dei Cotswold"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il capo ribelle Jack Cade (seduto) pubblicò un manifesto di lagnanze contro Enrico VI e guidò una folla di contadini che occupò Londra nel 1450. Il re fuggì, ma il Lord gran tesoriere (a sinistra) e altri favoriti del re furono decapitati.\nGli occupanti si dispersero dopo il perdono ufficiale e la promessa di rispettare il manifesto (revocata poco dopo la fine della ribellione)."
+ },
+ {
+  "id": "PREN035",
+  "img": "53210",
+  "mazzo": "W",
+  "nome_en": "Communeros Guilds",
+  "nome": "Gilde dei comuneros",
+  "luogo": "Portugal",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Miniera di mercurio di Almadén"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Dopo che la Spagna entrò nel Sacro Romano Impero nel 1519, scoppiarono ovunque rivolte contadine contro la nobiltà terriera.\nI ribelli, detti «comuneros» perché sostenevano comunità indipendenti, chiedevano il governo di una regina castigliana, Giovanna la Pazza. Volevano anche il ritorno al sistema fiscale locale dell'encabezamiento invece delle tasse delle Cortes della Coruña."
+ },
+ {
+  "id": "PREN036",
+  "img": "53211",
+  "mazzo": "W",
+  "nome_en": "Flanders Guild",
+  "nome": "Gilda delle Fiandre",
+  "luogo": "France",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "siege",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Speroni d'oro",
+   "Guerre del sale",
+   "Gilda dei tessitori e filatori fiamminghi"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I tessitori e filatori fiamminghi erano fra i migliori al mondo, e il commercio con l'Inghilterra, l'Hansa e Venezia li rese le gilde più ricche d'Europa.\nOttennero il potere di veto sulle nuove tasse dopo la vittoriosa rivolta degli Speroni d'oro del 1302."
+ },
+ {
+  "id": "PREN037",
+  "img": "53212",
+  "mazzo": "W",
+  "nome_en": "The Hidden",
+  "nome": "L'Incappucciato",
+  "luogo": "Aragon",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "commerce:W",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Repubblica d'oro",
+   "Gilde artigiane valenciane",
+   "Il Messia nascosto"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La Revolta de les Germanies (rivolta delle Fratellanze) fu un movimento autonomista antimonarchico e antifeudale nel regno d'Aragona. Ispirate dalle repubbliche italiane, le gilde artigiane di Valencia combatterono i realisti dal 1519 al 1523.\nL'ultima fase della guerriglia fu guidata da un misterioso capo incappucciato, «l'Incappucciato», che si diceva dotato di poteri messianici. Il suo vero nome e la sua stirpe restano ignoti."
+ },
+ {
+  "id": "PREN038",
+  "img": "53213",
+  "mazzo": "W",
+  "nome_en": "Bundschuh Revolt",
+  "nome": "Rivolta del Bundschuh",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Gilda dei metalli del Rammelsberg"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nelle rivolte tedesche della valle del Tauber (1476), dell'Alsazia (1493), di Bruchsal (1502), di Lehen (1513) e dell'alto Reno (1517), i contadini mostravano sulla bandiera una scarpa (Bundschuh = scarpa allacciata), simbolo dell'ascesa della loro classe.\nChiedevano sollievo dalla giustizia e dalle tasse arbitrarie, dai costosi privilegi ecclesiastici e dai debiti, dalla servitù e dai divieti di caccia e pesca."
+ },
+ {
+  "id": "PREN039",
+  "img": "53214",
+  "mazzo": "W",
+  "nome_en": "Florentine Wool",
+  "nome": "Lana fiorentina",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Arte della Lana"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "I consoli di questa corporazione della lana garantivano gli standard di qualità e il rispetto dei contratti per tutti i telai di Firenze. La produzione passò dai panni di Garbo esportati nel Vicino Oriente alle più leggere rascie, adatte al mercato europeo del lusso. Il mercato prosperò nella pacifica età medicea.\nDopo il 1494, però, una disputa fra Milano e Napoli trasformò l'Italia in un campo di battaglia fra il Sacro Romano Impero e la Francia."
+ },
+ {
+  "id": "PREN040",
+  "img": "53215",
+  "mazzo": "W",
+  "nome_en": "Sindicat Remença",
+  "nome": "Sindicat Remença",
+  "luogo": "Aragon",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Grande guerra irmandiña",
+   "Gilde artigiane catalane"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Alfonso V il Magnanimo permise ai contadini d'Aragona di formare una corporazione contadina indipendente, il sindicat remença. La decisione fu ribaltata dalla Generalitat controllata dai nobili, provocando la ribellione dei remences e le guerre irmandiñas.\nLa corona si schierò con i servi, volendo una forza indipendente contro i nobili, e si ottennero alcune riforme."
+ },
+ {
+  "id": "PREN041",
+  "img": "53216",
+  "mazzo": "W",
+  "nome_en": "Peasant Republic of Dithmarschen",
+  "nome": "Repubblica contadina del Dithmarschen",
+  "luogo": "TheWest",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Autonomia del Dithmarschen",
+   "Consiglio dei 48 privilegi anseatici"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Dal 1484 al 1500 si tentò più volte, con mezzi feudali, di sottomettere i liberi contadini delle paludi del Dithmarschen sul Mare del Nord. Il principe arcivescovo Rodolfo di Brema strinse un'alleanza con altre città anseatiche per difendere la repubblica e il suo libero accesso al commercio marittimo.\nGli alleati prevalsero sugli spietati mercenari della Guardia Nera, a cui era stato promesso il bottino se avessero sottomesso i contadini."
+ },
+ {
+  "id": "PREN042",
+  "img": "53217",
+  "mazzo": "W",
+  "nome_en": "Höchstetter Bank",
+  "nome": "Banca Höchstetter",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Minatori dell'argento di Schwaz in Tirolo"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "mano_illimitata"
+  ],
+  "rosse": [],
+  "testo_abilita": "STADTWECHSEL (LETTERE DI CREDITO): il limite di carte in mano è illimitato.",
+  "testo": "Le banche tedesche erano libere dai divieti ecclesiastici sull'interesse e adottarono a poco a poco le innovazioni contabili italiane.\nNegli anni Venti del Cinquecento la famiglia Höchstetter esortò la popolazione a risparmiare, anche pochi fiorini, ottenendo un milione di fiorini l'anno di interessi e rivaleggiando con Fugger e Welser. Con la loro fortuna dominarono la raffinazione dell'argento del Tirolo."
+ },
+ {
+  "id": "PREN043",
+  "img": "53218",
+  "mazzo": "W",
+  "nome_en": "Gutenberg",
+  "nome": "Gutenberg",
+  "luogo": "HRE",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Produzione in serie di libri stampati"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "mano_illimitata"
+  ],
+  "rosse": [],
+  "testo_abilita": "STAMPA: il limite di carte in mano è illimitato.",
+  "testo": "Forse il maggiore impatto sociale della stampa fu l'ampia diffusione di leggi che, una volta stampate, non si potevano ritrattare facilmente.\nIl primo libro stampato fu la Bibbia, un libro di leggi. Chiese e sovrani proibivano di stampare senza licenza, ma non potevano censurare la stampa con la stessa facilità degli amanuensi. I primi diritti d'autore comparvero nel 1518 in Inghilterra."
+ },
+ {
+  "id": "PREN044",
+  "img": "53219",
+  "mazzo": "W",
+  "nome_en": "Isabella of Castille",
+  "nome": "Isabella di Castiglia",
+  "luogo": "Queen",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "repress:PR",
+   "behead"
+  ],
+  "sottotitoli": [
+   "Decreto dell'Alhambra",
+   "Reconquista"
+  ],
+  "pretendenti": [
+   "Portugal",
+   "Aragon",
+   "France",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il matrimonio di Isabella con Ferdinando II d'Aragona formò infine lo stato di Spagna.\nLa sua eredità comprende la Reconquista, l'esilio dei sudditi musulmani ed ebrei con l'Inquisizione spagnola e il finanziamento del viaggio di Colombo del 1492, che fece della Spagna la prima potenza globale del mondo.",
+  "regina": true
+ },
+ {
+  "id": "PREN045",
+  "img": "53220",
+  "mazzo": "W",
+  "nome_en": "Anne of Brittany",
+  "nome": "Anna di Bretagna",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Guerra d'indipendenza bretone"
+  ],
+  "pretendenti": [
+   "France",
+   "England",
+   "Aragon",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Anna, duchessa di Bretagna, ultima sovrana bretone indipendente e una delle donne più ricche d'Europa.\nPer difendere l'indipendenza bretone dalla Francia sposò prima l'imperatore del Sacro Romano Impero. Il re di Francia Carlo VIII brigò per invalidare il matrimonio e poi invase la Bretagna per sposarla con la forza. Il suo successore annullò il proprio matrimonio per sposare a sua volta Anna. Grazie a lei la Bretagna godette dell'esenzione da alcune tasse, come l'impopolare gabella sul sale.",
+  "regina": true
+ },
+ {
+  "id": "PREN046",
+  "img": "53221",
+  "mazzo": "W",
+  "nome_en": "Joanna the Mad",
+  "nome": "Giovanna la Pazza",
+  "luogo": "Queen",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Rivolta dei comuneros"
+  ],
+  "pretendenti": [
+   "Portugal",
+   "Aragon",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Giovanna, una delle donne più colte d'Europa, era erede dei regni di Castiglia e Aragona, unione che divenne la Spagna moderna.\nSposò Filippo il Bello, dando inizio al dominio asburgico in Spagna. Sconvolta dalla morte improvvisa del marito, fu rinchiusa in convento per il resto della vita. Benché regina per legge, al suo posto governarono il padre Ferdinando e poi il figlio Carlo.",
+  "regina": true
+ },
+ {
+  "id": "PREN047",
+  "img": "53222",
+  "mazzo": "W",
+  "nome_en": "Margaret of Anjou",
+  "nome": "Margherita d'Angiò",
+  "luogo": "Queen",
+  "prestigio": [],
+  "ops": [
+   "repress:R",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Gran Consiglio",
+   "Guerra delle Due Rose"
+  ],
+  "pretendenti": [
+   "England",
+   "France",
+   "Aragon"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa regina guerriera prese il controllo dell'Inghilterra e guidò di persona la fazione dei Lancaster nella guerra delle Due Rose, un conflitto che lei stessa scatenò escludendo il clan rivale degli York dal Gran Consiglio del 1455.\nMigliaia di morti dopo fu fatta prigioniera a Tewkesbury nel 1471 e riscattata dal cugino, il re di Francia Luigi XI.",
+  "regina": true
+ },
+ {
+  "id": "PREN048",
+  "img": "53223",
+  "mazzo": "W",
+  "nome_en": "Mary the Rich",
+  "nome": "Maria la Ricca",
+  "luogo": "Queen",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [
+   "France",
+   "England",
+   "Portugal",
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Maria di Borgogna, unica figlia di Carlo il Temerario ed erede dei ricchissimi domini borgognoni in Francia e nei Paesi Bassi. Il re Luigi XI il Ragno pretese che sposasse suo figlio Carlo, con la forza se necessario.\nLei sposò invece un Asburgo, l'arciduca Massimiliano d'Austria, dando inizio a 200 anni di guerre franco-asburgiche per la Borgogna. Maria fu costretta a concedere il Grande Privilegio alle città fiamminghe.",
+  "regina": true
+ },
+ {
+  "id": "PREN049",
+  "img": "53300",
+  "mazzo": "W",
+  "nome_en": "Order of Santiago",
+  "nome": "Ordine di Santiago",
+  "luogo": "Portugal",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Cortes di Santarém",
+   "La farsa di Ávila"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C",
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Rodrigo Manrique de Lara, eroe della Reconquista e nobile spagnolo ribelle, guidò un comitato di magnati contro Enrico IV «l'Impotente» di Castiglia. Nel 1465 de Lara partecipò alla «farsa di Ávila», giustiziando simbolicamente un fantoccio di Enrico IV.\nDopo tre anni di guerra civile i nobili ottennero più potere e la Castiglia divenne meno accentrata."
+ },
+ {
+  "id": "PREN050",
+  "img": "53301",
+  "mazzo": "W",
+  "nome_en": "La Serenissima",
+  "nome": "La Serenissima",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "corsair:C",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Tribunale supremo",
+   "Arsenale di Venezia",
+   "Consiglio dei Dieci"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La capacità dell'Arsenale veneziano di produrre galee in serie era unica per l'epoca e ne faceva forse il più grande complesso industriale d'Europa prima della Rivoluzione industriale.\nCon 180.000 abitanti, Venezia era la seconda città d'Europa dopo Parigi e forse la più ricca del mondo. Le sue galee dominavano il Mediterraneo."
+ },
+ {
+  "id": "PREN051",
+  "img": "53302",
+  "mazzo": "W",
+  "nome_en": "Kingmaker",
+  "nome": "Il Creatore di re",
+  "luogo": "England",
+  "prestigio": [],
+  "ops": [
+   "repress:R",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Connestabile di Calais",
+   "Guerra delle Due Rose"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R",
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Richard Neville, conte di Warwick, era il più ricco e potente dei nobili inglesi e all'inizio sostenne il re lancastriano Enrico VI. Per una disputa territoriale passò dall'altra parte, diventando comandante degli York e mettendo sul trono Edoardo IV.\nDopo un'altra lite depose Edoardo nel 1470 e restaurò Enrico VI, ma poco dopo morì in battaglia."
+ },
+ {
+  "id": "PREN052",
+  "img": "53303",
+  "mazzo": "W",
+  "nome_en": "Luther",
+  "nome": "Lutero",
+  "luogo": "HRE",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Antisemitismo",
+   "Lega di Smalcalda"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:R",
+   "R:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La potente testimonianza di fede di Martin Lutero alla Dieta di Worms del 1521 spinse l'imperatore a bollarlo come eretico, ma lasciò un segno indelebile su alcuni potenti principi tedeschi.\nQuesti formarono un'alleanza difensiva del luteranesimo, la Lega di Smalcalda, che voleva sostituire il Sacro Romano Impero come fonte di fedeltà politica."
+ },
+ {
+  "id": "PREN053",
+  "img": "53304",
+  "mazzo": "W",
+  "nome_en": "Friese Freedom",
+  "nome": "Libertà frisone",
+  "luogo": "France",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Libertà frisone",
+   "Vetkoper contro Schieringer"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La Frisia medievale (la costa del Mare del Nord a ovest della Danimarca) si distingueva per l'assenza di signori feudali e di servitù. Senza un'autorità signorile non c'era un'amministrazione centrale della legge e della giustizia.\nLa Libertà frisone finì con l'annessione da parte dei sassoni nel 1499."
+ },
+ {
+  "id": "PREN054",
+  "img": "53305",
+  "mazzo": "W",
+  "nome_en": "Maréchaussée",
+  "nome": "Maréchaussée",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "tax"
+  ],
+  "sottotitoli": [
+   "Testatico e maltolto"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Organizzata come polizia militare durante la guerra dei Cent'anni, la maréchaussée era detta anche Marescialleria, perché la sua autorità derivava dal maresciallo di Francia.\nFu il diretto precursore della Gendarmeria nazionale francese."
+ },
+ {
+  "id": "PREN055",
+  "img": "53306",
+  "mazzo": "W",
+  "nome_en": "Duchy of Ferrara",
+  "nome": "Ducato di Ferrara",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [
+   "siege",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Guerra del sale",
+   "Saline di Comacchio"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "R:C"
+  ],
+  "abilita": [
+   "condottiero"
+  ],
+  "rosse": [],
+  "testo_abilita": "CONDOTTIERO: Venezia può ospitare 2 cavalieri d'oro invece di 1.",
+  "testo": "Ercole I d'Este, duca di Ferrara, iniziò a sviluppare le saline di Comacchio, e Venezia ne fece un casus belli contro il suo monopolio del sale.\nErcole resistette comunque all'assorbimento nello Stato Pontificio voluto dal suo acerrimo nemico, papa Sisto IV, e dagli alleati veneziani. Ercole acconsentì a malincuore al matrimonio del figlio Alfonso con Lucrezia Borgia."
+ },
+ {
+  "id": "PREN096X",
+  "img": "53307",
+  "mazzo": "W",
+  "nome_en": "Amerigo Vespucci",
+  "nome": "Amerigo Vespucci",
+  "luogo": "Aragon",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "tax",
+   "repress:P"
+  ],
+  "sottotitoli": [
+   "Consiglio delle Indie",
+   "Arcivescovo Rodríguez de Fonseca"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1492 il banchiere fiorentino Amerigo Vespucci rilevò il banco dei Medici a Cadice, in Castiglia. Fu fornitore dei viaggi di Colombo e navigatore in diversi viaggi in Sud America fra il 1499 e il 1502.\nCome piloto mayor di Spagna scoprì un metodo approssimato per calcolare la longitudine. Dimostrò che il Brasile e le Indie occidentali non erano la periferia orientale dell'Asia, così il nuovo mondo fu chiamato «America» in suo onore."
+ },
+ {
+  "id": "PREN097X",
+  "img": "53308",
+  "mazzo": "W",
+  "nome_en": "Podestà of Venice",
+  "nome": "Podestà di Venezia",
+  "luogo": "Mamluk",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "galee_venezia"
+  ],
+  "rosse": [],
+  "testo_abilita": "COMANDANTE DELLE GALEE VENEZIANE: puoi tenere una fiera commerciale per turno senza spendere un'azione.",
+  "testo": "Bartolomeo Minio rappresentava il meglio del governo veneziano nello Stato da Mar (le colonie) di Morea, Corfù, Cipro e Creta.\nCome comandante della flotta mercantile costruì fortezze e combatté (e fu catturato da) i pirati. Come provveditore degli stradioti portati dalla Grecia per la guerra di Ferrara, allacciò rapporti con armatoli ribelli e governatori ottomani. Organizzò aiuti dopo le carestie."
+ },
+ {
+  "id": "PREN128X",
+  "img": "53309",
+  "mazzo": "W",
+  "nome_en": "Man for all Seasons",
+  "nome": "Un uomo per tutte le stagioni",
+  "luogo": "England",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "behead",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Rogo degli eretici",
+   "Arcivescovo Warham"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Come Lord cancelliere d'Inghilterra, sir Thomas More combatté la Riforma: vietò i libri luterani, spiò i sospetti protestanti, in particolare gli editori, e arrestò chiunque possedesse, trasportasse o vendesse libri della Riforma protestante.\nMa quando Enrico VIII ruppe con la Chiesa di Roma, More non approvò: fu processato per tradimento e decapitato."
+ },
+ {
+  "id": "PREN129X",
+  "img": "53310",
+  "mazzo": "W",
+  "nome_en": "Oratory of Divine Love",
+  "nome": "Oratorio del Divino Amore",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Corte pontificia"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "B:C",
+   "B:C"
+  ],
+  "abilita": [
+   "controriforma"
+  ],
+  "rosse": [],
+  "testo_abilita": "CONTRORIFORMA: come azione, puoi eseguire un'apostasia fra due religioni qualsiasi.",
+  "testo": "L'Oratorio del Divino Amore era una confraternita cattolica fondata nel 1517 dalla corte pontificia. Divenne la base filosofica della Controriforma.\nUn primo seguace fu il mistico romano san Gaetano (in alto), che costruì ospedali e banche per i poveri."
+ },
+ {
+  "id": "PREN130X",
+  "img": "53311",
+  "mazzo": "W",
+  "nome_en": "Cryptography",
+  "nome": "Crittografia",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "cifrari_medici"
+  ],
+  "rosse": [],
+  "testo_abilita": "CIFRARI MEDICEI VIOLATI: se vendi questa carta, puoi eseguire un'operazione politica (viola) in più da una carta del tableau di un avversario, come se fosse nel tuo tableau.",
+  "testo": "Leon Battista Alberti fu un uomo del Rinascimento italiano dai molti talenti nell'arte e nella scienza.\nFra questi la crittografia: inventò il cifrario polialfabetico di Alberti, il codice cifrato e la cifratura meccanica con il suo disco cifrante. Con questa tecnologia i Medici svilupparono i migliori cifrari del mondo."
+ },
+ {
+  "id": "PREN131X",
+  "img": "53312",
+  "mazzo": "W",
+  "nome_en": "Michelangelo",
+  "nome": "Michelangelo",
+  "luogo": "TheWest",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "fama_mecenate"
+  ],
+  "rosse": [],
+  "testo_abilita": "FAMA DEL MECENATE: le tue Concessioni contano doppio nelle fiere commerciali e nei voti.",
+  "testo": "Michelangelo Buonarroti, il più grande degli artisti del Rinascimento e forse il più grande scultore di sempre. La sua arte era nello stile manierista, che esagerava equilibrio e proporzioni alla ricerca di una bellezza armoniosa. Michelangelo era sobrio, solitario e devoto.\nI suoi celebri scontri con il committente Giulio II furono uno scontro fra titani, nessuno dei due disposto a compromessi né a riconoscere un superiore."
+ },
+ {
+  "id": "PREN132X",
+  "img": "53313",
+  "mazzo": "W",
+  "nome_en": "Artistic Geometry",
+  "nome": "Geometria artistica",
+  "luogo": "HRE",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "mecenati_legge"
+  ],
+  "rosse": [],
+  "testo_abilita": "RINASCIMENTO TEDESCO: ogni tuo prestigio di mecenate conta come prestigio di legge per la vittoria del Rinascimento.",
+  "testo": "Albrecht Dürer fu pittore, incisore, stampatore, matematico e teorico tedesco. Le sue xilografie di altissima qualità ne fecero la fama già a vent'anni, ed è forse il più grande artista del Rinascimento nordico.\nLa sua vasta opera comprende pale d'altare, ritratti e autoritratti (in alto) e incisioni su rame."
+ },
+ {
+  "id": "PREN133X",
+  "img": "53314",
+  "mazzo": "W",
+  "nome_en": "Romantic Realism",
+  "nome": "Realismo romantico",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "mecenati_legge"
+  ],
+  "rosse": [],
+  "testo_abilita": "IDEALI REPUBBLICANI: ogni tuo prestigio di mecenate conta come prestigio di legge per la vittoria del Rinascimento.",
+  "testo": "Donatello, forse il più grande scultore del Rinascimento, creò interpretazioni fieramente indipendenti degli ideali repubblicani, di grande impatto.\nLa sua Giuditta e Oloferne, fatta per Cosimo de' Medici, simboleggiava la vittoria del debole sul forte per una giusta causa. Collocata in piazza a Firenze dopo la caduta dei Medici nel 1490, suscitò lo sdegno pubblico."
+ },
+ {
+  "id": "PREN134X",
+  "img": "53315",
+  "mazzo": "W",
+  "nome_en": "Mining Engineer",
+  "nome": "Ingegnere minerario",
+  "luogo": "TheWest",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "fortificazioni"
+  ],
+  "rosse": [],
+  "testo_abilita": "FORTIFICAZIONI: puoi «attivare le operazioni d'Occidente» senza spendere un'azione.",
+  "testo": "Georgius Agricola, studioso, chimico e ingegnere minerario.\nIl suo capolavoro riccamente illustrato, il De re metallica, documentava la tecnologia mineraria sassone, la migliore del mondo.\nCattolico convinto, subì persecuzioni dai luterani di Chemnitz."
+ },
+ {
+  "id": "PREN135X",
+  "img": "53316",
+  "mazzo": "W",
+  "nome_en": "Machiavellianism",
+  "nome": "Machiavellismo",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "tradimento"
+  ],
+  "rosse": [],
+  "testo_abilita": "TRADIMENTO PRAGMATICO: quando vendi una carta, puoi anche eseguire il suo evento di guerra civile, crociata o apostasia (aggiungendo i suoi agenti).",
+  "testo": "Niccolò Machiavelli, a lungo funzionario della Repubblica di Firenze, perse il posto nel 1512 con il ritorno dei Medici. Indignato, scrisse «Il Principe», raccolta di massime per un nuovo tipo di politico che usa ogni mezzo per raggiungere i suoi fini, abbracciando il pragmatismo a scapito dei principi.\nFu messo all'Indice dei libri proibiti dal papa."
+ },
+ {
+  "id": "PREN136X",
+  "img": "53317",
+  "mazzo": "W",
+  "nome_en": "Hermeticism",
+  "nome": "Ermetismo",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "sincretismo"
+  ],
+  "rosse": [
+   "santa"
+  ],
+  "testo_abilita": "Dichiarare la vittoria santa costa 2 azioni (tutti i giocatori).\nSINCRETISMO: le tue carte sono immuni al silenziamento dei vescovi.",
+  "testo": "Giovanni Pico della Mirandola, giovane genio che credeva nel sincretismo (dottrine opposte possono conciliarsi) e nell'ermetismo (un'unica vera teologia esiste in tutte le religioni).\nPer tutta la vita cercò di conciliare l'orientamento terreno di Aristotele con l'ultraterreno di Platone."
+ },
+ {
+  "id": "PREN137X",
+  "img": "53318",
+  "mazzo": "W",
+  "nome_en": "Faith vs. Reason",
+  "nome": "Fede contro ragione",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "navigazione"
+  ],
+  "rosse": [
+   "santa"
+  ],
+  "testo_abilita": "Dichiarare la vittoria santa costa 2 azioni (tutti i giocatori).\nCARTOGRAFIA: ogni tuo prestigio di mecenate conta come una Concessione per la vittoria della globalizzazione.",
+  "testo": "Michele Serveto, teologo spagnolo, scienziato poliedrico e ricercatore medico.\nIn una lettera cordiale al riformatore Giovanni Calvino usò la logica per promuovere le sue idee di teologia antitrinitaria. Irritato, Calvino scrisse a un amico: «se la mia autorità conta qualcosa, quell'uomo non uscirà vivo da qui». Serveto fu arrestato illegalmente dal consiglio di Ginevra e arso sul rogo come eretico."
+ },
+ {
+  "id": "PREN138X",
+  "img": "53319",
+  "mazzo": "W",
+  "nome_en": "Reichskrone",
+  "nome": "La corona imperiale",
+  "luogo": "Queen",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "vote:W"
+  ],
+  "sottotitoli": [
+   "Corruzione degli elettori"
+  ],
+  "pretendenti": [
+   "HRE"
+  ],
+  "oneshot": "coronation",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [
+   "riscatto"
+  ],
+  "rosse": [],
+  "testo_abilita": "RISCATTO: vendi questa carta per 4 fiorini invece di 2.",
+  "testo": "Il «re dei Romani» era scelto dai principi del collegio elettorale tedesco. Diventava imperatore del Sacro Romano Impero solo quando veniva incoronato dal papa.\nLa corruzione dilagava. Carlo il Temerario offrì 10.000 fiorini e cariche di corte per ottenere la «corona dei Romani». Nell'elezione del 1519 Carlo V superò infine il rivale Francesco nelle offerte e divenne imperatore.",
+  "regina": true
+ },
+ {
+  "id": "PREN139X",
+  "img": "53320",
+  "mazzo": "W",
+  "nome_en": "French Pirates",
+  "nome": "Pirati francesi",
+  "luogo": "France",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "repress:P",
+   "corsair:C"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Sbarco nel Solent"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il pirata Nicolò Griego mandò in bancarotta la Repubblica di Venezia saccheggiando le galee veneziane dirette alla fiera delle Fiandre del 1485.\nNel suo equipaggio c'era Cristoforo Colombo, che avrebbe fatto la storia sette anni dopo.\nI pirati francesi rafforzarono anche un'armata più grande dell'Invincibile Armata spagnola, che invase l'Inghilterra nel 1545."
+ },
+ {
+  "id": "PREN140X",
+  "img": "53321",
+  "mazzo": "W",
+  "nome_en": "Venetian Navy",
+  "nome": "Marina veneziana",
+  "luogo": "PapalStates",
+  "prestigio": [],
+  "ops": [
+   "corsair:C",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Arsenale Nuovo",
+   "Lega italica"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Giovanni Mocenigo, doge di Venezia dal 1478 al 1485, combatté gli ottomani in mare e Ferrara per terra.\nAnche suo fratello Pietro Mocenigo fu doge di Venezia, ma fu anche uno dei più grandi ammiragli veneziani, in azione a Smirne, Cipro e Scutari."
+ },
+ {
+  "id": "PREN141X",
+  "img": "53322",
+  "mazzo": "W",
+  "nome_en": "Welser Klein-Venedig",
+  "nome": "Klein-Venedig dei Welser",
+  "luogo": "Portugal",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Zucchero venezuelano"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1528 il banchiere Bartholomeus Welser di Augusta fu incaricato da Carlo V di allestire a proprie spese una flotta per conquistare il Venezuela.\nLa colonia dei Welser, Klein-Venedig («piccola Venezia»), avviò i commerci fra i Paesi Bassi, la Germania e il Sud America."
+ },
+ {
+  "id": "PREN142X",
+  "img": "53323",
+  "mazzo": "W",
+  "nome_en": "Kalmar Union",
+  "nome": "Unione di Kalmar",
+  "luogo": "France",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "repress:P",
+   "corsair:R"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Vendetta di Magdalene"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Durante una rivolta del 1455 i mercanti tedeschi di Bergen uccisero il governatore norvegese Nielson.\nSua figlia Magdalene giurò vendetta e comprò navi e uomini per la pirateria contro l'Hansa. Uno fu Bertram Hoike, che fece gravi danni nel 1491-92 fino all'esecuzione (in alto). Ancora più rapaci furono i fratelli Hunninghusen. Si dice che un pirata di Kalmar abbia scoperto Terranova."
+ },
+ {
+  "id": "PREN001",
+  "img": "53400",
+  "mazzo": "W",
+  "nome_en": "Inquisition Pope",
+  "nome": "Il papa dell'Inquisizione",
+  "luogo": "TheWest",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "behead",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Persecuzioni dei valdesi",
+   "Oratorio del Divino Amore"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [
+   "olocausto"
+  ],
+  "rosse": [],
+  "testo_abilita": "OLOCAUSTO: l'operazione Decapita di questa carta si può usare solo su una carta d'Occidente con un vescovo rosso o d'oro.",
+  "testo": "Davanti a un eretico il papato aveva due soluzioni: la conversione forzata o l'«auto da fé» (il rogo pubblico).\nPapa Innocenzo VIII preferiva il rogo. Nel 1484 emanò una bolla papale che avviò l'Inquisizione tedesca contro stregoneria e maghi.\nConfermò poi Torquemada come grande inquisitore di Spagna e finanziò una crociata contro gli eretici valdesi in Francia."
+ },
+ {
+  "id": "PREN002",
+  "img": "53401",
+  "mazzo": "W",
+  "nome_en": "Papal Elephant",
+  "nome": "L'elefante del papa",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Indulgenze",
+   "Exsurge Domine"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il P.T. Barnum dei papi, Leone X amava girare per il suo regno sul suo elefante bianco Annone, seguito da una sfarzosa parata di giullari e artisti. Discendente dei Medici, vendeva indulgenze per finanziare le arti.\nLutero si scandalizzò al punto da affiggere le sue tesi alla porta di una chiesa. Ma a parte una blanda condanna, Leone se ne curò poco. «Poiché Dio ci ha dato il papato, godiamocelo»."
+ },
+ {
+  "id": "PREN003",
+  "img": "53402",
+  "mazzo": "W",
+  "nome_en": "Grand Inquisitor",
+  "nome": "Il grande inquisitore",
+  "luogo": "Portugal",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "behead",
+   "tax",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Auto da fé",
+   "Consejo Real",
+   "Alumbrados"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Come cardinale, grande inquisitore e reggente, Jiménez de Cisneros era la persona più potente di Spagna dopo Isabella e Ferdinando. Impose la conversione dei mori spagnoli e promosse le crociate nordafricane.\nIl Consejo Real, nominato da Isabella dal 1480, aveva pieni poteri giudiziari sui nobili, mantenendoli sottomessi alla corona."
+ },
+ {
+  "id": "PREN004",
+  "img": "53403",
+  "mazzo": "W",
+  "nome_en": "Antipope",
+  "nome": "L'antipapa",
+  "luogo": "France",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Concilio di Basilea"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il movimento conciliarista sosteneva che l'autorità suprema nella Chiesa spettasse a un concilio ecumenico invece che al papa. Uno di questi concili, quello di Basilea, dichiarò eretico il papa ed elesse un antipapa, Felice V.\nIl papa rispose stringendo un'unione con la Chiesa ortodossa bizantina, e Felice fu costretto dalla Francia ad abdicare nel 1449."
+ },
+ {
+  "id": "PREN005",
+  "img": "53404",
+  "mazzo": "W",
+  "nome_en": "Reformed Theology",
+  "nome": "La teologia riformata",
+  "luogo": "TheWest",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Colloquio di Marburgo"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Huldrych Zwingli, un capo della Riforma svizzera, si scontrò sia con i luterani sia con gli anabattisti.\nLa sua alleanza di cantoni svizzeri riformati entrò in guerra con i cantoni rimasti cattolici, e Zwingli fu ucciso in battaglia nel 1531."
+ },
+ {
+  "id": "PREN006",
+  "img": "53405",
+  "mazzo": "W",
+  "nome_en": "Star Chamber",
+  "nome": "La Camera stellata",
+  "luogo": "England",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "behead",
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Torre di Londra",
+   "Taglia regia"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [
+   "enrico_viii"
+  ],
+  "rosse": [],
+  "testo_abilita": "ENRICO VIII: la tua incoronazione può reclamare re già sposati o nel tableau di un avversario.",
+  "testo": "Questo tribunale fu istituito da Enrico VII per spezzare il potere della nobiltà terriera che aveva causato la guerra delle Due Rose. Le sedute si tenevano in segreto, senza capi d'accusa né testimoni.\nSotto il cardinale Wolsey, durante il regno di Enrico VIII, la Camera stellata divenne uno strumento politico e un simbolo dell'abuso del potere regio."
+ },
+ {
+  "id": "PREN007",
+  "img": "53406",
+  "mazzo": "W",
+  "nome_en": "Peter's Pence",
+  "nome": "L'obolo di San Pietro",
+  "luogo": "TheWest",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "tax",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Obolo di San Pietro",
+   "Camera apostolica"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "RC",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Gli esattori della Camera apostolica, la tesoreria centrale del papa, viaggiavano per tutta la cristianità a riscuotere le tasse papali.\nA volte gli esattori dell'«obolo di San Pietro» venivano respinti dai monarchi che cercavano di piegare papi poco collaborativi.\nNell'Inghilterra riformata l'obolo fu abolito da Enrico VIII nel 1534."
+ },
+ {
+  "id": "PREN008",
+  "img": "53407",
+  "mazzo": "W",
+  "nome_en": "Jesuits",
+  "nome": "Gesuiti",
+  "luogo": "Aragon",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Concilio di Trento"
+  ],
+  "pretendenti": [],
+  "oneshot": "crusade",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Ignazio di Loyola era un cavaliere spagnolo che ebbe una visione spirituale dopo aver sfiorato la morte in battaglia. La devozione di Loyola alla Chiesa cattolica si distingueva per l'obbedienza assoluta al papa.\nNel 1534 fondò la Compagnia di Gesù (i gesuiti) e ne fu il primo preposito generale. I gesuiti divennero una forza decisiva della Controriforma."
+ },
+ {
+  "id": "PREN009",
+  "img": "53408",
+  "mazzo": "W",
+  "nome_en": "House of Borgia",
+  "nome": "Casa Borgia",
+  "luogo": "TheWest",
+  "prestigio": [
+   "P"
+  ],
+  "ops": [
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Cesare Borgia",
+   "Extravagantes communes"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Potente e ambiziosa famiglia italiana di diplomatici, condottieri, politici e due papi. Uno fu Alessandro VI (in alto), papa corrotto e libertino il cui regno contribuì allo sviluppo della Riforma protestante.\nI Borgia si fecero nemici i Medici, gli Sforza, Savonarola e molti altri. Furono anche mecenati delle arti."
+ },
+ {
+  "id": "PREN010",
+  "img": "53409",
+  "mazzo": "W",
+  "nome_en": "Bonfire of the Vanities",
+  "nome": "Il falò delle vanità",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "L"
+  ],
+  "ops": [
+   "tax",
+   "vote:W",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Bando dei Medici",
+   "Consiglio Maggiore",
+   "Discepoli piagnoni"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Per denunciare la corruzione del clero, il frate Savonarola bruciava in pubblico gli oggetti ritenuti occasione di peccato. Forte della collaborazione con il re di Francia, instaurò una nuova repubblica fiorentina con una costituzione fratesca che dava potere agli artigiani e cacciava gli odiati Medici.\nIl papa Borgia lo fece bruciare come eretico, ma le sue riforme ispirarono Lutero."
+ },
+ {
+  "id": "PREN011",
+  "img": "53410",
+  "mazzo": "W",
+  "nome_en": "Anabaptist Reformation",
+  "nome": "La Riforma anabattista",
+  "luogo": "TheWest",
+  "prestigio": [
+   "R"
+  ],
+  "ops": [
+   "inq:R"
+  ],
+  "sottotitoli": [
+   "Malleus maleficarum (il martello delle streghe)"
+  ],
+  "pretendenti": [],
+  "oneshot": "reformation",
+  "oneshot_arg": "",
+  "agenti": [
+   "B:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Gli anabattisti, così detti perché ribattezzavano i credenti adulti, erano un'ala radicale della Riforma protestante. Ne fanno parte i mennoniti, seguaci del prete olandese Menno Simons.\nIl dipinto ricorda un martire anabattista che, fuggendo di prigione, si fermò a salvare la vita a un inseguitore e così fu ripreso e arso sul rogo."
+ },
+ {
+  "id": "PREN012",
+  "img": "53411",
+  "mazzo": "W",
+  "nome_en": "Knights Hospitaller",
+  "nome": "Cavalieri ospitalieri",
+  "luogo": "Ottoman",
+  "prestigio": [
+   "C"
+  ],
+  "ops": [
+   "repress:P",
+   "corsair:C"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Flotta di Rodi"
+  ],
+  "pretendenti": [],
+  "oneshot": "apostasy",
+  "oneshot_arg": "IC",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [
+   "cavalieri_rodi"
+  ],
+  "rosse": [],
+  "testo_abilita": "CAVALIERI DI RODI: nelle crociate puoi contare le torri d'oro della classe dominante adiacente come cavalieri.",
+  "testo": "Il gran maestro Pierre d'Aubusson dei Cavalieri ospitalieri si trincerò nell'isola di Rodi. La sua potente e implacabile flotta affondava regolarmente pirati barbareschi e navi di rifornimento turche.\nNel 1480 le sue forze respinsero a stento un enorme assedio di Maometto il Conquistatore, durante il quale d'Aubusson fu ferito tre volte. La ricompensa fu un cappello cardinalizio e l'indipendenza dal papa."
+ },
+ {
+  "id": "PREN013",
+  "img": "53412",
+  "mazzo": "W",
+  "nome_en": "Genoese Fleet",
+  "nome": "Flotta genovese",
+  "luogo": "Aragon",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:C"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Marina imperiale"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il condottiero Andrea Doria servì il papa, vari principi italiani, la Francia e l'imperatore.\nNella natia Genova cacciò i francesi e ristabilì la repubblica sotto 28 famiglie nobili.\nCome ammiraglio imperiale della flotta genovese al servizio di Carlo V, combatté i turchi e i pirati barbareschi."
+ },
+ {
+  "id": "PREN014",
+  "img": "53413",
+  "mazzo": "W",
+  "nome_en": "India Armada",
+  "nome": "L'armata delle Indie",
+  "luogo": "Portugal",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "buona_speranza"
+  ],
+  "rosse": [],
+  "testo_abilita": "CAPO DI BUONA SPERANZA: le tue Concessioni contano doppio nelle fiere commerciali delle Isole delle Spezie.",
+  "testo": "Vasco da Gama del Portogallo fu il primo europeo a raggiungere l'India per mare, collegando per la prima volta Europa e Asia con una rotta commerciale oceanica (1498).\nLa portata di questo riassetto dei commerci non avrebbe avuto eguali fino all'invenzione dell'aereo."
+ },
+ {
+  "id": "PREN015",
+  "img": "53414",
+  "mazzo": "W",
+  "nome_en": "Hanseatic League",
+  "nome": "Lega anseatica",
+  "luogo": "France",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:C",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Peter von Danzig",
+   "Gilda dell'Hansa"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "Novgorod",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Il corsaro anseatico Paul Beneke comandava la Peter von Danzig (in alto), la prima grande nave del Baltico a fasciame liscio. Durante la guerra anglo-anseatica Beneke sconfisse la flotta inglese allo Zwin nel 1468.\nNel 1473 catturò una galea dei Medici nel Mare del Nord. I Medici ne contestarono la legalità alla corte papale, ma non riebbero il carico."
+ },
+ {
+  "id": "PREN016",
+  "img": "53415",
+  "mazzo": "W",
+  "nome_en": "The Company of Merchant Adventurers",
+  "nome": "La Compagnia dei Mercanti Avventurieri",
+  "luogo": "England",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1496 Enrico VII d'Inghilterra concesse lettere patenti a Caboto e figli, autorizzandoli a navigare alla ricerca della rotta occidentale verso l'Asia.\nNonostante una bolla papale che vietava la spedizione, al secondo tentativo Giovanni Caboto (in alto) sbarcò in Canada, primo europeo a farlo dopo i vichinghi."
+ },
+ {
+  "id": "PREN017",
+  "img": "53416",
+  "mazzo": "W",
+  "nome_en": "Scottish Privateers",
+  "nome": "Corsari scozzesi",
+  "luogo": "England",
+  "prestigio": [],
+  "ops": [
+   "repress:P",
+   "corsair:R"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Yellow Carvel"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "La lettera di rappresaglia scozzese era concessa alle vittime della pirateria e le autorizzava a sequestrare con la forza le navi della nazione colpevole, anche in tempo di pace, finché non fosse fatta giustizia.\nCosì la famiglia Barton fu in guerra con il Portogallo dal 1470 al 1563, subappaltando un'intera flotta di corsari con la sua lettera di rappresaglia."
+ },
+ {
+  "id": "PREN018",
+  "img": "53417",
+  "mazzo": "W",
+  "nome_en": "Almeida Armada",
+  "nome": "L'armata di Almeida",
+  "luogo": "Portugal",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "repress:P",
+   "corsair:C"
+  ],
+  "sottotitoli": [
+   "Razzia commerciale",
+   "Albuquerque il Grande"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [
+   "buona_speranza"
+  ],
+  "rosse": [],
+  "testo_abilita": "CAPO DI BUONA SPERANZA: le tue Concessioni contano doppio nelle fiere commerciali delle Isole delle Spezie.",
+  "testo": "Il programma dell'ammiraglio portoghese Afonso de Albuquerque era prendere il controllo di tutte le rotte marittime verso l'Oriente. Nel 1513 Albuquerque «il Grande» guidò un'armata nel Mar Rosso e bloccò il commercio egiziano con l'India.\nDisperato, il sultano mamelucco si alleò con i suoi rivali storici, gli ottomani."
+ },
+ {
+  "id": "PREN019",
+  "img": "53418",
+  "mazzo": "W",
+  "nome_en": "Gold Coast Monopoly",
+  "nome": "Il monopolio della Costa d'Oro",
+  "luogo": "Portugal",
+  "prestigio": [],
+  "ops": [
+   "corsair:C",
+   "commerce:W"
+  ],
+  "sottotitoli": [
+   "Castello di Elmina",
+   "Monopolio regio del golfo di Guinea"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "P"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Nel 1469 il re del Portogallo concesse a Fernão Gomes il monopolio regio del commercio dell'oro e del pepe di Guinea (un sostituto del pepe).\nIn cambio Gomes doveva pagare 300.000 reais l'anno ed esplorare 100 leghe di costa africana ogni anno per cinque anni. Così un decimo dell'oro del mondo finì nelle sue mani."
+ },
+ {
+  "id": "PREN020",
+  "img": "53419",
+  "mazzo": "W",
+  "nome_en": "Arumer Zwarte Hoop",
+  "nome": "L'Arumer Zwarte Hoop",
+  "luogo": "France",
+  "prestigio": [],
+  "ops": [
+   "repress:PRK",
+   "corsair:I"
+  ],
+  "sottotitoli": [
+   "Combattenti per la libertà",
+   "Arumer Zwarte"
+  ],
+  "pretendenti": [],
+  "oneshot": "revolt",
+  "oneshot_arg": "",
+  "agenti": [
+   "S:I"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Quando la Banda Nera (truppe imperiali) conquistò la libera Frisia, violentò e uccise la moglie di Pier Gerlofs Donia. Quest'uomo, detto «Grutte Pier» (Pier il Grande) per la statura e la forza sovrumane, guidò guerriglie contadine in una scia di devastazione dal 1515 al 1520.\nLa sua banda di pirati sullo Zuiderzee, l'Arumer Zwarte Hoop, affondò 28 navi imperiali della flotta olandese."
+ },
+ {
+  "id": "PREN021",
+  "img": "53420",
+  "mazzo": "W",
+  "nome_en": "Conquistadors",
+  "nome": "I conquistadores",
+  "luogo": "Portugal",
+  "prestigio": [
+   "D"
+  ],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Consiglio delle Indie",
+   "Professionisti castigliani"
+  ],
+  "pretendenti": [],
+  "oneshot": "tradeshift",
+  "oneshot_arg": "SpiceIslands",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [
+   "riscatto"
+  ],
+  "rosse": [],
+  "testo_abilita": "ORO AZTECO: vendi questa carta per 4 fiorini invece di 2.",
+  "testo": "Nella Cuba spagnola del 1519, Hernán Cortés finanziò una spedizione di 500 uomini verso il continente messicano.\nLì mise abilmente alcuni gruppi indigeni contro altri, grazie all'interprete locale Malinche. Nella capitale azteca prese in ostaggio l'imperatore e ne saccheggiò l'oro. La città conquistata fu ribattezzata Città del Messico, poi saccheggiata durante una rivolta indigena."
+ },
+ {
+  "id": "PREN022",
+  "img": "53421",
+  "mazzo": "W",
+  "nome_en": "The Last Knight",
+  "nome": "L'ultimo cavaliere",
+  "luogo": "HRE",
+  "prestigio": [],
+  "ops": [
+   "tax",
+   "siege"
+  ],
+  "sottotitoli": [
+   "Rivolta antinobiliare del 1522",
+   "Convenzione fraterna dei cavalieri"
+  ],
+  "pretendenti": [],
+  "oneshot": "conspiracy",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:R"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Franz von Sickingen, come molti cavalieri, viveva riscuotendo debiti e denaro per la protezione dalle città, e prestando i suoi uomini durante le elezioni imperiali e le faide private. Ma il Reichstag del 1495 vietò queste fonti di reddito, dando più potere alla nobiltà.\nSickingen guidò una rivolta dei cavalieri per unire mercanti, cavalieri e contadini contro la nobiltà."
+ },
+ {
+  "id": "PREN023",
+  "img": "53422",
+  "mazzo": "W",
+  "nome_en": "Spanish Tercio",
+  "nome": "Il tercio spagnolo",
+  "luogo": "TheWest",
+  "prestigio": [],
+  "ops": [
+   "siege"
+  ],
+  "sottotitoli": [
+   "Mercenari ad armi combinate"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C"
+  ],
+  "abilita": [],
+  "rosse": [],
+  "testo_abilita": "",
+  "testo": "Questa formazione di fanteria, composta da picchieri, spadaccini e archibugieri o moschettieri ad armi combinate, fu schierata in tutta Europa dagli imperatori asburgici, re di Spagna e del Sacro Romano Impero.\nFormati da volontari ben addestrati, dominarono incontrastati i campi di battaglia europei."
+ },
+ {
+  "id": "PREN024",
+  "img": "53423",
+  "mazzo": "W",
+  "nome_en": "Gonfalonier",
+  "nome": "Il gonfaloniere",
+  "luogo": "PapalStates",
+  "prestigio": [
+   "P",
+   "L"
+  ],
+  "ops": [
+   "vote:W",
+   "siege",
+   "inq:C"
+  ],
+  "sottotitoli": [
+   "Antighibellini",
+   "Condottieri",
+   "Nobilissimo Ordine della Giarrettiera"
+  ],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [
+   "K:C",
+   "K:C"
+  ],
+  "abilita": [
+   "condottiero"
+  ],
+  "rosse": [],
+  "testo_abilita": "CONDOTTIERO: Venezia può ospitare 2 cavalieri d'oro invece di 1.",
+  "testo": "Federico da Montefeltro, conte di Urbino. Come gonfaloniere (carica istituita dai guelfi per tenere a freno i nobili) combatté per il papa, Firenze, Milano e Napoli senza mai perdere una guerra.\nCon i profitti da mercenario fece costruire una grande biblioteca a Urbino e protesse il giovane Raffaello."
+ },
+ {
+  "id": "COMET1",
+  "img": "53000",
+  "mazzo": "E",
+  "nome_en": "Copernicus",
+  "nome": "Copernico e la rivoluzione eliocentrica",
+  "luogo": "",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "cometa": true,
+  "testo_abilita": "Quando la compri: scartala E attiva una carta Vittoria inattiva.",
+  "testo": "Niccolò Copernico, matematico e astronomo, formulò un modello eliocentrico dell'universo che metteva il Sole al centro. La Terra divenne così un pianeta come gli altri, soggetto alle leggi planetarie. Come consigliere della dieta reale prussiana, Copernico formulò anche la moderna teoria quantitativa della moneta."
+ },
+ {
+  "id": "COMET2",
+  "img": "53001",
+  "mazzo": "E",
+  "nome_en": "Nostradamus",
+  "nome": "L'astrologia di Nostradamus",
+  "luogo": "",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "cometa": true,
+  "testo_abilita": "Quando la compri: scartala E attiva una carta Vittoria inattiva.",
+  "testo": "La prima edizione del libro «Le Profezie» uscì nel 1555. L'autore, uno speziale francese noto per la sua «pillola di rose» contro la peste, non fu condannato perché l'Inquisizione colpiva solo la magia, non le profezie o l'astrologia. La regina Caterina de' Medici lo nominò astrologo e medico di corte."
+ },
+ {
+  "id": "COMET3",
+  "img": "53500",
+  "mazzo": "W",
+  "nome_en": "Halley's Comet",
+  "nome": "Il papa «scomunica» la cometa di Halley del 1456",
+  "luogo": "",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "cometa": true,
+  "testo_abilita": "Quando la compri: scartala E attiva una carta Vittoria inattiva.",
+  "testo": "«Una cometa chiomata e infuocata apparve per diversi giorni. Mentre gli studiosi predicevano una grande peste, carestie o qualche grande disastro, papa Callisto decretò preghiere di supplica per alcuni giorni, per placare l'ira di Dio, così che, se una calamità minacciava l'umanità, fosse interamente rivolta contro i Turchi, nemici del nome cristiano.»"
+ },
+ {
+  "id": "COMET4",
+  "img": "53501",
+  "mazzo": "W",
+  "nome_en": "Regiomontanus",
+  "nome": "Regiomontano e la cometa del 1472",
+  "luogo": "",
+  "prestigio": [],
+  "ops": [],
+  "sottotitoli": [],
+  "pretendenti": [],
+  "oneshot": "",
+  "oneshot_arg": "",
+  "agenti": [],
+  "abilita": [],
+  "rosse": [],
+  "cometa": true,
+  "testo_abilita": "Quando la compri: scartala E attiva una carta Vittoria inattiva.",
+  "testo": "L'astronomo e astrologo Regiomontano di Norimberga calcolò la dimensione e la distanza dalla Terra di questa cometa usando l'angolo di parallasse."
+ }
+]

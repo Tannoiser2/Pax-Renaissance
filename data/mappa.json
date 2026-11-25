@@ -1,0 +1,1392 @@
+{
+ "imperi": {
+  "England": {
+   "nome": "Inghilterra",
+   "lato": "W",
+   "riga": 0,
+   "col": 0,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Londra",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      217,
+      210
+     ]
+    },
+    {
+     "nome": "Bordeaux",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      272,
+      455
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Edoardo IV, casa di York",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Guerra delle Due Rose"
+    ]
+   },
+   "repubblica": {
+    "nome": "Parlamento inglese",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [
+     "vote:W",
+     "commerce:W"
+    ],
+    "sotto": [
+     "Camera dei Comuni",
+     ""
+    ]
+   }
+  },
+  "France": {
+   "nome": "Francia",
+   "lato": "W",
+   "riga": 0,
+   "col": 1,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Bruges",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      156,
+      183
+     ]
+    },
+    {
+     "nome": "Parigi",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      61,
+      316
+     ]
+    },
+    {
+     "nome": "Lione",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      243,
+      408
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Luigi XI il Ragno, casa di Valois",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Stato accentrato"
+    ]
+   },
+   "repubblica": {
+    "nome": "Stati generali di Borgogna",
+    "prestigio": [],
+    "ops": [
+     "commerce:W"
+    ],
+    "sotto": [
+     "Grande Privilegio"
+    ]
+   }
+  },
+  "HRE": {
+   "nome": "Sacro Romano Impero",
+   "lato": "W",
+   "riga": 0,
+   "col": 2,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Lubecca",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      102,
+      136
+     ]
+    },
+    {
+     "nome": "Novgorod",
+     "emporio": "Novgorod",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:R"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      238,
+      133
+     ]
+    },
+    {
+     "nome": "Norimberga",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:R"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      61,
+      323
+     ]
+    },
+    {
+     "nome": "Vienna",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      238,
+      371
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Federico III, casa d'Asburgo",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Guerra boema"
+    ]
+   },
+   "repubblica": {
+    "nome": "Reichstag, la dieta imperiale",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [
+     "vote:W",
+     "commerce:W"
+    ],
+    "sotto": [
+     "Riforma imperiale",
+     ""
+    ]
+   }
+  },
+  "Hungary": {
+   "nome": "Ungheria",
+   "lato": "E",
+   "riga": 0,
+   "col": 3,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Buda",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      65,
+      401
+     ]
+    },
+    {
+     "nome": "Varna",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:R"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      201,
+      418
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Mattia Corvino, re d'Ungheria",
+    "prestigio": [
+     "P"
+    ],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Esercito Nero"
+    ]
+   },
+   "repubblica": {
+    "nome": "Sejm polacco-lituano",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [
+     "vote:E",
+     "commerce:E"
+    ],
+    "sotto": [
+     "Privilegio di Mielnik",
+     ""
+    ]
+   }
+  },
+  "Byzantium": {
+   "nome": "Bisanzio",
+   "lato": "E",
+   "riga": 0,
+   "col": 4,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Tana",
+     "emporio": "Tana",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      105,
+      126
+     ]
+    },
+    {
+     "nome": "Caffa",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      44,
+      326
+     ]
+    },
+    {
+     "nome": "Trebisonda",
+     "emporio": "Trebizond",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:R"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      272,
+      455
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Davide Comneno, basileus di Trebisonda",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Despina Khatun degli Ak Koyunlu"
+    ]
+   },
+   "repubblica": {
+    "nome": "Confederazione dei turcomanni della Pecora Bianca",
+    "prestigio": [],
+    "ops": [
+     "commerce:E"
+    ],
+    "sotto": [
+     "Caterino Zeno, inviato di Venezia"
+    ]
+   }
+  },
+  "Portugal": {
+   "nome": "Portogallo",
+   "lato": "W",
+   "riga": 1,
+   "col": 0,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Toledo",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      246,
+      178
+     ]
+    },
+    {
+     "nome": "Granada",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      268,
+      302
+     ]
+    },
+    {
+     "nome": "Isole delle Spezie",
+     "emporio": "SpiceIslands",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      115,
+      465
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Enrico il Navigatore",
+    "prestigio": [
+     "D"
+    ],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Invenzione della caravella"
+    ]
+   },
+   "repubblica": {
+    "nome": "Cortes generali di Castiglia",
+    "prestigio": [
+     "D"
+    ],
+    "ops": [
+     "commerce:W"
+    ],
+    "sotto": [
+     "Fueros"
+    ]
+   }
+  },
+  "Aragon": {
+   "nome": "Aragona",
+   "lato": "W",
+   "riga": 1,
+   "col": 1,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Valencia",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      68,
+      153
+     ]
+    },
+    {
+     "nome": "Algeri",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      255,
+      364
+     ]
+    },
+    {
+     "nome": "Timbuctù",
+     "emporio": "Timbuktu",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "K:I"
+      ]
+     },
+     "pos": [
+      99,
+      408
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Giovanni il Senzafede, re d'Aragona",
+    "prestigio": [],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Guerra civile di Navarra"
+    ]
+   },
+   "repubblica": {
+    "nome": "Aurea Repubblica Ambrosiana",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [
+     "vote:W",
+     "commerce:W"
+    ],
+    "sotto": [
+     "Università di Pavia",
+     ""
+    ]
+   }
+  },
+  "PapalStates": {
+   "nome": "Stato Pontificio",
+   "lato": "W",
+   "riga": 1,
+   "col": 2,
+   "stato_iniziale": "C",
+   "citta": [
+    {
+     "nome": "Venezia",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "K:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      129,
+      75
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Papa Giulio II",
+    "prestigio": [
+     "P",
+     "C"
+    ],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Lega Santa"
+    ]
+   },
+   "repubblica": {
+    "nome": "Signoria fiorentina",
+    "prestigio": [
+     "L"
+    ],
+    "ops": [
+     "vote:W",
+     "commerce:W"
+    ],
+    "sotto": [
+     "Equilibrio dei poteri",
+     ""
+    ]
+   }
+  },
+  "Ottoman": {
+   "nome": "Impero ottomano",
+   "lato": "E",
+   "riga": 1,
+   "col": 3,
+   "stato_iniziale": "M",
+   "citta": [
+    {
+     "nome": "Costantinopoli",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "R:I",
+       "K:I",
+       "K:I"
+      ],
+      "C": [
+       "R:C",
+       "K:C",
+       "K:C"
+      ],
+      "R": [
+       "R:R",
+       "K:R",
+       "K:R"
+      ],
+      "I": [
+       "R:I",
+       "R:I",
+       "K:I"
+      ]
+     },
+     "pos": [
+      133,
+      75
+     ],
+     "pos_multi": [
+      [
+       46,
+       75
+      ],
+      [
+       139,
+       75
+      ],
+      [
+       221,
+       75
+      ]
+     ]
+    },
+    {
+     "nome": "Modone",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:R"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      80,
+      258
+     ]
+    },
+    {
+     "nome": "Rodi",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "K:C"
+      ],
+      "R": [
+       "R:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      272,
+      228
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Maometto II il Conquistatore",
+    "prestigio": [
+     "I"
+    ],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Conquista dell'Europa orientale"
+    ]
+   },
+   "repubblica": {
+    "nome": "Il sistema ottomano dei millet",
+    "prestigio": [
+     "I"
+    ],
+    "ops": [
+     "commerce:E"
+    ],
+    "sotto": [
+     "Tolleranza dei dhimmi"
+    ]
+   }
+  },
+  "Mamluk": {
+   "nome": "Mamelucchi",
+   "lato": "E",
+   "riga": 1,
+   "col": 4,
+   "stato_iniziale": "I",
+   "citta": [
+    {
+     "nome": "Cipro",
+     "emporio": "",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:C"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:C"
+      ]
+     },
+     "pos": [
+      153,
+      217
+     ]
+    },
+    {
+     "nome": "Il Cairo",
+     "emporio": "",
+     "capitale": true,
+     "icone": {
+      "M": [
+       "R:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      129,
+      401
+     ]
+    },
+    {
+     "nome": "Mar Rosso",
+     "emporio": "RedSea",
+     "capitale": false,
+     "icone": {
+      "M": [
+       "R:I"
+      ],
+      "C": [
+       "R:C"
+      ],
+      "R": [
+       "K:R"
+      ],
+      "I": [
+       "R:I"
+      ]
+     },
+     "pos": [
+      275,
+      398
+     ]
+    }
+   ],
+   "re": {
+    "nome": "Qa'it Bay della dinastia burji",
+    "prestigio": [
+     "P"
+    ],
+    "ops": [
+     "campaign"
+    ],
+    "sotto": [
+     "Schiavi mamelucchi"
+    ]
+   },
+   "repubblica": {
+    "nome": "Il beylik di Karaman",
+    "prestigio": [
+     "I"
+    ],
+    "ops": [
+     "commerce:E"
+    ],
+    "sotto": [
+     "Congiura occidentale"
+    ]
+   }
+  }
+ },
+ "ordine": [
+  "England",
+  "France",
+  "HRE",
+  "Hungary",
+  "Byzantium",
+  "Portugal",
+  "Aragon",
+  "PapalStates",
+  "Ottoman",
+  "Mamluk"
+ ],
+ "confini": [
+  {
+   "chiave": "England-France",
+   "imperi": [
+    "England",
+    "France"
+   ],
+   "mare": true,
+   "nome": "",
+   "pos": [
+    401,
+    300
+   ]
+  },
+  {
+   "chiave": "France-HRE",
+   "imperi": [
+    "France",
+    "HRE"
+   ],
+   "mare": true,
+   "nome": "Augusta",
+   "pos": [
+    795,
+    166
+   ]
+  },
+  {
+   "chiave": "HRE-Hungary",
+   "imperi": [
+    "HRE",
+    "Hungary"
+   ],
+   "mare": false,
+   "nome": "",
+   "pos": [
+    1189,
+    300
+   ]
+  },
+  {
+   "chiave": "Hungary-Byzantium",
+   "imperi": [
+    "Hungary",
+    "Byzantium"
+   ],
+   "mare": true,
+   "nome": "",
+   "pos": [
+    1583,
+    480
+   ]
+  },
+  {
+   "chiave": "Portugal-Aragon",
+   "imperi": [
+    "Portugal",
+    "Aragon"
+   ],
+   "mare": true,
+   "nome": "",
+   "pos": [
+    401,
+    900
+   ]
+  },
+  {
+   "chiave": "Aragon-PapalStates",
+   "imperi": [
+    "Aragon",
+    "PapalStates"
+   ],
+   "mare": true,
+   "nome": "Firenze",
+   "pos": [
+    795,
+    816
+   ]
+  },
+  {
+   "chiave": "PapalStates-Ottoman",
+   "imperi": [
+    "PapalStates",
+    "Ottoman"
+   ],
+   "mare": true,
+   "nome": "",
+   "pos": [
+    1189,
+    944
+   ]
+  },
+  {
+   "chiave": "Ottoman-Mamluk",
+   "imperi": [
+    "Ottoman",
+    "Mamluk"
+   ],
+   "mare": true,
+   "nome": "Alessandria",
+   "pos": [
+    1582,
+    948
+   ]
+  },
+  {
+   "chiave": "England-Portugal",
+   "imperi": [
+    "England",
+    "Portugal"
+   ],
+   "mare": true,
+   "nome": "Lisbona",
+   "pos": [
+    165,
+    578
+   ]
+  },
+  {
+   "chiave": "France-Aragon",
+   "imperi": [
+    "France",
+    "Aragon"
+   ],
+   "mare": false,
+   "nome": "",
+   "pos": [
+    560,
+    578
+   ]
+  },
+  {
+   "chiave": "HRE-PapalStates",
+   "imperi": [
+    "HRE",
+    "PapalStates"
+   ],
+   "mare": false,
+   "nome": "",
+   "pos": [
+    954,
+    578
+   ]
+  },
+  {
+   "chiave": "Hungary-Ottoman",
+   "imperi": [
+    "Hungary",
+    "Ottoman"
+   ],
+   "mare": true,
+   "nome": "",
+   "pos": [
+    1440,
+    578
+   ]
+  },
+  {
+   "chiave": "Byzantium-Mamluk",
+   "imperi": [
+    "Byzantium",
+    "Mamluk"
+   ],
+   "mare": false,
+   "nome": "",
+   "pos": [
+    1780,
+    578
+   ]
+  }
+ ],
+ "slot": {
+  "x0": 36,
+  "y0": 34,
+  "dx": 394,
+  "dy": 574,
+  "w": 337,
+  "h": 514
+ },
+ "rotte": {
+  "Trebizond": {
+   "colore": "W",
+   "impero": "Byzantium",
+   "nome": "Trebisonda",
+   "imperi": [
+    "Byzantium",
+    "Hungary",
+    "Ottoman",
+    "PapalStates",
+    "Aragon",
+    "Portugal",
+    "England",
+    "France",
+    "HRE"
+   ]
+  },
+  "RedSea": {
+   "colore": "W",
+   "impero": "Mamluk",
+   "nome": "Mar Rosso",
+   "imperi": [
+    "Mamluk",
+    "Ottoman",
+    "PapalStates",
+    "Aragon",
+    "Portugal",
+    "England",
+    "France",
+    "HRE"
+   ]
+  },
+  "SpiceIslands": {
+   "colore": "W",
+   "impero": "Portugal",
+   "nome": "Isole delle Spezie",
+   "imperi": [
+    "Portugal",
+    "England",
+    "France",
+    "HRE"
+   ]
+  },
+  "Tana": {
+   "colore": "E",
+   "impero": "Byzantium",
+   "nome": "Tana",
+   "imperi": [
+    "Byzantium",
+    "Hungary",
+    "Ottoman",
+    "Mamluk"
+   ]
+  },
+  "Novgorod": {
+   "colore": "E",
+   "impero": "HRE",
+   "nome": "Novgorod",
+   "imperi": [
+    "HRE",
+    "France",
+    "England",
+    "Portugal",
+    "Aragon",
+    "PapalStates",
+    "Ottoman",
+    "Mamluk"
+   ]
+  },
+  "Timbuktu": {
+   "colore": "E",
+   "impero": "Aragon",
+   "nome": "Timbuctù",
+   "imperi": [
+    "Aragon",
+    "PapalStates",
+    "Ottoman",
+    "Mamluk"
+   ]
+  }
+ },
+ "adiacenti": {
+  "England": [
+   "France",
+   "Portugal",
+   "Aragon"
+  ],
+  "France": [
+   "England",
+   "HRE",
+   "Portugal",
+   "Aragon",
+   "PapalStates"
+  ],
+  "HRE": [
+   "France",
+   "Hungary",
+   "Aragon",
+   "PapalStates",
+   "Ottoman"
+  ],
+  "Hungary": [
+   "HRE",
+   "Byzantium",
+   "PapalStates",
+   "Ottoman",
+   "Mamluk"
+  ],
+  "Byzantium": [
+   "Hungary",
+   "Ottoman",
+   "Mamluk"
+  ],
+  "Portugal": [
+   "England",
+   "France",
+   "Aragon"
+  ],
+  "Aragon": [
+   "England",
+   "France",
+   "HRE",
+   "Portugal",
+   "PapalStates"
+  ],
+  "PapalStates": [
+   "France",
+   "HRE",
+   "Hungary",
+   "Aragon",
+   "Ottoman"
+  ],
+  "Ottoman": [
+   "HRE",
+   "Hungary",
+   "Byzantium",
+   "PapalStates",
+   "Mamluk"
+  ],
+  "Mamluk": [
+   "Hungary",
+   "Byzantium",
+   "Ottoman"
+  ]
+ },
+ "banche": [
+  {
+   "chiave": "Fugger",
+   "nome": "Fugger",
+   "colore": "blu",
+   "rgb": [
+    0.16,
+    0.45,
+    0.92
+   ],
+   "confine": "France-HRE"
+  },
+  {
+   "chiave": "Medici",
+   "nome": "Medici",
+   "colore": "giallo",
+   "rgb": [
+    0.93,
+    0.8,
+    0.18
+   ],
+   "confine": "Aragon-PapalStates"
+  },
+  {
+   "chiave": "Coeur",
+   "nome": "Cœur",
+   "colore": "viola",
+   "rgb": [
+    0.6,
+    0.25,
+    0.85
+   ],
+   "confine": "Ottoman-Mamluk"
+  },
+  {
+   "chiave": "Marchionni",
+   "nome": "Marchionni",
+   "colore": "verde",
+   "rgb": [
+    0.25,
+    0.68,
+    0.24
+   ],
+   "confine": "England-Portugal"
+  }
+ ],
+ "empori_iniziali": {
+  "W": "Trebizond",
+  "E": "Tana"
+ },
+ "vittorie": {
+  "santa": {
+   "nome": "Vittoria santa",
+   "sotto": "Torquemada"
+  },
+  "imperiale": {
+   "nome": "Vittoria imperiale",
+   "sotto": "Carlo V"
+  },
+  "globalizzazione": {
+   "nome": "Vittoria della globalizzazione",
+   "sotto": "Colombo"
+  },
+  "rinascimento": {
+   "nome": "Vittoria del Rinascimento",
+   "sotto": "Leonardo"
+  }
+ },
+ "pezzi": {
+  "R:C": 10,
+  "R:I": 7,
+  "R:R": 7,
+  "K:C": 10,
+  "K:I": 7,
+  "K:R": 7,
+  "B:C": 5,
+  "B:I": 5,
+  "B:R": 5,
+  "S:C": 6,
+  "S:I": 4,
+  "S:R": 3
+ }
+}
