@@ -8,7 +8,9 @@ extends SubViewportContainer
 
 const SCALA := 0.01                 # 1 pixel della mappa = 1 cm
 const ALT := 0.06                   # spessore del tabellone
-const SCALA_PEZZI := 1.45
+const SCALA_PEZZI := 2.2
+const LATO_Q := 300.0              # lato dei quadrati impero sul tavolo (pixel della mappa)
+const STACCO_Q := 26.0             # distanza dei quadrati dal bordo del tabellone
 
 var piatta: MappaView               # la mappa 2D da cui si leggono geometria, bersagli e descrizioni
 var eng: PaxEngine:
@@ -21,6 +23,7 @@ var _vp: SubViewport
 var _vp_tex: SubViewport
 var cam: Camera3D
 var _pezzi: Node3D
+var _quadri: Node3D
 var _mesh := {}
 var _mat := {}
 var _firma := ""
@@ -134,6 +137,8 @@ func _scena() -> void:
 	_vp.add_child(piano)
 	_pezzi = Node3D.new()
 	_vp.add_child(_pezzi)
+	_quadri = Node3D.new()
+	_vp.add_child(_quadri)
 	cam = Camera3D.new()
 	cam.fov = 40.0
 	cam.near = 0.05
@@ -150,7 +155,7 @@ func _process(delta: float) -> void:
 	if _t_firma < 0.15:
 		return
 	_t_firma = 0.0
-	var f := str(eng.S["city"]) + str(eng.S["bord"]) + str(eng.S["players"].size())
+	var f := str(eng.S["city"]) + str(eng.S["bord"]) + str(eng.S["emp"]) + str(eng.S["players"].size()) + str(piatta.evidenzia.keys()) + _hover
 	if f != _firma:
 		_firma = f
 		_ricostruisci()
@@ -188,7 +193,59 @@ func _pezzo(tipo: String, col: Color, m: Vector2, rot: float) -> void:
 	_pezzi.add_child(mi)
 
 
+## Rettangolo (in pixel della mappa, anche fuori dal tabellone) del quadrato impero sul tavolo: la fila del
+## nord sta sopra il tabellone, quella del sud sotto, ognuno in colonna con la sua regione (come nel modulo TTS).
+func rett_quadrato(e: String) -> Rect2:
+	var r := piatta.slot_rect(e)
+	var cx := r.position.x + r.size.x / 2
+	var y := -STACCO_Q - LATO_Q if r.position.y < MappaView.MH / 2 else MappaView.MH + STACCO_Q
+	return Rect2(cx - LATO_Q / 2, y, LATO_Q, LATO_Q)
+
+
+func _quadrati() -> void:
+	for c in _quadri.get_children():
+		c.queue_free()
+	var S := eng.S
+	for e in PaxDB.ordine_imperi:
+		var em: Dictionary = S["emp"][e]
+		var r := rett_quadrato(e)
+		var centro := a_mondo(r.get_center())
+		centro.y = 0.0
+		# cornice: colore della banca che lo possiede, altrimenti legno scuro; oro se evidenziato o indicato
+		var col := Color(0.12, 0.08, 0.05)
+		if em["own"] >= 0:
+			col = Stile.COLORI_BANCA.get(S["players"][em["own"]]["bank"], col)
+		if piatta.evidenzia.has("emp:" + e) or _hover == "emp:" + e:
+			col = Color(1.0, 0.84, 0.3)
+		var bordo := MeshInstance3D.new()
+		var bm := BoxMesh.new()
+		bm.size = Vector3(r.size.x * SCALA + 0.16, 0.05, r.size.y * SCALA + 0.16)
+		bordo.mesh = bm
+		bordo.material_override = _materiale(col)
+		bordo.position = centro + Vector3(0, 0.025, 0)
+		_quadri.add_child(bordo)
+		var piano := MeshInstance3D.new()
+		var pm := PlaneMesh.new()
+		pm.size = Vector2(r.size.x * SCALA, r.size.y * SCALA)
+		piano.mesh = pm
+		var nome: String = e
+		if e == "Ottoman" and PaxDB.promo_attiva:
+			nome = "OttomanP"
+		var tx := CartaView.texture("res://assets/imperi/%s_%s.webp" % [nome, em["side"]])
+		var m := StandardMaterial3D.new()
+		m.albedo_texture = tx
+		m.roughness = 0.95
+		m.metallic_specular = 0.2
+		# toni un po' smorzati (il giallo dei quadrati brucia sotto la luce); un vassallo è più scuro
+		m.albedo_color = Color(0.86, 0.84, 0.8) if em["suz"] == "" else Color(0.62, 0.6, 0.58)
+		piano.material_override = m
+		piano.position = centro + Vector3(0, 0.052, 0)
+		piano.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		_quadri.add_child(piano)
+
+
 func _ricostruisci() -> void:
+	_quadrati()
 	for c in _pezzi.get_children():
 		c.queue_free()
 	var S := eng.S
@@ -217,7 +274,7 @@ func _camera() -> void:
 	var w := MappaView.MW * SCALA
 	var h := MappaView.MH * SCALA
 	target.x = clampf(target.x, 0.0, w)
-	target.z = clampf(target.z, 0.0, h)
+	target.z = clampf(target.z, -(LATO_Q + STACCO_Q) * SCALA, h + (LATO_Q + STACCO_Q) * SCALA)
 	target.y = ALT
 	var dir := Vector3(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch))
 	cam.position = target + dir * dist
@@ -226,7 +283,7 @@ func _camera() -> void:
 
 ## Vista iniziale: tutto il tabellone, un po' inclinato.
 func reimposta() -> void:
-	target = Vector3(MappaView.MW * SCALA / 2, ALT, MappaView.MH * SCALA / 2 + 0.3)
+	target = Vector3(MappaView.MW * SCALA / 2, ALT, MappaView.MH * SCALA / 2 + 0.2)
 	yaw = 0.0
 	pitch = deg_to_rad(58.0)
 	pitch = deg_to_rad(62.0)
@@ -234,7 +291,8 @@ func reimposta() -> void:
 	var asp := size.x / maxf(size.y, 1.0)
 	var tv := tan(deg_to_rad(cam.fov / 2))
 	var th := tv * asp
-	dist = maxf(MappaView.MW * SCALA / 2 / th, MappaView.MH * SCALA / 2 / tv) * 1.22
+	var prof := (MappaView.MH + 2 * (LATO_Q + STACCO_Q)) * SCALA
+	dist = maxf(MappaView.MW * SCALA / 2 / th, prof / 2 / tv) * 1.12
 	_camera()
 
 
@@ -360,7 +418,7 @@ func _inizia_pinch() -> void:
 
 func _aggiorna_hover(pos: Vector2) -> void:
 	var m: Variant = a_mappa(pos)
-	var h := "" if m == null else piatta.bersaglio(m)
+	var h := "" if m == null else _bersaglio(m)
 	if h != _hover:
 		_hover = h
 		piatta._hover = h
@@ -368,11 +426,18 @@ func _aggiorna_hover(pos: Vector2) -> void:
 		piatta.queue_redraw()
 
 
+func _bersaglio(m: Vector2) -> String:
+	for e in PaxDB.ordine_imperi:
+		if rett_quadrato(e).has_point(m):
+			return "emp:" + e
+	return piatta.bersaglio(m)
+
+
 func _clic(pos: Vector2) -> void:
 	var m: Variant = a_mappa(pos)
 	if m == null:
 		return
-	var k := piatta.bersaglio(m)
+	var k := _bersaglio(m)
 	if k != "":
 		piatta.info.emit(piatta.descrivi(k))
 		piatta.cliccato.emit(k)
