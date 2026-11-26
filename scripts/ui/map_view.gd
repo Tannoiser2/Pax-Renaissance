@@ -25,6 +25,7 @@ var _trascina := false
 var _mouse_giu := false
 var _hover := ""
 var _t := 0.0
+var solo_tavola := false       # vista 3D: niente pezzi (sono modelli 3D) e niente input diretto
 
 
 func _ready() -> void:
@@ -189,14 +190,14 @@ func _draw() -> void:
 			lett = "V"
 		draw_string(f, pr.position + Vector2(0, pr.size.y * 0.72), lett, HORIZONTAL_ALIGNMENT_CENTER, pr.size.x, int(22 * zoom), Color(0.1, 0.07, 0.04))
 	# città
-	for e in PaxDB.ordine_imperi:
+	for e in ([] if solo_tavola else PaxDB.ordine_imperi):
 		for j in S["city"][e].size():
 			var t: String = S["city"][e][j]
 			if t == "":
 				continue
 			_pezzo(t, a_schermo(pos_citta(e, j)), 60)
 	# confini
-	for k in S["bord"]:
+	for k in ({} if solo_tavola else S["bord"]):
 		var b: Dictionary = S["bord"][k]
 		var c := a_schermo(pos_confine(k))
 		if b["p"] >= 0 and b["s"] != "":

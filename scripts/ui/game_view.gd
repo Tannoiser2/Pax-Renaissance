@@ -10,7 +10,10 @@ var vista := 0                 # di chi si mostra la mano
 var replay: Array = []
 var save_code := ""
 
-var mappa: MappaView
+var mappa: MappaView           # la mappa 2D (nella vista 3D è quella disegnata sul tabellone)
+var mappa_nodo: Control        # il nodo mostrato: MappaView o Mappa3D
+var vista3d := true
+var _mcol: VBoxContainer
 var info_lbl: Label
 var barra_lbl: Label
 var mercato_W: Array = []
@@ -121,22 +124,30 @@ func _costruisci() -> void:
 	mcol.size_flags_stretch_ratio = 1.45
 	mcol.add_theme_constant_override("separation", 2)
 	centro.add_child(mcol)
-	mappa = MappaView.new()
-	mappa.custom_minimum_size = Vector2(500, 300)
-	mappa.cliccato.connect(_clic_mappa)
-	mappa.info.connect(func(t): info_lbl.text = t)
-	mcol.add_child(mappa)
+	_mcol = mcol
+	vista3d = _leggi_vista3d()
+	_crea_mappa()
 	var ib := HBoxContainer.new()
 	mcol.add_child(ib)
-	info_lbl = Stile.etichetta("Tocca una città o un confine per i dettagli. Rotella o due dita per lo zoom.", 17, "compatto", Stile.PERGAMENA)
+	info_lbl = Stile.etichetta("Tocca città e confini. Due dita o tasto destro: ruota.", 17, "compatto", Stile.PERGAMENA)
 	info_lbl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	info_lbl.clip_text = true
 	ib.add_child(info_lbl)
 	var bz := Button.new()
 	bz.text = "Vista intera"
 	bz.add_theme_font_size_override("font_size", 16)
-	bz.pressed.connect(func(): mappa.reimposta())
+	bz.pressed.connect(func(): mappa_nodo.reimposta())
 	ib.add_child(bz)
+	var b3 := Button.new()
+	b3.text = "Vista 2D" if vista3d else "Vista 3D"
+	b3.add_theme_font_size_override("font_size", 16)
+	b3.custom_minimum_size.x = 96
+	b3.pressed.connect(func():
+		vista3d = not vista3d
+		b3.text = "Vista 2D" if vista3d else "Vista 3D"
+		_salva_vista3d()
+		_crea_mappa())
+	ib.add_child(b3)
 	# mano, sotto la mappa
 	var mrow := HBoxContainer.new()
 	mrow.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -158,7 +169,7 @@ func _costruisci() -> void:
 	mscroll.add_child(mano_box)
 	mano_row = mrow
 	mcol.resized.connect(func():
-		mappa.custom_minimum_size.y = maxf(260.0, mcol.size.x * MappaView.MH / MappaView.MW)
+		mappa_nodo.custom_minimum_size.y = maxf(260.0, mcol.size.x * MappaView.MH / MappaView.MW)
 		_aggiorna_mano())
 	var gscroll := ScrollContainer.new()
 	gscroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -258,13 +269,63 @@ func _avvia() -> void:
 			if not gg[i].get("ai", false):
 				umani.append(i)
 	vista = umani[0] if not umani.is_empty() else 0
-	mappa.eng = eng
+	_collega_mappa()
 	eng.controller = self
 	eng.cambiato.connect(_aggiorna)
 	eng.finita.connect(_fine)
 	_aggiorna()
 	await get_tree().process_frame
 	eng.run()
+
+
+## Crea (o ricrea) la mappa nella vista scelta, 2D o 3D, al posto della precedente.
+func _crea_mappa() -> void:
+	var idx := 0
+	var ev := {}
+	if mappa_nodo != null:
+		idx = mappa_nodo.get_index()
+		ev = mappa.evidenzia
+		mappa_nodo.queue_free()
+	if vista3d:
+		var m3 := Mappa3D.new()
+		mappa_nodo = m3
+		mappa = m3.piatta
+	else:
+		mappa = MappaView.new()
+		mappa_nodo = mappa
+	mappa_nodo.custom_minimum_size = Vector2(500, maxf(300.0, _mcol.size.x * MappaView.MH / MappaView.MW))
+	mappa_nodo.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	mappa.cliccato.connect(_clic_mappa)
+	mappa.info.connect(func(t): info_lbl.text = t)
+	_mcol.add_child(mappa_nodo)
+	_mcol.move_child(mappa_nodo, idx)
+	mappa.evidenzia = ev
+	if eng != null:
+		_collega_mappa()
+	if vista3d:
+		(mappa_nodo as Mappa3D).reimposta.call_deferred()
+
+
+func _collega_mappa() -> void:
+	if mappa_nodo is Mappa3D:
+		(mappa_nodo as Mappa3D).eng = eng
+	else:
+		mappa.eng = eng
+	mappa.queue_redraw()
+
+
+func _leggi_vista3d() -> bool:
+	var cf := ConfigFile.new()
+	if cf.load("user://pax_opzioni.cfg") == OK:
+		return bool(cf.get_value("vista", "3d", true))
+	return true
+
+
+func _salva_vista3d() -> void:
+	var cf := ConfigFile.new()
+	cf.load("user://pax_opzioni.cfg")
+	cf.set_value("vista", "3d", vista3d)
+	cf.save("user://pax_opzioni.cfg")
 
 
 ## Controllore del motore: decide chi sceglie.

@@ -26,7 +26,11 @@ jihad e inquisizioni. Si gioca su https://tannoiser2.github.io/Pax-Renaissance/
 - **Promo «Età della Riforma»** (variante 1550): 8 carte di mercato tradotte, carte mappa della Confederazione
   polacco-lituana e della Rumelia, quadrato bizantino, banchieri Alvaro Mendes e Cornelius Berenberg, vittoria bizantina.
 - **Più persone sullo stesso dispositivo** (con il passaggio di mano), **online** con gli amici e **salvataggi**.
-- Mappa con zoom e spostamento: rotella e trascinamento col mouse, un dito per spostare e due dita per lo zoom su iPad.
+- **Tabellone in 3D** (pulsante «Vista 2D/3D», la scelta resta memorizzata): la mappa è stesa su un tavolo e i pezzi
+  sono i modelli 3D del modulo TTS (`assets/modelli`, `scripts/ui/map3d_view.gd`). Mouse: trascina per spostare,
+  tasto destro per ruotare e inclinare, rotella per lo zoom. iPad: un dito sposta, due dita pizzicano e ruotano,
+  trascinando in verticale con due dita si inclina la vista.
+- Vista 2D con zoom e spostamento: rotella e trascinamento col mouse, un dito per spostare e due dita per lo zoom su iPad.
 
 ## Online e salvataggi (Firebase)
 

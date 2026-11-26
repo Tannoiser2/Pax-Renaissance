@@ -55,6 +55,9 @@ Tu sei Fugger con 3 ƒ; l'avversario automatico parte con 4 ƒ e tutte e tre le 
 [b]Promo «Età della Riforma»[/b] (variante 1550)
 Inghilterra e Sacro Romano Impero partono come teocrazie riformate; la rotta d'Occidente parte dal Mar Rosso (Trebisonda è chiusa). Ungheria e Ottomani partono con le carte mappa della Confederazione polacco-lituana (con Kiev) e della Rumelia: restano finché l'impero non cambia stato. L'impero ottomano usa il quadrato bizantino (Basilio Megas Comneno / Synkletos). Si aggiungono 8 carte di mercato e la quinta vittoria, la [b]vittoria bizantina[/b] (Filotea di Atene): più re (non repubbliche) di ogni avversario e più prestigio nella religione con più teocrazie. Le comete possono attivare anche questa. Con i banchieri promo, Alvaro Mendes parte con la concessione Ungheria–Ottomani e Cornelius Berenberg con Inghilterra–Francia, usando il colore di una banca rimasta libera.
 
+[b]Tabellone 3D[/b]
+Con il pulsante «Vista 2D / Vista 3D» sotto la mappa passi dal tabellone piatto a quello in 3D. In 3D: trascina per spostare, rotella o pizzico per lo zoom, tasto destro o due dita per ruotare; trascinando in verticale con due dita (o col tasto destro) inclini la vista. «Vista intera» rimette l'inquadratura iniziale.
+
 [b]In questa versione digitale[/b]
 Tocca le carte e la mappa evidenziate per scegliere, oppure usa i pulsanti a destra. Tasto destro o tocco lungo su una carta per ingrandirla con il testo completo. Rotella, pizzico a due dita o trascinamento per muovere la mappa.
 """
