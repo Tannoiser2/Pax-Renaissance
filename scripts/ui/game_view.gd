@@ -835,7 +835,10 @@ func _zoom_carta(cv: CartaView) -> void:
 	var hb := HBoxContainer.new()
 	hb.add_theme_constant_override("separation", 24)
 	vel.add_child(hb)
-	var h := minf(size.y * 0.86, 760.0)
+	# le carte di mercato sono già tradotte nell'immagine: si mostra solo la carta, più grande;
+	# per i quadrati impero (grafica originale in inglese) resta la scheda in italiano accanto
+	var solo_img := not cv.id.begins_with("@")
+	var h := minf(size.y * 0.92, 980.0) if solo_img else minf(size.y * 0.86, 760.0)
 	var img := CartaView.new()
 	img.id = cv.id
 	img.lato_imp = cv.lato_imp
@@ -846,6 +849,14 @@ func _zoom_carta(cv: CartaView) -> void:
 	else:
 		img.custom_minimum_size = Vector2(h * 0.653, h)
 	hb.add_child(img)
+	if solo_img:
+		await get_tree().process_frame
+		if is_instance_valid(hb):
+			hb.position = (size - hb.size) / 2
+		vel.gui_input.connect(func(ev):
+			if ev is InputEventMouseButton and ev.pressed:
+				vel.queue_free())
+		return
 	var pan := PanelContainer.new()
 	pan.custom_minimum_size = Vector2(minf(560, size.x - img.custom_minimum_size.x - 80), 0)
 	hb.add_child(pan)
